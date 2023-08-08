@@ -50,14 +50,14 @@
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
             tapping-term-ms = <3000>;
-            bindings = <&sl mBCHAR>, <&to mBCHAR>;
+            bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
 		mdRs: tap_dance_mdRs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdRs";
             #binding-cells = <0>;
             tapping-term-ms = <3000>;
-            bindings = <&sl mBCHAR>, <&to mCHAR>;
+            bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
 
     };
