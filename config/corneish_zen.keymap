@@ -42,22 +42,29 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
             bindings = <&sl mNR>, <&to mNR>;
         };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
 		mdRs: tap_dance_mdRs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdRs";
             #binding-cells = <0>;
-            tapping-term-ms = <3000>;
+            tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
+        };
+		mdRs: tap_dance_mdNav {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdNav";
+            #binding-cells = <0>;
+            tapping-term-ms = <1000>;
+            bindings = <&sl mNAV>, <&sl mNAV2>;
         };
 
     };
@@ -90,7 +97,7 @@
 				&kp W
 				&kp BSPC
 	
-				&kp DEL
+				&to mCHAR
 				&kp C
 				&kp T
 				&kp I
@@ -118,7 +125,7 @@
 
 				&sl mFUNC
 				&kp SPACE
-				&sl mNAV
+				&mdNav
 				&sl mPRG
 				&mdNr
 				&sl mMOD
@@ -150,7 +157,7 @@
 				&kp LS(N5)			
 				&kp BSPC
 
-				&kp DEL
+				&to mCHAR
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -178,7 +185,7 @@
 		
 				&sl mFUNC
 				&kp SPACE 
-				&sl mNAV
+				&mdNav
 				&sl mPRG
 				&mdNr
 				&sl mMOD
@@ -211,7 +218,7 @@
 				&kp LS(W)
 				&kp LS(BSPC)
 	
-				&kp LS(DEL)
+				&to mCHAR
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -224,7 +231,7 @@
 				&kp LS(G)
 				&kp LS(RET)
 	
-				&kp LSHIFT
+				&mdLs
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -235,14 +242,14 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdRs						// back
+				&mdRs						
 
-				&trans
-				&kp SPACE
-				&trans
-				&trans
+				&sl mFUNC
+				&kp SPACE 
+				&mdNav
+				&sl mPRG
 				&mdNr
-				&trans
+				&sl mMOD
 			>;
 		};
 
@@ -270,7 +277,7 @@
 				&kp LS(W)
 				&kp LS(BSPC)
 	
-				&kp LS(DEL)
+				&to mCHAR
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -283,7 +290,7 @@
 				&kp LS(G)
 				&kp LS(RET)
 	
-				&kp LSHIFT
+				&mdLs
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -294,10 +301,10 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdRs						// back
+				&mdRs						
 
 				&trans
-				&kp SPACE
+				&kp LS(SPACE)
 				&trans
 				&trans
 				&mdNr
@@ -330,7 +337,7 @@
 				&kp PG_UP 					// Page Up
 				&kp BACKSPACE				// Backspace
 
-				&kp DEL 					// Delete
+				&to mCHAR					// RESET
 				&kp LG(LA(LC(F4)))		  	// Pfadsuche
 				&kp LG(LA(LC(F5)))		  	// Umbennen
 				&kp LGUI					// App Switch
@@ -365,9 +372,9 @@
 			>;
 		};
 
-		// --------------------------------------
-		// Layer = 5 - mNAV2 - Navigation
-		// -------------------------------------
+		// ---------------------------------------------------------
+		// Layer = 5 - mNAV2 - Navigation deep
+		// ---------------------------------------------------------
 
 		mac_navigation2
 		{		
@@ -388,7 +395,7 @@
 				&kp LC(PG_UP) 				// deep page
 				&kp LC(RBKT)				// Minus Alt
 
-				&kp LG(KP_MINUS) 			// Delete
+				&to mCHAR					// RESET
 				&kp LG(LA(LC(F18)))		  	// Open
 				&kp LG(LA(LC(F19)))		  	// Open
 				&kp LGUI					// GUI
