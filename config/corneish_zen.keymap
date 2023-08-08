@@ -651,11 +651,11 @@
 				&none
 				&kp LG(LA(LC(EQUAL)))		// Bright
 				&bt BT_NXT 
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LG(LA(LS(F11)))			// window
+				&kp LG(LA(LS(F12)))			// window
+				&kp LG(LA(LS(F13)))			// window
+				&kp LG(LA(LS(F14)))			// window
+				&kp LG(LA(LS(F15)))			// window
 				&none	
 		
 				&trans
@@ -752,7 +752,7 @@
 				&kp LS(N5)				// %
 				&kp BACKSPACE			// back
 
-				&to mCHAR				// reset
+				&to mCHAR				// 
 				&kp LS(SLASH)			// _
 				&kp LA(N)				// ~
 				&kp GRAVE				// ^
@@ -763,10 +763,10 @@
 				&kp LS(N3)				// §
 				&kp NUHS				// #
 				&kp LS(MINUS)			// ?
-				&kp LG(LC(SPACE))   	// Sonderzeichen
+				&kp LG(LC(SPACE))   	// 
 
 				&kp LS(EQUAL)			//
-				&kp LS(LA(N7))			// \
+				&kp LS(LA(N7))			// 
 				&kp LA(N8)				// 
 				&kp LA(N9)				// 
 				&kp LS(RBRC)			// *
