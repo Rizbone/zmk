@@ -24,6 +24,7 @@
 
 #define mBCHAR 12
 #define mBNR 13
+
  
 / {
     chosen {
