@@ -59,7 +59,7 @@
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
-		mdRs: tap_dance_mdNav {
+		mdNav: tap_dance_mdNav {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNav";
             #binding-cells = <0>;
