@@ -258,7 +258,7 @@
 
 			bindings = <
 
-				&kp ESC
+				&kp LS(ESC)
 				&kp LS(J) 
 				&kp LS(D)	 
 				&kp LS(U)
