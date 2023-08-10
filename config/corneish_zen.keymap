@@ -319,11 +319,11 @@
 			bindings = <
 
 				&kp ESC
-				&kp LG(LA(LC(F1)))		  	// open
+				&kp LG(LA(LC(F1)))		  	// Delete on Windows
 				&kp LC(LS(TAB))				// Tap Switch
 				&kp LC(TAB)		  			// Tab Switch 
-				&kp LG(LA(LC(F4)))		  	// open
-				&kp LG(LA(LC(F5)))		  	// Clipboard History
+				&kp LG(LA(LC(F2)))		  	// F5 on Windows
+				&kp LG(LA(LC(F3)))		  	// Clipboard History
 				&kp LG(HOME)				// Home Sprung
 				&kp HOME	 				// Home 
 				&kp UP						// Up
@@ -332,8 +332,8 @@
 				&kp BACKSPACE				// Backspace
 
 				&to mCHAR					// RESET
-				&kp LG(LA(LC(F2)))		  	// Pfadsuche
-				&kp LG(LA(LC(F3)))		  	// Umbennen F2
+				&kp LG(LA(LC(F4)))		  	// Pfadsuche
+				&kp LG(LA(LC(F5)))		  	// Umbennen F2
 				&kp LGUI					// App Switch
 				&kp LCTL					// Craft
 				&kp LG(LA(LC(F6)))		  	// Fokus
@@ -345,12 +345,12 @@
 				&kp ENTER					// Enter
 				
 				&kp LSHIFT					// Shift
-				&kp LG(LA(LC(F9)))		  	// Seitenleiste links
-				&kp LG(LA(LC(F10)))		  	// Pfad zurück
-				&kp LG(LA(LC(F11)))		  	// Pfad vor
-				&kp LG(LA(LC(F12)))		  	// Seitenleiste rechts
-				&kp LG(LA(LC(F7)))		  	// open
-				&kp LG(LA(LC(F8)))		  	// open
+				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
+				&kp LG(LA(LC(F8)))		  	// Pfad zurück
+				&kp LG(LA(LC(F9)))		  	// Pfad vor
+				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
+				&kp LG(LA(LC(F11)))		  	// open
+				&kp LG(LA(LC(F12)))		  	// open
 				&kp LS(TAB)					// zurück
 				&kp LA(LEFT)				// Wort Sprung
 				&kp LA(RIGHT)				// Wort Sprung
@@ -376,18 +376,18 @@
 
 			bindings = <
 
-				&kp LG(SLASH)				// Plus Alt
+				&kp ESC						// ESC
 				&trans
-				&kp LG(LA(LC(F13)))		  	// Open
-				&kp LG(LA(LC(F14)))		  	// Open
+				&kp LG(LA(LC(F13)))		  	// deep Tab Switch
+				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
 				&trans
 				&trans
-				&kp LG(LS(HOME))			// Home Sprung
-				&kp LS(HOME) 				// Home 
-				&kp LS(UP)					// Shift Up
-				&kp LS(END)					// End
+				&kp LG(LS(HOME))			// deep Home Sprung
+				&kp LS(HOME) 				// deep Home 
+				&kp LS(UP)					// deep Shift Up
+				&kp LS(END)					// deep End
 				&kp LC(PG_UP) 				// deep page
-				&kp LC(RBKT)				// Minus Alt
+				&kp LC(RBKT)				// deep Minus 
 
 				&to mCHAR					// RESET
 				&trans
@@ -395,25 +395,25 @@
 				&kp LGUI					// GUI
 				&kp LCTL					// CTL
 				&trans
-				&kp LG(LS(END)) 			// End Sprung Markierung
-				&kp LS(LEFT) 				// Shift Left
-				&kp LS(DOWN)				// Shift Down
-				&kp LS(RIGHT) 				// Shift Right
-				&kp LC(PG_DN)				// Control Page
-				&kp LG(KP_PLUS)				// Enter
+				&kp LG(LS(END)) 			// deep End Sprung Markierung
+				&kp LS(LEFT) 				// deep Shift Left
+				&kp LS(DOWN)				// deep Shift Down
+				&kp LS(RIGHT) 				// deep Shift Right
+				&kp LC(PG_DN)				// deep Control Page
+				&kp LG(KP_PLUS)				// deep Enter
 	
 				&kp LSHIFT					// Shift
 				&trans
-				&kp LG(LA(LC(F15)))			// Zurück History 
-				&kp LG(LA(LC(F16)))			// Vor History
+				&kp LG(LA(LC(F15)))			// deep Zurueck History 
+				&kp LG(LA(LC(F16)))			// deep Vor History
 				&trans
 				&trans
-				&kp LG(LA(LC(F17)))			// open
-				&kp LG(LA(LS(TAB)))			// TAB Alt
-				&kp LA(LS(LEFT))			// Shift Wort Sprung
-				&kp LA(LS(RIGHT))			// Shift Wort Sprung
-				&kp LG(LA(TAB))				// TAB Alt
-				&kp DEL						// back
+				&kp LG(LA(LC(F17)))			// open (insert on windows)
+				&kp LG(LA(LS(TAB)))			// deep TAB Alt
+				&kp LA(LS(LEFT))			// deep Shift Wort Sprung
+				&kp LA(LS(RIGHT))			// deep Shift Wort Sprung
+				&kp LG(LA(TAB))				// deep TAB Alt
+				&kp DEL						// deep back
 
 				&none
 				&trans
@@ -462,20 +462,20 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
-				&kp LG(TAB)					// Letztes Programm
+				&kp LG(LA(LC(LS(F3))))		// Gui Tab
 
-				&kp LG(LA(LC(LS(F3))))		// open
-				&kp LC(LA(C))
-				&kp LC(LA(T))
-				&kp LC(LA(I))
-				&kp LC(LA(E))
-				&kp LC(LA(O))
-				&kp LC(LA(B))
-				&kp LC(LA(N))
-				&kp LC(LA(R))
-				&kp LC(LA(S))
-				&kp LC(LA(G))
 				&kp LG(LA(LC(LS(F4))))		// open
+				&kp LG(LA(LC(LS(N1)))) 			
+				&kp LG(LA(LC(LS(N2))))
+				&kp LG(LA(LC(LS(N3))))
+				&kp LG(LA(LC(LS(N4))))
+				&kp LG(LA(LC(LS(N5))))
+				&kp LG(LA(LC(LS(N6))))
+				&kp LG(LA(LC(LS(N7))))
+				&kp LG(LA(LC(LS(N8))))
+				&kp LG(LA(LC(LS(N9))))
+				&kp LG(LA(LC(LS(N0))))
+				&kp LG(LA(LC(LS(F5))))		// open
 		
 				&none
 				&none
@@ -499,48 +499,48 @@
 
 			bindings = <
 
-				&kp LG(LA(LC(LS(F5))))		// open
-				&kp LG(LA(LC(LS(N1)))) 			
-				&kp LG(LA(LC(LS(N2))))
-				&kp LG(LA(LC(LS(N3))))
-				&kp LG(LA(LC(LS(N4))))
-				&kp LG(LA(LC(LS(N5))))
-				&kp LG(LA(LC(LS(N6))))
-				&kp LG(LA(LC(LS(N7))))
-				&kp LG(LA(LC(LS(N8))))
-				&kp LG(LA(LC(LS(N9))))
-				&kp LG(LA(LC(LS(N0))))
 				&kp LG(LA(LC(LS(F6))))		// open
+				&kp LG(LA(LS(F13)))			// window snap fill
+				&kp LG(LA(LS(F14)))			// window snap fill
+				&kp LG(LC(UP))				// Window snap
+				&kp LG(LA(LS(F15)))			// window snap fill
+				&trans
+				&trans
+				&kp LG(LA(LS(F1)))			// window move
+				&kp LG(LA(LS(F2)))			// window move
+				&kp LG(LA(LS(F3)))			// window move
+				&kp LG(LA(LS(F4)))			// window move
+				&kp LG(LA(LC(LS(F7))))		// open
 		
 				&to mCHAR
-				&kp LG(LA(LC(N1)))
-				&kp LG(LA(LC(N2)))
-				&kp LG(LA(LC(N3)))
-				&kp LG(LA(LC(N4)))
-				&kp LG(LA(LC(N5)))
-				&kp LG(LA(LC(N6)))
-				&kp LG(LA(LC(N7)))
-				&kp LG(LA(LC(N8)))
-				&kp LG(LA(LC(N9)))
-				&kp LG(LA(LC(N0)))
-				&kp LG(LA(LC(LS(F7))))		// open
-
+				&kp LG(LA(LS(F16)))			// window snap fill
+				&kp LG(LC(LEFT))			// Window snap
+				&kp LG(LC(DOWN))			// Window snap
+				&kp LG(LC(RIGHT))			// Window snap
+				&trans
+				&trans
+				&kp LG(LA(LS(F5)))			// window move
+				&kp LG(LA(LS(F6)))			// window move
+				&kp LG(LA(LS(F7)))			// window move
+				&kp LG(LA(LS(F8)))			// window move
 				&kp LG(LA(LC(LS(F8))))		// open
-				&kp LC(LA(LS(C)))
-				&kp LC(LA(LS(T)))
-				&kp LC(LA(LS(I)))
-				&kp LC(LA(LS(E)))
-				&kp LC(LA(LS(O)))
-				&kp LC(LA(LS(B)))
-				&kp LC(LA(LS(N)))				
-				&kp LC(LA(LS(R)))				
-				&kp LC(LA(LS(S)))
-				&kp LC(LA(LS(G)))
+
 				&kp LG(LA(LC(LS(F9))))		// open
+				&kp LG(LA(LS(F17)))			// window snap fill
+				&kp LG(LA(LS(F18)))			// window snap fill
+				&kp LG(LA(LS(F19)))			// window snap fill
+				&kp LG(LA(LS(F20)))			// window snap fill
+				&trans
+				&trans
+				&kp LG(LA(LS(F9)))			// window move
+				&kp LG(LA(LS(F10)))			// window move
+				&kp LG(LA(LS(F11)))			// window move
+				&kp LG(LA(LS(F12)))			// window move
+				&kp LG(LA(LC(LS(F10))))		// open
 		
 				&none
 				&none
-				&kp LG(LA(LC(SPACE)))	 	 	// Maestro Spotlight
+				&kp LG(LA(LC(SPACE)))	 	 // Maestro Spotlight
 				&trans
 				&none
 				&none
@@ -559,45 +559,45 @@
 
 			bindings = <
 	
-				&kp LG(LA(LC(LS(F10))))		// open
-				&kp LG(LA(LC(Y)))			// drehen
-				&kp LG(LA(LC(LS(F11))))		// window
-				&kp LG(LC(UP))				// Window Move
-				&kp LG(LA(LC(LS(F12))))		// window
-				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&kp LG(LA(LC(LS(F11))))		// open
+				&kp LG(LA(LC(KP_PLUS)))		// drehen
+				&bt BT_PRV
+				&bt BT_SEL 0
+				&bt BT_NXT
+				&bt BT_CLR
 				&kp LC(N6)					// Craft Format 
 				&kp LC(N5)					// Craft Format 
 				&kp LC(N4)					// Craft Format 
 				&kp LC(N3)					// Craft Format 
 				&kp LG(KP_PLUS)				// Plus
-				&kp LG(LA(LC(LS(F13))))		// open
+				&kp LG(LA(LC(LS(F12))))		// open
 				
 				&to mCHAR
-				&kp LG(LA(LC(Z)))			// drehen
-				&kp LG(LC(LEFT))			// Window Move
-				&kp LG(LC(DOWN))			// Window Move
-				&kp LG(LC(RIGHT))			// Window Move
-				&kp INSERT
+				&kp LG(LA(LC(KP_MINUS)))		// drehen
+				&kp C_PREVIOUS 		
+				&kp C_PP 
+				&kp C_NEXT 
+				&none
 				&kp LG(I)					// Craft Format
 				&kp LG(B) 					// Craft Format
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
 				&kp LG(LS(EQUAL))			// Craft Format (Block)
 				&kp LG(KP_MINUS)			// Plus
+				&kp LG(LA(LC(LS(F13))))		// open
+
+
 				&kp LG(LA(LC(LS(F14))))		// open
-
-
-				&kp LG(LA(LC(LS(F15))))		// open
-				&none
-				&none
-				&none
-				&none
+				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&kp C_VOLUME_DOWN 
+				&kp C_MUTE
+				&kp C_VOLUME_UP 
 				&none
 				&kp LG(U) 					// Craft Format 
 				&kp LG(LS(B))				// Craft Format (Marker)
 				&kp LG(LS(C))				// Craft Format (Code)
 				&kp LG(LS(SLASH))			// Craft Format (Durch)
 				&kp LG(LS(P))				// Craft Format (Seite)
-				&kp LG(LA(LC(LS(F16))))		// shift Del
+				&kp LG(LA(LC(LS(F15))))		// shift Del
 				
 				&sl mSFUNC
 				&none
@@ -619,44 +619,44 @@
 
 			bindings = <
 
-				&none
-				&none
-				&kp C_VOLUME_DOWN 
-				&kp C_MUTE
-				&kp C_VOLUME_UP 
-				&bt BT_CLR 
-				&kp LG(LA(LS(F1)))			// window
-				&kp LG(LA(LS(F2)))			// window
-				&kp LG(LA(LS(F3)))			// window
-				&kp LG(LA(LS(F4)))			// window
-				&kp LG(LA(LS(F5)))			// window
-				&none					
+				&kp LG(LA(LC(LS(F16))))		// open
+				&kp LG(LA(J))
+				&kp LG(LA(D))
+				&kp LG(LA(U))
+				&kp LG(LA(A))
+				&kp LG(LA(X))
+				&kp LG(LA(P))
+				&kp LG(LA(H))
+				&kp LG(LA(L))
+				&kp LG(LA(M))
+				&kp LG(LA(W))
+				&kp LG(LA(LC(LS(F17))))		// open	
 
 				&to mCHAR
-				&none
-				&kp C_PREVIOUS 		
-				&kp C_PP 
-				&kp C_NEXT 
-				&bt BT_SEL 0
-				&kp LG(LA(LS(F6)))			// window
-				&kp LG(LA(LS(F7)))			// window
-				&kp LG(LA(LS(F8)))			// window
-				&kp LG(LA(LS(F9)))			// window
-				&kp LG(LA(LS(F10)))			// window
-				&none
+				&kp LG(LA(C))
+				&kp LG(LA(T))
+				&kp LG(LA(I))
+				&kp LG(LA(E))
+				&kp LG(LA(O))	
+				&kp LG(LA(B))
+				&kp LG(LA(N))
+				&kp LG(LA(R))
+				&kp LG(LA(S))
+				&kp LG(LA(G))
+				&kp LG(LA(LC(LS(F18))))		// open
 				
-				&none
-				&none
-				&kp LG(LA(LC(GRAVE)))		// Bright
-				&none
-				&kp LG(LA(LC(EQUAL)))		// Bright
-				&bt BT_NXT 
-				&kp LG(LA(LS(F11)))			// window
-				&kp LG(LA(LS(F12)))			// window
-				&kp LG(LA(LS(F13)))			// window
-				&kp LG(LA(LS(F14)))			// window
-				&kp LG(LA(LS(F15)))			// window
-				&none	
+				&kp LG(LA(LC(LS(F19))))		// open
+				&kp LG(LA(F))
+				&kp LG(LA(V))
+				&kp LG(LA(MINUS))
+				&kp LG(LA(Y))
+				&kp LG(LA(Q))
+				&kp LG(LA(Z))
+				&kp LG(LA(SEMICOLON))
+				&kp LG(LA(LEFT_BRACKET))
+				&kp LG(LA(SINGLE_QUOTE))
+				&kp LG(LA(K))
+				&kp LG(LA(LC(LS(F20))))		// open
 		
 				&trans
 				&none
@@ -679,7 +679,7 @@
 
 			bindings = <
 				
-				&kp LA(N7)				// |
+				&kp LG(LC(SPACE))   	// Sonderzeichen
 				&kp LS(NUHS)			// '
 				&kp NUBS				// <
 				&kp LS(NUBS)			// 
@@ -703,7 +703,7 @@
 				&kp LS(N3)				// §
 				&kp NUHS				// #
 				&kp LS(MINUS)			// ?
-				&kp LG(LC(SPACE))   	// Sonderzeichen
+				&kp LA(N7)				// |
 
 				&kp EQUAL				//
 				&kp LS(N7)				// /
@@ -739,7 +739,7 @@
 
 			bindings = <
 
-				&kp LA(N7)				// |
+				&kp LG(LC(SPACE))   	// Sonderzeichen
 				&kp LS(NUHS)			// '
 				&kp LA(N5)				// 
 				&kp LA(N6)				// 
@@ -763,7 +763,7 @@
 				&kp LS(N3)				// §
 				&kp NUHS				// #
 				&kp LS(MINUS)			// ?
-				&kp LG(LC(SPACE))   	// 
+				&kp LA(N7)				// |
 
 				&kp LS(EQUAL)			//
 				&kp LS(LA(N7))			// 
@@ -861,42 +861,42 @@
 			bindings = <
 			
 				&kp LG(DELETE)				// Zeile entfernen 
-				&kp LA(LG(LC(J)))
-				&kp LA(LG(LC(D)))
-				&kp LA(LG(LC(U)))
-				&kp LA(LG(LC(A)))
-				&kp LA(LG(LC(X)))
-				&kp LA(LG(LC(P)))
-				&kp LA(LG(LC(H))) 
-				&kp LA(LG(LC(L))) 
-				&kp LA(LG(LC(M)))
-				&kp LA(LG(LC(W)))
+				&kp LG(LS(J))
+				&kp LG(LS(D))
+				&kp LG(LS(U))
+				&kp LG(LS(A))
+				&kp LG(LS(X))
+				&kp LG(LS(P))
+				&kp LG(LS(H)) 
+				&kp LG(LS(L)) 
+				&kp LG(LS(M))
+				&kp LG(LS(W))
 				&kp LG(BACKSPACE)			// Zeile enfternen
 		
 				&to mCHAR
-				&kp LA(LG(LC(C)))
-				&kp LA(LG(LC(T)))
-				&kp LA(LG(LC(I)))
-				&kp LA(LG(LC(E)))
-				&kp LA(LG(LC(O)))
-				&kp LA(LG(LC(B)))
-				&kp LA(LG(LC(N)))
-				&kp LA(LG(LC(R)))
-				&kp LA(LG(LC(S)))
-				&kp LA(LG(LC(G)))
+				&kp LG(LS(C))
+				&kp LG(LS(T))
+				&kp LG(LS(I))
+				&kp LG(LS(E))
+				&kp LG(LS(O))
+				&kp LG(LS(B))
+				&kp LG(LS(N))
+				&kp LG(LS(R))
+				&kp LG(LS(S))
+				&kp LG(LS(G))
 				&kp LA(LG(ENTER))			// Enter Mod
 
 				&none
-				&kp LA(LG(LC(F)))
-				&kp LA(LG(LC(V)))
-				&kp LA(LG(LC(MINUS)))
-				&kp LA(LG(LC(Y)))
-				&kp LA(LG(LC(Q)))
-				&kp LA(LG(LC(Z)))
-				&kp LA(LG(LC(SEMICOLON)))
-				&kp LA(LG(LC(LEFT_BRACKET)))
-				&kp LA(LG(LC(SINGLE_QUOTE)))
-				&kp LA(LG(LC(K)))
+				&kp LG(LS(F))
+				&kp LG(LS(V))
+				&kp LG(LS(MINUS))
+				&kp LG(LS(Y))
+				&kp LG(LS(Q))
+				&kp LG(LS(Z))
+				&kp LG(LS(SEMICOLON))
+				&kp LG(LS(LEFT_BRACKET))
+				&kp LG(LS(SINGLE_QUOTE))
+				&kp LG(LS(K))
 				&none
 
 				&none
