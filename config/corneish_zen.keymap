@@ -327,7 +327,7 @@
 				&kp F14		 				// Home 
 				&kp UP						// Up
 				&kp F15						// End
-				&kp F16 					// Page Up
+				&kp PAGE_UP					// Page Up
 				&kp BACKSPACE				// Backspace
 
 				&to mCHAR					// RESET
@@ -336,7 +336,7 @@
 				&kp LGUI					// App Switch
 				&kp LCTL					// Craft
 				&kp LG(LA(LC(F6)))		  	// Fokus
-				&kp F17		 				// End Sprung
+				&kp F16		 				// End Sprung
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
@@ -345,8 +345,8 @@
 				
 				&kp LSHIFT					// Shift
 				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
+				&kp F17
 				&kp F18
-				&kp F19
 				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
 				&kp LG(LA(LC(F11)))		  	// open
 				&kp LG(LA(LC(F12)))		  	// open
@@ -385,7 +385,7 @@
 				&kp LS(F14) 				// deep Home 
 				&kp LS(UP)					// deep Shift Up
 				&kp LS(F15)					// deep End
-				&kp LS(F16)		 			// deep page
+				&kp LC(PAGE_UP)	 			// deep page
 				&kp LC(RBKT)				// deep Minus 
 
 				&to mCHAR					// RESET
@@ -394,17 +394,17 @@
 				&kp LGUI					// GUI
 				&kp LCTL					// CTL
 				&trans
-				&kp LG(LS(DOWN)) 			// deep End Sprung Markierung
+				&kp LS(F16) 				// deep End Sprung Markierung
 				&kp LS(LEFT) 				// deep Shift Left
 				&kp LS(DOWN)				// deep Shift Down
 				&kp LS(RIGHT) 				// deep Shift Right
-				&kp LS(F17)					// deep Control Page
+				&kp LC(PAGE_DN)				// deep Control Page
 				&kp LG(KP_PLUS)				// deep Enter
 	
 				&kp LSHIFT					// Shift
 				&trans
-				&kp LS(F18)					// deep Zurueck History 
-				&kp LS(F19)					// deep Vor History
+				&kp LS(F17)					// deep Zurueck History 
+				&kp LS(F18)					// deep Vor History
 				&trans
 				&trans
 				&kp LG(LA(LC(F17)))			// open (insert on windows)
