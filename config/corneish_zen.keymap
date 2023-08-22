@@ -323,11 +323,11 @@
 				&kp LC(TAB)		  			// Tab Switch 
 				&kp LG(LA(LC(F2)))		  	// F5 on Windows
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
-				&kp LG(UP)					// Home Sprung
-				&kp LG(LEFT) 				// Home 
+				&kp F13						// Home Sprung
+				&kp F14		 				// Home 
 				&kp UP						// Up
-				&kp LG(RIGHT)				// End
-				&kp PG_UP 					// Page Up
+				&kp F15						// End
+				&kp F16 					// Page Up
 				&kp BACKSPACE				// Backspace
 
 				&to mCHAR					// RESET
@@ -336,7 +336,7 @@
 				&kp LGUI					// App Switch
 				&kp LCTL					// Craft
 				&kp LG(LA(LC(F6)))		  	// Fokus
-				&kp LG(DOWN) 				// End Sprung
+				&kp F17		 				// End Sprung
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
@@ -345,8 +345,8 @@
 				
 				&kp LSHIFT					// Shift
 				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
-				&kp F16
-				&kp F17
+				&kp F18
+				&kp F19
 				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
 				&kp LG(LA(LC(F11)))		  	// open
 				&kp LG(LA(LC(F12)))		  	// open
@@ -381,11 +381,11 @@
 				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
 				&trans
 				&trans
-				&kp LS(LG(UP))				// deep Home Sprung
-				&kp LS(LG(LEFT)) 			// deep Home 
+				&kp LS(F13)					// deep Home Sprung
+				&kp LS(F14) 				// deep Home 
 				&kp LS(UP)					// deep Shift Up
-				&kp LS(LG(RIGHT))			// deep End
-				&kp LC(PG_UP)	 			// deep page
+				&kp LS(F15)					// deep End
+				&kp LS(F16)		 			// deep page
 				&kp LC(RBKT)				// deep Minus 
 
 				&to mCHAR					// RESET
@@ -398,13 +398,13 @@
 				&kp LS(LEFT) 				// deep Shift Left
 				&kp LS(DOWN)				// deep Shift Down
 				&kp LS(RIGHT) 				// deep Shift Right
-				&kp LC(PG_DN)				// deep Control Page
+				&kp LS(F17)					// deep Control Page
 				&kp LG(KP_PLUS)				// deep Enter
 	
 				&kp LSHIFT					// Shift
 				&trans
-				&kp LG(LA(LC(F15)))			// deep Zurueck History 
-				&kp LG(LA(LC(F16)))			// deep Vor History
+				&kp LS(F18)					// deep Zurueck History 
+				&kp LS(F19)					// deep Vor History
 				&trans
 				&trans
 				&kp LG(LA(LC(F17)))			// open (insert on windows)
