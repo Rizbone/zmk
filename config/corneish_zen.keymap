@@ -324,10 +324,10 @@
 				&kp LC(TAB)		  			// Tab Switch 
 				&kp LG(LA(LC(F2)))		  	// F5 on Windows
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
-				&kp LG(HOME)				// Home Sprung
-				&kp HOME	 				// Home 
+				&kp LG(UP)					// Home Sprung
+				&kp LG(LEFT) 				// Home 
 				&kp UP						// Up
-				&kp END						// End
+				&kp LG(RIGHT)				// End
 				&kp PG_UP 					// Page Up
 				&kp BACKSPACE				// Backspace
 
@@ -337,7 +337,7 @@
 				&kp LGUI					// App Switch
 				&kp LCTL					// Craft
 				&kp LG(LA(LC(F6)))		  	// Fokus
-				&kp LG(END) 				// End Sprung
+				&kp LG(DOWN) 				// End Sprung
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
@@ -382,11 +382,11 @@
 				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
 				&trans
 				&trans
-				&kp LG(LS(HOME))			// deep Home Sprung
-				&kp LS(HOME) 				// deep Home 
+				&kp LS(LG(UP))				// deep Home Sprung
+				&kp LS(LG(LEFT)) 			// deep Home 
 				&kp LS(UP)					// deep Shift Up
-				&kp LS(END)					// deep End
-				&kp LC(PG_UP) 				// deep page
+				&kp LS(LG(RIGHT))			// deep End
+				&kp LC(PG_UP)	 			// deep page
 				&kp LC(RBKT)				// deep Minus 
 
 				&to mCHAR					// RESET
@@ -395,7 +395,7 @@
 				&kp LGUI					// GUI
 				&kp LCTL					// CTL
 				&trans
-				&kp LG(LS(END)) 			// deep End Sprung Markierung
+				&kp LG(LS(DOWN)) 			// deep End Sprung Markierung
 				&kp LS(LEFT) 				// deep Shift Left
 				&kp LS(DOWN)				// deep Shift Down
 				&kp LS(RIGHT) 				// deep Shift Right
