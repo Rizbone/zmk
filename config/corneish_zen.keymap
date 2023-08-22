@@ -385,7 +385,7 @@
 				&kp LS(F14) 				// deep Home 
 				&kp LS(UP)					// deep Shift Up
 				&kp LS(F15)					// deep End
-				&kp LC(PAGE_UP)	 			// deep page
+				&kp LC(PG_UP)	 			// deep page
 				&kp LC(RBKT)				// deep Minus 
 
 				&to mCHAR					// RESET
