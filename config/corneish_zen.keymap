@@ -345,8 +345,8 @@
 				
 				&kp LSHIFT					// Shift
 				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
-				&kp LG(LA(LC(F8)))		  	// Pfad zurück
-				&kp LG(LA(LC(F9)))		  	// Pfad vor
+				&kp F16
+				&kp F17
 				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
 				&kp LG(LA(LC(F11)))		  	// open
 				&kp LG(LA(LC(F12)))		  	// open
