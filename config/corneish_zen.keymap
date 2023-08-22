@@ -398,7 +398,7 @@
 				&kp LS(LEFT) 				// deep Shift Left
 				&kp LS(DOWN)				// deep Shift Down
 				&kp LS(RIGHT) 				// deep Shift Right
-				&kp LC(PAGE_DN)				// deep Control Page
+				&kp LC(PG_DN)				// deep Control Page
 				&kp LG(KP_PLUS)				// deep Enter
 	
 				&kp LSHIFT					// Shift
