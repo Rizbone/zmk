@@ -317,51 +317,7 @@
 
 			bindings = <
 
-				&kp ESC
-				&kp LS(TAB)
-				&kp LC(LS(TAB))				// Tap Switch
-				&kp LC(TAB)		  			// Tab Switch 
-				&kp TAB
-				&kp LG(LA(LC(F3)))		  	// Clipboard History
-				&kp F13						// Home Sprung
-				&kp LGUI(LEFT)				// Home 
-				&kp UP						// Up
-				&kp LGUI(RIGHT)				// End  
-				&kp PAGE_UP					// Page Up
-				&kp BSPC					// Backspace
-
-				&to mCHAR					// RESET
-				&kp LG(LA(LC(F4)))		  	// Pfadsuche
-				&kp LG(LA(LC(F5)))		  	// Umbennen F2
-				&kp F15						// open
-				&kp LSHIFT					// shift
-				&kp LG(LA(LC(F6)))		  	// open
-				&kp LGUI(TAB)				// Prg Switch
-				&kp LEFT 					// Left
-				&kp DOWN					// Down
-				&kp RIGHT 					// Right
-				&kp PG_DN					// Page Down
-				&kp ENTER					// Enter
-				
-				&kp LSHIFT					// Shift
-				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
-				&kp F17
-				&kp F18
-				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
-				&kp LG(LA(LC(F11)))		  	// open
-				&kp LG(LA(LC(F12)))		  	// open
-				&kp LG(LA(LC(F1)))		  	// 
-				&kp LA(LEFT)				// Wort Sprung
-				&kp LA(RIGHT)				// Wort Sprung
-				&kp LG(LA(LC(F2)))		  	// 
-				&kp DEL						// delete
-
-				&none
-				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
-				&sl mNAV2					// deep
-				&trans
-				&trans
-				&trans						
+					
 			>;
 		};
 
@@ -375,6 +331,7 @@
 
 			bindings = <
 
+				
 			>;
 		};
 
