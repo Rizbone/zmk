@@ -336,7 +336,7 @@
 				&kp F15						// open
 				&kp LSHIFT					// shift
 				&kp LG(LA(LC(F6)))		  	// open
-				&kp LGUI(TAB)				// Prg Switch
+				&kp LG(TAB)					// Prg Switch
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
