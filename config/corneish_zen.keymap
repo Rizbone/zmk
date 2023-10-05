@@ -381,25 +381,25 @@
 				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
 				&trans
 				&trans
-				&kp LS(F13)					// deep Home Sprung
-				&kp LS(F14) 				// deep Home 
-				&kp LS(UP)					// deep Shift Up
-				&kp LS(F15)					// deep End
+				&trans
+				&kp LC(LG(LEFT)) 			// deep Home 
+				&kp LC(UP)					// deep Shift Up
+				&kp LC(LG(RIGHT))			// deep End
 				&kp LC(PG_UP)	 			// deep page
-				&kp LC(RBKT)				// deep Minus 
+				&kp BSPC
 
 				&to mCHAR					// RESET
 				&trans
 				&trans
-				&kp LGUI					// GUI
-				&kp LCTL					// CTL
 				&trans
-				&kp LS(F16) 				// deep End Sprung Markierung
-				&kp LS(LEFT) 				// deep Shift Left
-				&kp LS(DOWN)				// deep Shift Down
-				&kp LS(RIGHT) 				// deep Shift Right
+				&kp LSHIFT					// CTL
+				&trans
+				&trans
+				&kp LC(LEFT) 				// deep Shift Left
+				&kp LC(DOWN)				// deep Shift Down
+				&kp LC(RIGHT) 				// deep Shift Right
 				&kp LC(PG_DN)				// deep Control Page
-				&kp LG(KP_PLUS)				// deep Enter
+				&kp ENTER				
 	
 				&kp LSHIFT					// Shift
 				&trans
@@ -407,11 +407,11 @@
 				&kp LS(F18)					// deep Vor History
 				&trans
 				&trans
-				&kp LG(LA(LC(F17)))			// open (insert on windows)
-				&kp LG(LA(LS(TAB)))			// deep TAB Alt
-				&kp LA(LS(LEFT))			// deep Shift Wort Sprung
-				&kp LA(LS(RIGHT))			// deep Shift Wort Sprung
-				&kp LG(LA(TAB))				// deep TAB Alt
+				&kp LG(LA(LC(F17)))			// open
+				&kp LC(F16) 				// deep End Sprung Markierung
+				&kp LA(LEFT)				// deep Shift Wort Sprung
+				&kp LA(RIGHT)				// deep Shift Wort Sprung
+				&kp LC(F13)					// 
 				&kp DEL						// deep back
 
 				&none
