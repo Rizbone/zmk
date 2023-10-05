@@ -324,9 +324,9 @@
 				&kp TAB
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
 				&kp F13						// Home Sprung
-				&kp LGUI(LEFT)				// Home 
+				&kp LG(LEFT)				// Home 
 				&kp UP						// Up
-				&kp LGUI(RIGHT)				// End  
+				&kp LG(RIGHT)				// End  
 				&kp PAGE_UP					// Page Up
 				&kp BSPC					// Backspace
 
