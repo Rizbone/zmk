@@ -387,7 +387,7 @@
 				&kp LC(UP)					// deep Shift Up
 				&kp LC(LG(RIGHT))			// deep End
 				&kp LC(PG_UP)	 			// deep page
-				&kp Backspace
+				&kp BSPC
 
 				&to mCHAR					// RESET
 				&trans
