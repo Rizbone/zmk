@@ -318,25 +318,25 @@
 			bindings = <
 
 				&kp ESC
-				&kp LG(LA(LC(F1)))		  	// Delete on Windows
+				&kp LS(TAB)
 				&kp LC(LS(TAB))				// Tap Switch
 				&kp LC(TAB)		  			// Tab Switch 
-				&kp LG(LA(LC(F2)))		  	// F5 on Windows
+				&kp TAB
 				&kp LG(LA(LC(F3)))		  	// Clipboard History
 				&kp F13						// Home Sprung
-				&kp F14		 				// Home 
+				&kp LGUI(LEFT)				// Home 
 				&kp UP						// Up
-				&kp F15						// End
+				&kp LGUI(RIGHT)				// End  
 				&kp PAGE_UP					// Page Up
-				&kp BACKSPACE				// Backspace
+				&kp BSPC					// Backspace
 
 				&to mCHAR					// RESET
 				&kp LG(LA(LC(F4)))		  	// Pfadsuche
 				&kp LG(LA(LC(F5)))		  	// Umbennen F2
-				&kp LGUI					// App Switch
-				&kp LCTL					// Craft
-				&kp LG(LA(LC(F6)))		  	// Fokus
-				&kp F16		 				// End Sprung
+				&kp F15						// open
+				&kp LSHIFT					// shift
+				&kp LG(LA(LC(F6)))		  	// open
+				&kp LGUI(TAB)				// Prg Switch
 				&kp LEFT 					// Left
 				&kp DOWN					// Down
 				&kp RIGHT 					// Right
@@ -350,10 +350,10 @@
 				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
 				&kp LG(LA(LC(F11)))		  	// open
 				&kp LG(LA(LC(F12)))		  	// open
-				&kp LS(TAB)					// zurück
+				&kp LG(LA(LC(F1)))		  	// 
 				&kp LA(LEFT)				// Wort Sprung
 				&kp LA(RIGHT)				// Wort Sprung
-				&kp TAB						// vor
+				&kp LG(LA(LC(F2)))		  	// 
 				&kp DEL						// delete
 
 				&none
@@ -361,7 +361,7 @@
 				&sl mNAV2					// deep
 				&trans
 				&trans
-				&trans						
+				&trans										
 			>;
 		};
 
