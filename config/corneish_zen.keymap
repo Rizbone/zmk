@@ -331,7 +331,51 @@
 
 			bindings = <
 
+				&kp ESC						// ESC
+				&trans
+				&kp LG(LA(LC(F13)))		  	// deep Tab Switch
+				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
+				&trans
+				&trans
+				&trans
+				&kp LC(LG(LEFT)) 			// deep Home 
+				&kp LC(UP)					// deep Shift Up
+				&kp LC(LG(RIGHT))			// deep End
+				&kp LC(PG_UP)	 			// deep page
+				&kp BSPC
 
+				&to mCHAR					// RESET
+				&trans
+				&trans
+				&trans
+				&kp LSHIFT					// CTL
+				&trans
+				&trans
+				&kp LC(LEFT) 				// deep Shift Left
+				&kp LC(DOWN)				// deep Shift Down
+				&kp LC(RIGHT) 				// deep Shift Right
+				&kp LC(PG_DN)				// deep Control Page
+				&kp ENTER				
+	
+				&kp LSHIFT					// Shift
+				&trans
+				&kp LS(F17)					// deep Zurueck History 
+				&kp LS(F18)					// deep Vor History
+				&trans
+				&trans
+				&kp LG(LA(LC(F17)))			// open
+				&kp LC(F16) 				// deep End Sprung Markierung
+				&kp LA(LEFT)				// deep Shift Wort Sprung
+				&kp LA(RIGHT)				// deep Shift Wort Sprung
+				&kp LC(F13)					// 
+				&kp DEL						// deep back
+
+				&none
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 			>;
 		};
 
