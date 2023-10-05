@@ -329,7 +329,7 @@
 				&kp UP						// Up
 				&kp LGUI(RIGHT)				// End  
 				&kp PAGE_UP					// Page Up
-				&kp BACKSPACE				// Backspace
+				&kp BSPC					// Backspace
 
 				&to mCHAR					// RESET
 				&kp LG(LA(LC(F4)))		  	// Pfadsuche
