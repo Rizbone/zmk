@@ -376,6 +376,7 @@
 
 			bindings = <
 
+
 				&kp ESC						// ESC
 				&trans
 				&kp LG(LA(LC(F13)))		  	// deep Tab Switch
