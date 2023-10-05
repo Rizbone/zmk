@@ -317,7 +317,51 @@
 
 			bindings = <
 
-					
+				&kp ESC
+				&kp LG(LA(LC(F1)))		  	// Delete on Windows
+				&kp LC(LS(TAB))				// Tap Switch
+				&kp LC(TAB)		  			// Tab Switch 
+				&kp LG(LA(LC(F2)))		  	// F5 on Windows
+				&kp LG(LA(LC(F3)))		  	// Clipboard History
+				&kp F13						// Home Sprung
+				&kp F14		 				// Home 
+				&kp UP						// Up
+				&kp F15						// End
+				&kp PAGE_UP					// Page Up
+				&kp BACKSPACE				// Backspace
+
+				&to mCHAR					// RESET
+				&kp LG(LA(LC(F4)))		  	// Pfadsuche
+				&kp LG(LA(LC(F5)))		  	// Umbennen F2
+				&kp LGUI					// App Switch
+				&kp LCTL					// Craft
+				&kp LG(LA(LC(F6)))		  	// Fokus
+				&kp F16		 				// End Sprung
+				&kp LEFT 					// Left
+				&kp DOWN					// Down
+				&kp RIGHT 					// Right
+				&kp PG_DN					// Page Down
+				&kp ENTER					// Enter
+				
+				&kp LSHIFT					// Shift
+				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
+				&kp F17
+				&kp F18
+				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
+				&kp LG(LA(LC(F11)))		  	// open
+				&kp LG(LA(LC(F12)))		  	// open
+				&kp LS(TAB)					// zurück
+				&kp LA(LEFT)				// Wort Sprung
+				&kp LA(RIGHT)				// Wort Sprung
+				&kp TAB						// vor
+				&kp DEL						// delete
+
+				&none
+				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
+				&sl mNAV2					// deep
+				&trans
+				&trans
+				&trans						
 			>;
 		};
 
@@ -331,7 +375,51 @@
 
 			bindings = <
 
-				
+				&kp ESC						// ESC
+				&trans
+				&kp LG(LA(LC(F13)))		  	// deep Tab Switch
+				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
+				&trans
+				&trans
+				&kp LS(F13)					// deep Home Sprung
+				&kp LS(F14) 				// deep Home 
+				&kp LS(UP)					// deep Shift Up
+				&kp LS(F15)					// deep End
+				&kp LC(PG_UP)	 			// deep page
+				&kp LC(RBKT)				// deep Minus 
+
+				&to mCHAR					// RESET
+				&trans
+				&trans
+				&kp LGUI					// GUI
+				&kp LCTL					// CTL
+				&trans
+				&kp LS(F16) 				// deep End Sprung Markierung
+				&kp LS(LEFT) 				// deep Shift Left
+				&kp LS(DOWN)				// deep Shift Down
+				&kp LS(RIGHT) 				// deep Shift Right
+				&kp LC(PG_DN)				// deep Control Page
+				&kp LG(KP_PLUS)				// deep Enter
+	
+				&kp LSHIFT					// Shift
+				&trans
+				&kp LS(F17)					// deep Zurueck History 
+				&kp LS(F18)					// deep Vor History
+				&trans
+				&trans
+				&kp LG(LA(LC(F17)))			// open (insert on windows)
+				&kp LG(LA(LS(TAB)))			// deep TAB Alt
+				&kp LA(LS(LEFT))			// deep Shift Wort Sprung
+				&kp LA(LS(RIGHT))			// deep Shift Wort Sprung
+				&kp LG(LA(TAB))				// deep TAB Alt
+				&kp DEL						// deep back
+
+				&none
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 			>;
 		};
 
