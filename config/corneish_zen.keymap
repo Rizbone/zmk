@@ -81,16 +81,6 @@
                 , <&mdRs>
                 ;
     	};
-		mdNrHold: mdNrHold {
-            label = "mdNrHold";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to 1>
-                , <&sl mNR>
-				, <&to 1>
-                ;
-    	};
 	};
 
 	
@@ -215,7 +205,7 @@
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&mdNrHold
+				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
 				&sl mMOD
 			>;		
 		};
@@ -410,44 +400,44 @@
 
 			bindings = <
 
-				&kp ESC						// 
+				&kp LC(LS(F1))				// Corner
 				&kp LG(LA(LS(F2)))			// window move
 				&kp LG(LA(LS(F3)))			// window move
 				&kp LG(LA(LS(F4)))			// window move
 				&kp LG(LA(LS(F1)))			// window move
-				&trans						//
-				&kp LG(LA(LC(F8)))		  	// #
+				&kp LC(F11)					//
+				&kp LC(F12)					//
 				&kp LG(LA(LS(F14)))			// window snap Quater
 				&kp LG(LC(UP))				// Window snap
 				&kp LG(LA(LS(F15)))			// window snap Quater
 				&kp LG(LA(LS(F13)))			// window snap fill
-				&kp BSPC
+				&kp LC(LS(F2))				// Corner
 
 				&to mCHAR					// 
 				&kp LG(LA(LS(F6)))			// window move
 				&kp LG(LA(LS(F7)))			// window move
 				&kp LG(LA(LS(F8)))			// window move
 				&kp LG(LA(LS(F5)))			// window move
-				&trans						//
-				&kp LG(LA(LC(F9)))			// #
+				&kp LC(F13)					//			
+				&kp LC(F14)					//
 				&kp LG(LC(LEFT))			// Window snap
 				&kp LG(LC(DOWN))			// Window snap
 				&kp LG(LC(RIGHT))			// Window snap
 				&kp LG(LA(LS(F16)))			// window snap fill
-				&kp ENTER				
+				&kp LC(LS(F3))				// Corner
 	
-				&trans						//
-				&trans						//
-				&kp LS(F17)					// #deep Rein
-				&kp LS(F18)					// #deep Raus
-				&trans						//
-				&trans						//
-				&trans						//
-				&trans						//
-				&trans						//
-				&trans						//
-				&trans						// 
-				&trans						//
+				&kp LC(LS(F4))				// Corner
+				&kp LC(F1)					//
+				&kp LC(F2)					// #deep Rein
+				&kp LC(F3)					// #deep Raus
+				&kp LC(F4)					//
+				&kp LC(F5)					//
+				&kp LC(F6)					//
+				&kp LC(F7)					//
+				&kp LC(F8)					//
+				&kp LC(F9)					//
+				&kp LC(F10)					// 
+				&kp LC(LS(F5))				// Corner
 
 				&none
 				&trans
@@ -560,16 +550,16 @@
 				&kp LG(LA(LC(LS(F8))))		// open
 
 				&kp LG(LA(LC(LS(F9))))		// open				
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)
-				&kp LG(N4)
-				&kp LG(N5)
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LG(LA(LC(LS(F10))))		// open
 		
 				&none
@@ -594,11 +584,11 @@
 			bindings = <
 	
 				&kp LG(LA(LC(LS(F11))))		// open
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LS(F1)
+				&kp LS(F2)
+				&kp LS(F3)
+				&kp LS(F4)
+				&kp LS(F5)
 				&kp LC(N6)					// Craft Format 
 				&kp LC(N5)					// Craft Format 
 				&kp LC(N4)					// Craft Format 
@@ -607,11 +597,11 @@
 				&kp LG(LA(LC(LS(F12))))		// open
 				
 				&to mCHAR
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LS(F6)
+				&kp LS(F7)
+				&kp LS(F8)
+				&kp LS(F9)
+				&kp LS(F10)
 				&kp LG(I)					// Craft Format
 				&kp LG(B) 					// Craft Format
 				&kp LG(LS(NUHS))			// Craft Format (Focus)
@@ -621,11 +611,11 @@
 
 
 				&kp LG(LA(LC(LS(F14))))		// open
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LS(F11)
+				&kp LS(F12)
+				&kp LS(F13)
+				&kp LS(F14)
+				&kp LS(F15)
 				&kp LG(U) 					// Craft Format 
 				&kp LG(LS(B))				// Craft Format (Marker)
 				&kp LG(LS(C))				// Craft Format (Code)
@@ -654,7 +644,7 @@
 			bindings = <
 
 				&kp LG(LA(LC(LS(F16))))		// open
-				&kp LG(LA(LC(KP_PLUS)))		// drehen
+				&trans
 				&bt BT_PRV
 				&bt BT_SEL 0
 				&bt BT_NXT
@@ -667,7 +657,7 @@
 				&kp LG(LA(LC(LS(F17))))		// open	
 
 				&to mCHAR
-				&kp LG(LA(LC(KP_MINUS)))		// drehen
+				&trans
 				&kp C_PREVIOUS 		
 				&kp C_PP 
 				&kp C_NEXT 
@@ -680,7 +670,7 @@
 				&kp LG(LA(LC(LS(F18))))		// open
 				
 				&kp LG(LA(LC(LS(F19))))		// open
-				&kp LG(LC(LA(NUHS)))   		// Screenshot
+				&trans
 				&kp C_VOLUME_DOWN 
 				&kp C_MUTE
 				&kp C_VOLUME_UP 
