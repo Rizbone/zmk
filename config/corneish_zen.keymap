@@ -42,7 +42,7 @@
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl mNR>, <&to mNR>;
+            bindings = <&sl mNR>, <&sl mSYM>;
         };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
@@ -342,48 +342,48 @@
 
 			bindings = <
 
-				&kp ESC
-				&kp LG(LA(LC(F1)))		  	// 
+				&kp ESC						//
+				&kp LG(LA(LC(F1)))		  	// #
 				&kp LC(LS(TAB))				// Tap Switch
 				&kp LC(TAB)		  			// Tab Switch 
-				&kp LG(LA(LC(F2)))		  	// 
-				&kp LG(LA(LC(F3)))		  	// Clipboard History
-				&kp LG(UP)						// Home Sprung
-				&kp LG(LEFT)				// Home 
-				&kp UP						// Up
-				&kp LG(RIGHT)				// End  
-				&kp PAGE_UP					// Page Up
-				&kp BSPC					// Backspace
+				&kp LG(LA(LC(F2)))		  	// #
+				&kp LG(LA(LC(F3)))		  	// #Clipboard History
+				&kp LG(UP)					// @Home Sprung
+				&kp LG(LEFT)				// @Home 
+				&kp UP						// @Up
+				&kp LG(RIGHT)				// @End  
+				&kp PAGE_UP					// @Page Up
+				&kp BSPC					// 
 
-				&to mCHAR					// RESET
-				&kp LG(LA(LC(F4)))		  	// Pfadsuche
-				&kp LG(LA(LC(F5)))		  	// Umbennen F2
-				&kp LCTRL					// open
-				&kp LSHIFT					// shift
-				&kp LG(LA(LC(F6)))		  	// open
-				&kp LG(DOWN)	
-				&kp LEFT 					// Left
-				&kp DOWN					// Down
-				&kp RIGHT 					// Right
-				&kp PG_DN					// Page Down
-				&kp ENTER					// Enter
+				&to mCHAR					// 
+				&kp LG(LA(LC(F4)))		  	// #Pfadsuche
+				&kp LG(LA(LC(F5)))		  	// #Umbennen F2
+				&kp LCTRL					// 
+				&kp LSHIFT					// 
+				&kp LG(LA(LC(F6)))		  	// #Open
+				&kp LG(DOWN)				// @End Sprung
+				&kp LEFT 					// @Left
+				&kp DOWN					// @Down
+				&kp RIGHT 					// @Right
+				&kp PG_DN					// @Page Down
+				&kp ENTER					// 
 				
-				&kp LGUI					// open
-				&kp LG(LA(LC(F7)))		  	// Seitenleiste links
-				&kp F17
-				&kp F18
-				&kp LG(LA(LC(F10)))		  	// Seitenleiste rechts
-				&kp LG(LA(LC(F11)))		  	// open
-				&kp LG(LA(LC(F12)))		  	// open
-				&kp LS(TAB)
-				&kp LA(LEFT)				// Wort Sprung
-				&kp LA(RIGHT)				// Wort Sprung
-				&kp TAB
-				&kp DEL						// delete
+				&kp LGUI					// 
+				&kp LG(LA(LC(F7)))		  	// #Seitenleiste links
+				&kp F17						// #Raus
+				&kp F18						// #Rein
+				&kp LG(LA(LC(F10)))		  	// #Seitenleiste rechts
+				&kp LG(LA(LC(F11)))		  	// #
+				&kp LG(LA(LC(LS(MINUS))))	// #Shortcat
+				&kp LS(TAB)					// @Tab
+				&kp LA(LEFT)				// @Wort Sprung
+				&kp LA(RIGHT)				// @Wort Sprung
+				&kp TAB						// @Tab
+				&kp DEL						//
 
 				&none
-				&kp LG(LA(LC(LS(MINUS))))	// Shortcat
-				&sl mNAV2					// deep
+				&kp LG(LA(LC(F12)))		  	// #
+				&sl mNAV2					// 
 				&trans
 				&trans
 				&trans										
@@ -400,44 +400,44 @@
 
 			bindings = <
 
-				&kp ESC						// ESC
-				&trans
-				&kp LG(LA(LC(F13)))		  	// deep Tab Switch
-				&kp LG(LA(LC(F14)))		  	// deep Tab Switch
-				&trans
-				&trans
-				&kp LG(LA(LC(F8)))		  	// deep Tab Switch
-				&kp LC(LG(LEFT)) 			// deep Home 
-				&kp LC(UP)					// deep Shift Up
-				&kp LC(LG(RIGHT))			// deep End
-				&kp LC(PG_UP)	 			// deep page
+				&kp ESC						// 
+				&trans						//
+				&kp LG(LA(LC(F13)))		  	// 
+				&kp LG(LA(LC(F14)))		  	// 
+				&trans						//
+				&trans						//
+				&kp LG(LA(LC(F8)))		  	// 
+				&kp LC(LG(LEFT)) 			// 
+				&kp LC(UP)					// 
+				&kp LC(LG(RIGHT))			// 
+				&kp LC(PG_UP)	 			// 
 				&kp BSPC
 
-				&to mCHAR					// RESET
-				&trans
-				&trans
-				&kp LCTL					// CTL
-				&kp LSHIFT					// CTL
-				&trans
-				&kp LG(LA(LC(F9)))
-				&kp LC(LEFT) 				// deep Shift Left
-				&kp LC(DOWN)				// deep Shift Down
-				&kp LC(RIGHT) 				// deep Shift Right
-				&kp LC(PG_DN)				// deep Control Page
+				&to mCHAR					// 
+				&trans						//
+				&trans						//
+				&kp LCTL					// 
+				&kp LSHIFT					// 
+				&trans						//
+				&kp LG(LA(LC(F9)))			//
+				&kp LC(LEFT) 				// 
+				&kp LC(DOWN)				//
+				&kp LC(RIGHT) 				//
+				&kp LC(PG_DN)				//
 				&kp ENTER				
 	
-				&kp LGUI					// open
+				&kp LGUI					// 
 				&trans
-				&kp LS(F17)					// deep Zurueck History 
-				&kp LS(F18)					// deep Vor History
+				&kp LS(F17)					// #deep Rein
+				&kp LS(F18)					// #deep Raus
 				&trans
 				&trans
-				&kp LG(LA(LC(F17)))			// open
+				&kp LG(LA(LC(F17)))			// 
 				&kp LC(F16) 				// 
-				&kp LA(LEFT)				// deep Shift Wort Sprung
-				&kp LA(RIGHT)				// deep Shift Wort Sprung
+				&kp LA(LEFT)				// 
+				&kp LA(RIGHT)				// 
 				&kp LC(F13)					// 
-				&kp DEL						// deep back
+				&kp DEL						// 
 
 				&none
 				&trans
@@ -486,7 +486,7 @@
 				&kp LG(LA(N8))
 				&kp LG(LA(N9))
 				&kp LG(LA(N0))
-				&kp LG(LA(LC(LS(F3))))		// Gui Tab
+				&kp LG(LA(LC(LS(F3))))		// open
 
 				&kp LG(LA(LC(LS(F4))))		// open
 				&kp LG(LA(LC(LS(N1)))) 			
@@ -505,7 +505,7 @@
 				&none
 				&kp LG(SPACE)
 				&sl mSPRG
-				&sl mSYM
+				&to mNR
 				&none
 			>;
 		};
