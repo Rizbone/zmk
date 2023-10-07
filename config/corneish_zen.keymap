@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings
                 = <&to 0>
-                , <&mdLs
+                , <&mdLs>
                 ;
         };
     };
