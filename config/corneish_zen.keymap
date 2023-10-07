@@ -837,8 +837,8 @@
 				
 				&kp LG(LC(SPACE))   	// @Sonderzeichen
 				&kp LS(NUHS)			// '
-				&kp NUBS				// <
-				&kp LS(NUBS)			// 
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
 				&kp LS(N2)				// "
 				&kp X					// x
 				
@@ -869,8 +869,8 @@
 
 				&kp EQUAL				//
 				&kp LS(N7)				// /
-				&kp LS(N8)				// 
-				&kp LS(N9)				// 
+				&kp LS(N8)				// Runde
+				&kp LS(N9)				// Runde
 				&kp LS(RBRC)			// *
 				&kp LS(N0)				// =
 
@@ -910,8 +910,8 @@
 
 				&kp LG(LC(SPACE))   	// @Sonderzeichen
 				&kp LS(NUHS)			// '
-				&kp LA(N5)				// 
-				&kp LA(N6)				// 
+				&kp LA(N5)				// Eckige
+				&kp LA(N6)				// Eckige
 				&kp LS(N2)				// "
 				&kp X					// x
 
@@ -941,9 +941,9 @@
 				// ----------------------------------------
 
 				&kp LS(EQUAL)			//
-				&kp LS(LA(N7))			// 
-				&kp LA(N8)				// 
-				&kp LA(N9)				// 
+				&kp LS(LA(N7))			// \
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
 				&kp LS(RBRC)			// *
 				&kp LS(N0)				// =
 
@@ -1117,3 +1117,4 @@
 
 	};
 };
+
