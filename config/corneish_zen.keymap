@@ -395,10 +395,10 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp DELETE		  			// Delete
-				&kp LC(LS(TAB))				// Tap Switch
-				&kp LC(TAB)		  			// Tab Switch 
-				&kp LG(SPACE)				// Spotlight
+				&kp DELETE		  			// @Delete
+				&kp LC(LS(TAB))				// @Tap Switch
+				&kp LC(TAB)		  			// @Tab Switch 
+				&kp LG(SPACE)				// @Spotlight
 				&kp LG(LA(LC(F3)))		  	// #Clipboard History
 
 				&kp LG(UP)					// @Home Sprung
@@ -509,7 +509,7 @@
 				&kp LC(F8)					// #Tab Gruppe Wechsel
 				&kp LC(F9)					// #Tab Gruppe Wechsel
 				&kp LC(F10)					// #OPEN
-				&kp LC(LS(F5))				// Corner
+				&kp LC(LS(F5))				// #Corner
 
 				// ----------------------------------------
 
@@ -696,11 +696,11 @@
 				&kp LS(F4)					//
 				&kp LS(F5)					//
 
-				&kp LC(N6)					// Craft Format 
-				&kp LC(N5)					// Craft Format 
-				&kp LC(N4)					// Craft Format 
-				&kp LC(N3)					// Craft Format 
-				&kp LG(KP_PLUS)				// Plus 
+				&kp LC(N6)					// @Craft Format 
+				&kp LC(N5)					// @Craft Format 
+				&kp LC(N4)					// @Craft Format 
+				&kp LC(N3)					// @Craft Format 
+				&kp LG(KP_PLUS)				// @Plus 
 				&kp LG(LA(LC(LS(F12))))		// #OPEN
 				
 				// ----------------------------------------
@@ -712,11 +712,11 @@
 				&kp LS(F9)					//
 				&kp LS(F10)					//
 
-				&kp LG(I)					// Craft Format
-				&kp LG(B) 					// Craft Format
-				&kp LG(LS(NUHS))			// Craft Format (Focus)
-				&kp LG(LS(EQUAL))			// Craft Format (Block)
-				&kp LG(KP_MINUS)			// Minus
+				&kp LG(I)					// @Craft Format
+				&kp LG(B) 					// @Craft Format
+				&kp LG(LS(NUHS))			// @Craft Format (Focus)
+				&kp LG(LS(EQUAL))			// @Craft Format (Block)
+				&kp LG(KP_MINUS)			// @Minus
 				&kp LG(LA(LC(LS(F13))))		// #OPEN
 
 				// ----------------------------------------
@@ -728,12 +728,12 @@
 				&kp LS(F14)					//
 				&kp LS(F15)					//
 
-				&kp LG(U) 					// Craft Format 
-				&kp LG(LS(B))				// Craft Format (Marker)
-				&kp LG(LS(C))				// Craft Format (Code)
-				&kp LG(LS(SLASH))			// Craft Format (Durch)
-				&kp LG(LS(P))				// Craft Format (Seite)
-				&kp LG(LA(LC(LS(F15))))		// shift Del
+				&kp LG(U) 					// @Craft Format 
+				&kp LG(LS(B))				// @Craft Format (Marker)
+				&kp LG(LS(C))				// @Craft Format (Code)
+				&kp LG(LS(SLASH))			// @Craft Format (Durch)
+				&kp LG(LS(P))				// @Craft Format (Seite)
+				&kp LG(LA(LC(LS(F15))))		// #OPEN
 				
 				// ----------------------------------------
 
@@ -835,7 +835,7 @@
 
 				// ----------------------------------------
 				
-				&kp LG(LC(SPACE))   	// Sonderzeichen
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 				&kp LS(NUHS)			// '
 				&kp NUBS				// <
 				&kp LS(NUBS)			// 
@@ -847,11 +847,11 @@
 				&kp LA(M)				// µ
 				&kp M					// m
 				&kp LS(N5)				// %
-				&kp BACKSPACE			// back
+				&kp BACKSPACE			// -
 
 				// ----------------------------------------
 
-				&to mCHAR				// reset
+				&to mCHAR				// 
 				&kp NUHS				// #
 				&kp LA(N)				// ~
 				&kp GRAVE				// ^
@@ -908,7 +908,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LC(SPACE))   	// Sonderzeichen
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 				&kp LS(NUHS)			// '
 				&kp LA(N5)				// 
 				&kp LA(N6)				// 
@@ -920,7 +920,7 @@
 				&kp LA(M)				// µ
 				&kp M					// m
 				&kp LS(N5)				// %
-				&kp BACKSPACE			// back
+				&kp BACKSPACE			// 
 
 				// ----------------------------------------
 
@@ -982,7 +982,7 @@
 
 				// ----------------------------------------
 
-				&kp LA(DELETE)				// Wort entfernen
+				&kp LA(DELETE)				// @Wort entfernen
 				&kp LG(J)					//
 				&kp LG(D)					//
 				&kp LG(U)					//
@@ -994,7 +994,7 @@
 				&kp LG(L) 					//
 				&kp LG(M)					//
 				&kp LG(W) 					//
-				&kp LA(BACKSPACE)			// Wort enfternen
+				&kp LA(BACKSPACE)			// @Wort enfternen
 
 				// ----------------------------------------
 		
@@ -1010,11 +1010,11 @@
 				&kp LG(R)					//
 				&kp LG(S)					//
 				&kp LG(G)					//
-				&kp LG(ENTER)				// Enter Mod	
+				&kp LG(ENTER)				// @Enter Mod	
 
 				// ----------------------------------------
 
-				&kp LG(Y)					// Zurueck
+				&kp LG(Y)					// @Zurueck
 				&kp LG(F)					//
 				&kp LG(V)					//
 				&kp LG(MINUS)				//
@@ -1026,7 +1026,7 @@
 				&kp LG(LEFT_BRACKET)		//
 				&kp LG(SINGLE_QUOTE)		//
 				&kp LG(K) 					//
-				&kp LS(LG(Y))				// Wiederholen
+				&kp LS(LG(Y))				// @Wiederholen
 
 				// ----------------------------------------
 		
@@ -1088,7 +1088,7 @@
 
 				// ----------------------------------------
 
-				&none						// 
+				&kp LG(Y)					// @Zurueck
 				&kp LG(LS(F))				//
 				&kp LG(LS(V))				//
 				&kp LG(LS(MINUS))			//
@@ -1100,7 +1100,7 @@
 				&kp LG(LS(LEFT_BRACKET))	//
 				&kp LG(LS(SINGLE_QUOTE))	//
 				&kp LG(LS(K))				//
-				&none						//
+				&kp LS(LG(Y))				// @Wiederholen
 
 				// ----------------------------------------
 
