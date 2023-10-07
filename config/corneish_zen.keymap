@@ -61,7 +61,7 @@
 
     };
 
-	/ {
+	
     macros {
         zed_em_kay: zed_em_kay {
             label = "ZM_zed_em_kay";
@@ -71,9 +71,9 @@
                 = <&to 0>
                 , <&mdLs>
                 ;
-        };
-    };
-};
+    	};
+	};
+	
 	
 
 
