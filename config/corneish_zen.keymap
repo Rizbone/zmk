@@ -72,7 +72,18 @@
                 , <&mdLs>
                 ;
     	};
+		mdRsReset: mdRsReset {
+            label = "mdRsReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to 0>
+                , <&mdRs>
+                ;
+    	};
 	};
+
+	
 	
 	
 
@@ -177,7 +188,7 @@
 				&kp N0				
 				&kp ENTER 
 
-				&mdLs
+				&mdLsReset
 				&kp LS(N7)
 				&kp LS(N8)
 				&kp LS(N9)
@@ -188,7 +199,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mdRs
+				&mdRsReset
 		
 				&sl mFUNC
 				&kp SPACE 
