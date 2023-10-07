@@ -402,42 +402,42 @@
 
 				&kp ESC						// 
 				&trans						//
-				&kp LG(LA(LC(F13)))		  	// 
-				&kp LG(LA(LC(F14)))		  	// 
+				&kp LG(LA(LC(F13)))		  	// #deep Tab Wechsel
+				&kp LG(LA(LC(F14)))		  	// #deep Tab Wechsel
 				&trans						//
 				&trans						//
-				&kp LG(LA(LC(F8)))		  	// 
-				&kp LC(LG(LEFT)) 			// 
-				&kp LC(UP)					// 
-				&kp LC(LG(RIGHT))			// 
-				&kp LC(PG_UP)	 			// 
+				&kp LG(LA(LC(F8)))		  	// #
+				&kp LG(LA(LS(F14)))			// window snap Quater
+				&kp LG(LC(UP))				// Window snap
+				&kp LG(LA(LS(F15)))			// window snap Quater
+				&kp LG(LA(LS(F13)))			// window snap fill
 				&kp BSPC
 
 				&to mCHAR					// 
 				&trans						//
 				&trans						//
-				&kp LCTL					// 
-				&kp LSHIFT					// 
 				&trans						//
-				&kp LG(LA(LC(F9)))			//
-				&kp LC(LEFT) 				// 
-				&kp LC(DOWN)				//
-				&kp LC(RIGHT) 				//
-				&kp LC(PG_DN)				//
+				&trans						// 
+				&trans						//
+				&kp LG(LA(LC(F9)))			// #
+				&kp LG(LC(LEFT))			// Window snap
+				&kp LG(LC(DOWN))			// Window snap
+				&kp LG(LC(RIGHT))			// Window snap
+				&kp LG(LA(LS(F16)))			// window snap fill
 				&kp ENTER				
 	
-				&kp LGUI					// 
-				&trans
+				&trans						//
+				&trans						//
 				&kp LS(F17)					// #deep Rein
 				&kp LS(F18)					// #deep Raus
-				&trans
-				&trans
-				&kp LG(LA(LC(F17)))			// 
-				&kp LC(F16) 				// 
-				&kp LA(LEFT)				// 
-				&kp LA(RIGHT)				// 
-				&kp LC(F13)					// 
-				&kp DEL						// 
+				&trans						//
+				&trans						//
+				&trans						//
+				&trans						//
+				&trans						//
+				&trans						//
+				&trans						// 
+				&trans						//
 
 				&none
 				&trans
@@ -584,10 +584,10 @@
 			bindings = <
 	
 				&kp LG(LA(LC(LS(F11))))		// open
-				&kp LG(LA(LS(F13)))			// window snap fill
-				&kp LG(LA(LS(F14)))			// window snap fill
-				&kp LG(LC(UP))				// Window snap
-				&kp LG(LA(LS(F15)))			// window snap fill
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 				&kp LC(N6)					// Craft Format 
 				&kp LC(N5)					// Craft Format 
@@ -597,10 +597,10 @@
 				&kp LG(LA(LC(LS(F12))))		// open
 				
 				&to mCHAR
-				&kp LG(LA(LS(F16)))			// window snap fill
-				&kp LG(LC(LEFT))			// Window snap
-				&kp LG(LC(DOWN))			// Window snap
-				&kp LG(LC(RIGHT))			// Window snap
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 				&kp LG(I)					// Craft Format
 				&kp LG(B) 					// Craft Format
