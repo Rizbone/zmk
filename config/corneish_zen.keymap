@@ -205,7 +205,7 @@
 				&kp SPACE 
 				&sl mNAV
 				&sl mPRG
-				&none
+				&mdNr
 				&sl mMOD
 			>;		
 		};
@@ -401,10 +401,10 @@
 			bindings = <
 
 				&kp ESC						// 
-				&trans						//
-				&kp LG(LA(LC(F13)))		  	// #deep Tab Wechsel
-				&kp LG(LA(LC(F14)))		  	// #deep Tab Wechsel
-				&trans						//
+				&kp LG(LA(LS(F2)))			// window move
+				&kp LG(LA(LS(F3)))			// window move
+				&kp LG(LA(LS(F4)))			// window move
+				&kp LG(LA(LS(F1)))			// window move
 				&trans						//
 				&kp LG(LA(LC(F8)))		  	// #
 				&kp LG(LA(LS(F14)))			// window snap Quater
@@ -414,10 +414,10 @@
 				&kp BSPC
 
 				&to mCHAR					// 
-				&trans						//
-				&trans						//
-				&trans						//
-				&trans						// 
+				&kp LG(LA(LS(F6)))			// window move
+				&kp LG(LA(LS(F7)))			// window move
+				&kp LG(LA(LS(F8)))			// window move
+				&kp LG(LA(LS(F5)))			// window move
 				&trans						//
 				&kp LG(LA(LC(F9)))			// #
 				&kp LG(LC(LEFT))			// Window snap
@@ -611,10 +611,10 @@
 
 
 				&kp LG(LA(LC(LS(F14))))		// open
-				&kp LG(LA(LS(F17)))			// window snap fill
-				&kp LG(LA(LS(F18)))			// window snap fill
-				&kp LG(LA(LS(F19)))			// window snap fill
-				&kp LG(LA(LS(F20)))			// window snap fill
+				&trans
+				&trans
+				&trans
+				&trans
 				&trans
 				&kp LG(U) 					// Craft Format 
 				&kp LG(LS(B))				// Craft Format (Marker)
@@ -650,10 +650,10 @@
 				&bt BT_NXT
 				&bt BT_CLR
 				&trans
-				&kp LG(LA(LS(F1)))			// window move
-				&kp LG(LA(LS(F2)))			// window move
-				&kp LG(LA(LS(F3)))			// window move
-				&kp LG(LA(LS(F4)))			// window move
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LG(LA(LC(LS(F17))))		// open	
 
 				&to mCHAR
@@ -662,10 +662,11 @@
 				&kp C_PP 
 				&kp C_NEXT 
 				&trans
-				&kp LG(LA(LS(F5)))			// window move
-				&kp LG(LA(LS(F6)))			// window move
-				&kp LG(LA(LS(F7)))			// window move
-				&kp LG(LA(LS(F8)))			// window move
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LG(LA(LC(LS(F18))))		// open
 				
 				&kp LG(LA(LC(LS(F19))))		// open
@@ -675,10 +676,11 @@
 				&kp C_VOLUME_UP 
 				&none
 				&trans
-				&kp LG(LA(LS(F9)))			// window move
-				&kp LG(LA(LS(F10)))			// window move
-				&kp LG(LA(LS(F11)))			// window move
-				&kp LG(LA(LS(F12)))			// window move
+				&trans
+				&trans
+				&trans
+				&trans
+				&trans
 				&kp LG(LA(LC(LS(F20))))		// open
 		
 				&trans
