@@ -86,8 +86,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&mdNr>
-                , <&to 1>
+                = <&to 1>
+                , <&mdNR>
                 ;
     	};
 	};
