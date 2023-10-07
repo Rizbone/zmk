@@ -88,6 +88,7 @@
             bindings
                 = <&to 1>
                 , <&sl mNr>
+				, <&to 1>
                 ;
     	};
 	};
