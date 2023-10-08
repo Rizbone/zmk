@@ -402,9 +402,9 @@
 				&kp LG(LA(LC(F3)))		  	// #Clipboard History
 
 				&kp LG(UP)					// @Home Sprung
-				&kp LG(LEFT)				// @Home 
+				&kp LS(TAB)					// @Tab
 				&kp UP						// @Up
-				&kp LG(RIGHT)				// @End  
+				&kp TAB						// @Tab
 				&kp PAGE_UP					// @Page Up
 				&kp BSPC					// -
 
@@ -434,10 +434,10 @@
 				&kp LG(LA(LC(F11)))		  	// #OPEN Mac
 
 				&kp LG(LA(LC(LS(MINUS))))	// #Shortcat
-				&kp LS(TAB)					// @Tab
+				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
-				&kp TAB						// @Tab
+				&kp LG(RIGHT)				// @End  
 				&kp DEL						// -
 
 				// ----------------------------------------
