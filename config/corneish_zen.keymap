@@ -9,7 +9,7 @@
 #define mNR 1
 
 #define mLCHAR 2
-#define mSCHAR 3
+#define mNRhard 3
 
 #define mNAV 4
 #define mNAV2 5
@@ -25,7 +25,9 @@
 
 #define mMOD 12
 #define mSMOD 13
-#define mSSMOD 14			
+#define mSSMOD 14		
+
+#define mSCHAR 15
 
  
 / {
@@ -319,11 +321,12 @@
 		};
 
 
+
 		// -----------------------------------------------------|
-		// Layer 3 - mSChar = 	  Buchstaben Shift				|
+		// Layer 3 - mNRhard = 	  Zahlen Hard Lock				|
 		// -----------------------------------------------------|
 
-		mac_schar
+		mac_zahlenhard
 		{
 			label = "MAC";
 
@@ -331,65 +334,64 @@
 
 				// ----------------------------------------
 
-				&kp LS(ESC)
-				&kp LS(J) 
-				&kp LS(D)	 
-				&kp LS(U)
-				&kp LS(A)
-				&kp LS(X)
+				&kp ESC	
+				&kp LS(NUHS)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp LS(N2)
+				&kp X
 
-				&kp LS(P)
-				&kp LS(H)
-				&kp LS(L)
-				&kp LS(M)
-				&kp LS(W)
-				&kp LS(BSPC)
-	
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
 				// ----------------------------------------
 
 				&to mCHAR
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5		
 
-				&kp LS(B)
-				&kp LS(N)
-				&kp LS(R)
-				&kp LS(S)
-				&kp LS(G)
-				&kp LS(RET)
-	
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
 				// ----------------------------------------
 
 				&mdLs
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
 
-				&kp LS(Z)
-				&kp LS(SEMI)
-				&kp LS(LBKT)
-				&kp LS(SQT)
-				&kp LS(K)
-				&mdRs		
-
-				// ----------------------------------------		
-
-				&none						//
-				&kp LS(SPACE)				//
-				&trans						// nav
-				&none						//
-				&mdNr						// nr
-				&none						//
+				&kp LS(DOT)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&mdRs
 
 				// ----------------------------------------
-
+		
+				&sl mFUNC
+				&kp SPACE 
+				&sl mNAV
+				&sl mPRG
+				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
+				&sl mMOD
 			>;		
 		};
+
+
 
 
 		// -----------------------------------------------------|
@@ -677,7 +679,7 @@
 				&none						//
 				&trans						// nav
 				&trans						// origin
-				&none						//
+				&to mNRhard					// Hard Lock
 				&none						//
 
 				// ----------------------------------------
@@ -1195,6 +1197,82 @@
 
 				// ----------------------------------------
 			>;
+		};
+
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer LAST - mSChar = 	  Buchstaben Shift			|
+		// -----------------------------------------------------|
+
+		mac_schar
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LS(ESC)
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				// ----------------------------------------
+
+				&to mCHAR
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdRs		
+
+				// ----------------------------------------		
+
+				&none						//
+				&kp LS(SPACE)				//
+				&trans						// nav
+				&none						//
+				&mdNr						// nr
+				&none						//
+
+				// ----------------------------------------
+
+			>;		
 		};
 
 	};
