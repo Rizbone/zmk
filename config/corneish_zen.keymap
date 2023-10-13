@@ -136,12 +136,15 @@
 
 	
     macros {
+
+		// MAC
+
         mSpaceReset: mSpaceReset {
             label = "mSpaceReset";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&to 0>
+                = <&to mCHAR>
                 , <&kp SPACE>
                 ;
     	};
@@ -150,10 +153,32 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&to 0>
+                = <&to mCHAR>
                 , <&kp ENTER>
                 ;
     	};
+
+		// IPAD
+
+		mSpaceResetI: mSpaceResetI {
+            label = "mSpaceResetI";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to iCHAR>
+                , <&kp SPACE>
+                ;
+    	};
+		mEnterResetI: mEnterResetI {
+            label = "mEnterResetI";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to iCHAR>
+                , <&kp ENTER>
+                ;
+    	};
+		
 	};
 
 	
