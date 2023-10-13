@@ -1462,8 +1462,8 @@
 
 				&kp ESC	
 				&kp LS(NUHS)
-				&kp NUBS
-				&kp LS(NUBS)			
+				&kp GRAVE
+				&kp LS(GRAVE)			
 				&kp LS(N2)
 				&kp X
 
@@ -1607,8 +1607,8 @@
 
 				&kp ESC	
 				&kp LS(NUHS)
-				&kp NUBS
-				&kp LS(NUBS)			
+				&kp GRAVE
+				&kp LS(GRAVE)			
 				&kp LS(N2)
 				&kp X
 
@@ -1903,8 +1903,8 @@
 				
 				&kp LG(LC(SPACE))   	// @Sonderzeichen
 				&kp LS(NUHS)			// '
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// Spitze
+				&kp LS(GRAVE)			// Spitze
 				&kp LS(N2)				// "
 				&kp X					// x
 				
@@ -1920,7 +1920,7 @@
 				&to iCHAR				// 
 				&kp LA(L)				// @
 				&kp LA(N)				// ~
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 				&kp NUHS				// #
 				&kp LS(N6)				// &
 
@@ -1993,7 +1993,7 @@
 				&to iCHAR				// 
 				&kp LA(L)				// @				
 				&kp LA(N)				// ~
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 				&kp NUHS				// #
 				&kp LS(N6)				// &
 
@@ -2018,7 +2018,7 @@
 				&kp COMMA				// ,
 				&kp DOT					// .
 				&kp SLASH				// -
-				&kp GRAVE				// ^
+				&kp NUBS				// ^
 
 				// ----------------------------------------
 
