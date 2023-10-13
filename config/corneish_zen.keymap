@@ -46,6 +46,15 @@
             tapping-term-ms = <1000>;
             bindings = <&sl mNR>, <&sl mSYM>;
         };
+
+        mdReset: tap_dance_mdReset {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdReset";
+            #binding-cells = <0>;
+            tapping-term-ms = <1000>;
+            bindings = <&none>, <&to 0>;
+        };
+
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdLs";
@@ -223,7 +232,7 @@
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
-				&mdR
+				&mdRs
 
 				// ----------------------------------------
 		
