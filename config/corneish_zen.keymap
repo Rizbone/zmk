@@ -208,15 +208,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp S>
+                = <&kp S>
 				, <&kp P>
 				, <&kp O>
 				, <&kp T>
 				, <&kp I>
 				, <&kp F>
 				, <&kp Z>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -225,12 +224,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp M>
+                = <&kp M>
 				, <&kp A>
 				, <&kp I>
 				, <&kp L>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -239,15 +237,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp D>
+                = <&kp D>
 				, <&kp A>
 				, <&kp T>
 				, <&kp E>
 				, <&kp I>
 				, <&kp E>
 				, <&kp N>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -256,13 +253,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp E>
+                = <&kp E>
 				, <&kp X>
 				, <&kp C>
 				, <&kp E>
 				, <&kp L>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -271,14 +267,17 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp N>
+                = <&kp N>
 				, <&kp O>
 				, <&kp T>
 				, <&kp A>
 				, <&kp B>
 				, <&kp I>
+				, <&kp L>
+				, <&kp I>
+				, <&kp T>
+				, <&kp Z>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -287,13 +286,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp N>
+                = <&kp N>
 				, <&kp C>
 				, <&kp A>
 				, <&kp L>
 				, <&kp C>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -302,9 +300,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp W>
+                = <&kp W>
 				, <&kp H>
 				, <&kp A>
 				, <&kp T>
@@ -312,6 +308,7 @@
 				, <&kp A>
 				, <&kp P>
 				, <&kp P>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -320,14 +317,13 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp S>
+                = <&kp S>
 				, <&kp A>
 				, <&kp F>
 				, <&kp A>
 				, <&kp R>
 				, <&kp I>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -336,15 +332,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp E>
+                = <&kp E>
 				, <&kp I>
 				, <&kp N>
 				, <&kp S>
 				, <&kp T>
 				, <&kp E>
 				, <&kp L>
+				, <&kp L>
+				, <&kp U>
+				, <&kp N>
+				, <&kp G>
+				, <&kp ENTER>
                 ;
     	};
 
@@ -353,13 +352,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LG(SPACE)>
-				, <&macro_wait_time 20>
-                , <&kp C>
+                = <&kp C>
 				, <&kp R>
 				, <&kp A>
 				, <&kp F>
 				, <&kp T>
+				, <&kp ENTER>
                 ;
     	};
 
