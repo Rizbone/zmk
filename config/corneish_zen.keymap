@@ -883,11 +883,11 @@
 				// ----------------------------------------
 
 				&to mCHAR					// -
+				&bt BT_SEL 0				//
 				&bt BT_SEL 1				//
 				&bt BT_SEL 2				//
 				&bt BT_SEL 3				//
 				&bt BT_SEL 4				//
-				&bt BT_SEL 5				//
 
 				&trans						//
 				&kp C_PREVIOUS 				//
@@ -1694,10 +1694,10 @@
 				// ----------------------------------------
 
 				&to iCHAR					// -
-				&kp LG(F1)		  			// #Pfadsuche
-				&kp LG(F2)		  			// #Umbennen F2
+				&kp LG(LS(G))	  			// !Pfadsuche
+				&kp LCTRL		  			// !
 				&kp LSHIFT					// -
-				&kp CAPSLOCK				// -
+				&kp CAPSLOCK				// !
 				&kp LG(F8)				  	// #OPEN
 
 				&kp LG(DOWN)				// @End Sprung
@@ -1764,7 +1764,7 @@
 				&kp LG(LS(N8))				// 18
 				&kp LG(LS(N9))				// 19
 				&kp LG(LS(N0))				// 20
-				&kp LG(Q)					// !Quit Prg
+				&kp LG(H)					// !Quit Prg
 
 				// ----------------------------------------
 
@@ -1844,11 +1844,11 @@
 				// ----------------------------------------
 
 				&to iCHAR					// -
+				&bt BT_SEL 0				//
 				&bt BT_SEL 1				//
 				&bt BT_SEL 2				//
 				&bt BT_SEL 3				//
 				&bt BT_SEL 4				//
-				&bt BT_SEL 5				//
 
 				&kp LG(I)					// @Craft Format
 				&kp LG(B) 					// @Craft Format
@@ -2244,12 +2244,12 @@
 
 				// ----------------------------------------		
 
-				&to mCHAR					// Mac Switch
+				&none
 				&kp LS(SPACE)				//
 				&trans						// nav
 				&none						//
 				&mdNrI						// nr
-				&none						//
+				&to mCHAR					// Mac Switch
 
 				// ----------------------------------------
 
