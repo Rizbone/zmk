@@ -228,13 +228,10 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
+                , <&kp M>
+				, <&kp A>
 				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+				, <&kp L>
 				, <&kp ENTER>
                 ;
     	};
@@ -246,13 +243,13 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
+                , <&kp D>
+				, <&kp A>
 				, <&kp T>
+				, <&kp E>
 				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+				, <&kp E>
+				, <&kp N>
 				, <&kp ENTER>
                 ;
     	};
@@ -264,13 +261,11 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
-				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+                , <&kp E>
+				, <&kp X>
+				, <&kp C>
+				, <&kp E>
+				, <&kp L>
 				, <&kp ENTER>
                 ;
     	};
@@ -282,13 +277,12 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
+                , <&kp N>
 				, <&kp O>
 				, <&kp T>
+				, <&kp A>
+				, <&kp B>
 				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
 				, <&kp ENTER>
                 ;
     	};
@@ -300,13 +294,11 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
-				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+                , <&kp N>
+				, <&kp C>
+				, <&kp A>
+				, <&kp L>
+				, <&kp C>
 				, <&kp ENTER>
                 ;
     	};
@@ -318,13 +310,14 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
+                , <&kp W>
+				, <&kp H>
+				, <&kp A>
 				, <&kp T>
-				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+				, <&kp S>
+				, <&kp A>
+				, <&kp P>
+				, <&kp P>
 				, <&kp ENTER>
                 ;
     	};
@@ -337,12 +330,11 @@
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
                 , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
-				, <&kp I>
+				, <&kp A>
 				, <&kp F>
-				, <&kp Z>
+				, <&kp A>
+				, <&kp R>
+				, <&kp I>
 				, <&kp ENTER>
                 ;
     	};
@@ -354,13 +346,13 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
+                , <&kp E>
 				, <&kp I>
-				, <&kp F>
-				, <&kp Z>
+				, <&kp N>
+				, <&kp S>
+				, <&kp T>
+				, <&kp E>
+				, <&kp L>
 				, <&kp ENTER>
                 ;
     	};
@@ -372,13 +364,11 @@
             bindings
                 = <&kp LG(SPACE)>
 				, <&macro_wait_time 100>
-                , <&kp S>
-				, <&kp P>
-				, <&kp O>
-				, <&kp T>
-				, <&kp I>
+                , <&kp C>
+				, <&kp R>
+				, <&kp A>
 				, <&kp F>
-				, <&kp Z>
+				, <&kp T>
 				, <&kp ENTER>
                 ;
     	};
@@ -1975,16 +1965,16 @@
 
 				&to iCHAR					// -
 				&prg1						// 1
-				&kp LG(LA(N2))				// 2
-				&kp LG(LA(N3))				// 3
-				&kp LG(LA(N4))				// 4
-				&kp LG(LA(N5))				// 5
+				&prg2						// 2
+				&prg3						// 3
+				&prg4						// 4
+				&prg5						// 5
 
-				&kp LG(LA(N6))				// 6
-				&kp LG(LA(N7))				// 7
-				&kp LG(LA(N8))				// 8
-				&kp LG(LA(N9))				// 9
-				&kp LG(LA(N0))				// 0
+				&prg6						// 6
+				&prg7						// 7
+				&prg8						// 8
+				&prg9						// 9
+				&prg0						// 0
 				&kp LG(TAB)					// !Prg Wechsel
 
 				// ----------------------------------------
