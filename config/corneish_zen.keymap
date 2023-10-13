@@ -53,7 +53,7 @@
             label = "TAP_DANCE_mdReset";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&none>, <&to 0>;
+            bindings = <&to mNRhard>, <&to 0>;
         };
 
 		mdLs: tap_dance_mdLs {
@@ -217,7 +217,7 @@
 				&kp N8				
 				&kp N9				
 				&kp N0				
-				&kp ENTER 
+				&mEnterReset 
 
 				// ----------------------------------------
 
@@ -238,7 +238,7 @@
 				// ----------------------------------------
 		
 				&sl mFUNC
-				&kp SPACE 
+				&mSpaceReset 
 				&sl mNAV
 				&sl mPRG
 				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
@@ -350,7 +350,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR
+				&mdReset
 				&kp N1				
 				&kp N2				
 				&kp N3				
