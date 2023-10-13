@@ -1697,7 +1697,7 @@
 				&kp LG(F1)		  			// #Pfadsuche
 				&kp LG(F2)		  			// #Umbennen F2
 				&kp LSHIFT					// -
-				&kp LCTRL					// -
+				&kp CAPSLOCK				// -
 				&kp LG(F8)				  	// #OPEN
 
 				&kp LG(DOWN)				// @End Sprung
