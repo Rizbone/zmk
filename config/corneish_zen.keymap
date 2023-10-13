@@ -425,8 +425,8 @@
 				&to mCHAR					// -
 				&kp LG(F1)		  			// #Pfadsuche
 				&kp LG(F2)		  			// #Umbennen F2
-				&kp LCTRL					// -
 				&kp LSHIFT					// -
+				&kp LCTRL					// -
 				&kp LG(F8)				  	// #OPEN
 
 				&kp LG(DOWN)				// @End Sprung
