@@ -199,6 +199,27 @@
                 , <&bt BT_SEL 1>
                 ;
     	};
+
+
+		// Programm Select Ipad
+		
+		prg1: prg1 {
+            label = "prg1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Y>
+                ;
+    	};
+
 		
 	};
 
@@ -1790,7 +1811,7 @@
 				// ----------------------------------------
 
 				&to iCHAR					// -
-				&kp LG(LA(N1))				// 1
+				&prg1						// 1
 				&kp LG(LA(N2))				// 2
 				&kp LG(LA(N3))				// 3
 				&kp LG(LA(N4))				// 4
