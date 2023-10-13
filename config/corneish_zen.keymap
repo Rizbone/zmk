@@ -178,6 +178,27 @@
                 , <&kp ENTER>
                 ;
     	};
+
+		// SWITCH
+
+		swapToMac: swapToMac {
+            label = "swapToMac";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&bt BT_SEL 0>
+                ;
+    	};
+		swapToPad: swapToPad {
+            label = "swapToPad";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to iCHAR>
+                , <&bt BT_SEL 1>
+                ;
+    	};
 		
 	};
 
@@ -1356,7 +1377,7 @@
 
 				// ----------------------------------------		
 
-				&to iCHAR					// Ipad Switch
+				&swapToPad					// Ipad Switch
 				&kp LS(SPACE)				//
 				&trans						// nav
 				&none						//
@@ -1716,7 +1737,7 @@
 				&kp LG(F6)		  			// #Seitenleiste rechts
 				&kp LG(F9)				  	// #OPEN 
 
-				&kp GRAVE					// @Prg Wechsel
+				&kp GRAVE					// !Prg Wechsel
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
@@ -2249,7 +2270,7 @@
 				&trans						// nav
 				&none						//
 				&mdNrI						// nr
-				&to mCHAR					// Mac Switch
+				&swapToMac					// Mac Switch
 
 				// ----------------------------------------
 
