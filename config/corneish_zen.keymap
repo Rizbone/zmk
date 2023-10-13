@@ -41,21 +41,21 @@
 
         mdNr: tap_dance_mdNr {
             compatible = "zmk,behavior-tap-dance";
-            label e"TAP_DANCE_mdNr";
+            label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&sl mNR>, <&sl mSYM>;
         };
 		mdLs: tap_dance_mdLs {
             compatible = "zmk,behavior-tap-dance";
-            label e"TAP_DANCE_mdLs";
+            label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
 		mdRs: tap_dance_mdRs {
             compatible = "zmk,behavior-tap-dance";
-            label e"TAP_DANCE_mdRs";
+            label = "TAP_DANCE_mdRs";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
@@ -75,8 +75,8 @@
                 ;
     	};
 		mEnterReset: mEnterReset {
-            label = "mEnterResetet";
-            compatible = "zmk,mEnterReset-macro";
+            label = "mEnterReset";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&to 0>
@@ -100,8 +100,7 @@
 	
 		mac_buchstaben
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -174,8 +173,7 @@
 
 		mac_zahlen
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -247,8 +245,7 @@
 	
 		mac_lchar
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -320,8 +317,7 @@
 
 		mac_schar
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -394,8 +390,7 @@
 
 		mac_navigation
 		{		
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -466,8 +461,7 @@
 
 		mac_navigation2
 		{		
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -542,8 +536,7 @@
 
 		mac_programme
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -618,8 +611,7 @@
 		mac_sprogramme
 		{
 
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -693,8 +685,7 @@
 
 		mac_function
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -766,8 +757,7 @@
 
 		mac_specialfunction
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -841,8 +831,7 @@
 
 		mac_symbole
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -915,8 +904,7 @@
 
 		mac_specialsonderzeichen
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -990,8 +978,7 @@
 
 		mac_mod
 		{
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -1065,8 +1052,7 @@
 
 		mac_smod
 		{	
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
@@ -1138,8 +1124,7 @@
 
 		mac_ssmod
 		{	
-			label = "MAC
-			label;
+			label = "MAC";
 
 			bindings = <
 
