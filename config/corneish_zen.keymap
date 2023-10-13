@@ -5,6 +5,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 
+// Mac
+
 #define mCHAR 0
 #define mNR 1
 
@@ -28,6 +30,18 @@
 #define mSSMOD 14		
 
 #define mSCHAR 15
+
+
+// Ipad
+
+#define iCHAR 16
+#define iNR 17
+
+#define iLCHAR 18
+#define iNRhard 19
+
+#define iNAV 20
+
 
  
 / {
@@ -103,6 +117,13 @@
 	keymap
 	{	
 		compatible = "zmk,keymap";
+
+
+	// --------------------------------------------------------------------------------------|
+	//									MAC 												 |
+	// --------------------------------------------------------------------------------------|
+
+
 
 		// -----------------------------------------------------|
 		// Layer 0 - mChar = 	  Buchstaben					|
@@ -1204,7 +1225,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer LAST - mSChar = 	  Buchstaben Shift			|
+		// Layer 15 - SChar = 	  Buchstaben Shift				|
 		// -----------------------------------------------------|
 
 		mac_schar
@@ -1274,6 +1295,377 @@
 
 			>;		
 		};
+
+
+
+	// --------------------------------------------------------------------------------------|
+	//									IPAD 												 |
+	// --------------------------------------------------------------------------------------|
+
+
+		// -----------------------------------------------------|
+		// Layer 16 - iChar = 	  Buchstaben					|
+		// -----------------------------------------------------|
+	
+		ipad_buchstaben
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp J 
+				&kp D	 
+				&kp U
+				&kp A
+				&kp X
+
+				&kp P
+				&kp H
+				&kp L
+				&kp M
+				&kp W
+				&kp BSPC
+
+				// ----------------------------------------
+	
+				&to mCHAR
+				&kp C
+				&kp T
+				&kp I
+				&kp E
+				&kp O
+
+				&kp B
+				&kp N
+				&kp R
+				&kp S
+				&kp G
+				&kp RET
+
+				// ----------------------------------------
+	
+				&mdLs
+				&kp F
+				&kp V
+				&kp MINUS
+				&kp Y
+				&kp Q
+
+				&kp Z
+				&kp SEMI
+				&kp LBKT
+				&kp SQT
+				&kp K
+				&mdRs
+
+				// ----------------------------------------
+
+				&sl mFUNC
+				&kp SPACE
+				&sl mNAV
+				&sl mPRG
+				&mdNr
+				&sl mMOD
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 17 - iNR = 	  Zahlen							|
+		// -----------------------------------------------------|
+
+		ipad_zahlen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC	
+				&kp LS(NUHS)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp LS(N2)
+				&kp X
+
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				// ----------------------------------------
+
+				&to mCHAR
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5		
+
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&mEnterReset 
+
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+
+				&kp LS(DOT)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&mdRs
+
+				// ----------------------------------------
+		
+				&sl mFUNC
+				&mSpaceReset 
+				&sl mNAV
+				&sl mPRG
+				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
+				&sl mMOD
+			>;		
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 18 - iLCHAR = 	  Buchstaben Lock				|
+		// -----------------------------------------------------|
+	
+		ipad_lchar
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+
+				// ----------------------------------------
+	
+				&to mCHAR
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+			
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdRs						
+
+				// ----------------------------------------
+
+				&sl mFUNC
+				&kp SPACE 
+				&sl mNAV
+				&sl mPRG
+				&mdNr
+				&sl mMOD
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 19 - iNRhard = 	  Zahlen Hard Lock				|
+		// -----------------------------------------------------|
+
+		ipad_zahlenhard
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC	
+				&kp LS(NUHS)
+				&kp NUBS
+				&kp LS(NUBS)			
+				&kp LS(N2)
+				&kp X
+
+				&kp LS(N4)
+				&kp LA(E)
+				&kp LA(M)
+				&kp M
+				&kp LS(N5)			
+				&kp BSPC
+
+				// ----------------------------------------
+
+				&mdReset
+				&kp N1				
+				&kp N2				
+				&kp N3				
+				&kp N4					
+				&kp N5		
+
+				&kp N6				
+				&kp N7				
+				&kp N8				
+				&kp N9				
+				&kp N0				
+				&kp ENTER 
+
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(N7)
+				&kp LS(N8)
+				&kp LS(N9)
+				&kp LS(RBRC)
+				&kp LS(N0)
+
+				&kp LS(DOT)
+				&kp RBKT
+				&kp COMMA
+				&kp DOT
+				&kp SLASH		
+				&mdRs
+
+				// ----------------------------------------
+		
+				&sl mFUNC
+				&kp SPACE 
+				&sl mNAV
+				&sl mPRG
+				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
+				&sl mMOD
+			>;		
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer = 20 - iNAV - Navigation						|
+		// -----------------------------------------------------|
+
+		ipad_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// -
+				&kp DELETE		  			// @Delete
+				&kp LC(LS(TAB))				// @Tap Switch
+				&kp LC(TAB)		  			// @Tab Switch 
+				&kp LG(SPACE)				// @Spotlight
+				&kp LG(F7)		  			// #Clipboard History
+
+				&kp LG(UP)					// @Home Sprung
+				&kp LS(TAB)					// @Tab
+				&kp UP						// @Up
+				&kp TAB						// @Tab
+				&kp PAGE_UP					// @Page Up
+				&kp BSPC					// -
+
+				// ----------------------------------------
+
+				&to mCHAR					// -
+				&kp LG(F1)		  			// #Pfadsuche
+				&kp LG(F2)		  			// #Umbennen F2
+				&kp LSHIFT					// -
+				&kp LCTRL					// -
+				&kp LG(F8)				  	// #OPEN
+
+				&kp LG(DOWN)				// @End Sprung
+				&kp LEFT 					// @Left
+				&kp DOWN					// @Down
+				&kp RIGHT 					// @Right
+				&kp PG_DN					// @Page Down
+				&kp ENTER					// -
+				
+				// ----------------------------------------
+
+				&kp LGUI					// -
+				&kp LG(F3)		  			// #Seitenleiste links
+				&kp LG(F4)					// #Raus
+				&kp LG(F5)					// #Rein
+				&kp LG(F6)		  			// #Seitenleiste rechts
+				&kp LG(F9)				  	// #OPEN 
+
+				&kp LG(TAB)					// @Prg Wechsel
+				&kp LG(LEFT)				// @Home 
+				&kp LA(LEFT)				// @Wort Sprung
+				&kp LA(RIGHT)				// @Wort Sprung
+				&kp LG(RIGHT)				// @End  
+				&kp DEL						// -
+
+				// ----------------------------------------
+
+				&none
+				&none				
+				&sl mNAV2					// deep
+				&trans						// for nav
+				&trans						// for nav
+				&trans						// for nav
+
+				// ----------------------------------------							
+			>;
+		};
+
+
+
 
 	};
 };
