@@ -209,7 +209,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp S>
 				, <&kp P>
 				, <&kp O>
@@ -227,7 +227,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp M>
 				, <&kp A>
 				, <&kp I>
@@ -242,7 +242,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp D>
 				, <&kp A>
 				, <&kp T>
@@ -260,7 +260,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp E>
 				, <&kp X>
 				, <&kp C>
@@ -276,7 +276,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp N>
 				, <&kp O>
 				, <&kp T>
@@ -293,7 +293,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp N>
 				, <&kp C>
 				, <&kp A>
@@ -309,7 +309,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp W>
 				, <&kp H>
 				, <&kp A>
@@ -328,7 +328,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp S>
 				, <&kp A>
 				, <&kp F>
@@ -345,7 +345,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp E>
 				, <&kp I>
 				, <&kp N>
@@ -363,7 +363,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(SPACE)>
-				, <&macro_wait_time 100>
+				, <&macro_wait_time 20>
                 , <&kp C>
 				, <&kp R>
 				, <&kp A>
