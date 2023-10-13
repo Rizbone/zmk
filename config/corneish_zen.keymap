@@ -1716,7 +1716,7 @@
 				&kp LG(F6)		  			// #Seitenleiste rechts
 				&kp LG(F9)				  	// #OPEN 
 
-				&kp LG(TAB)					// @Prg Wechsel
+				&kp GRAVE					// @Prg Wechsel
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
