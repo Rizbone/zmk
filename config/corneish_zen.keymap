@@ -1711,8 +1711,8 @@
 
 				&kp LGUI					// -
 				&kp LG(F3)		  			// #Seitenleiste links
-				&kp LG(Left)				// !Raus
-				&kp LG(Right)				// !Rein
+				&kp LG(LEFT)				// !Raus
+				&kp LG(RIGHT)				// !Rein
 				&kp LG(F6)		  			// #Seitenleiste rechts
 				&kp LG(F9)				  	// #OPEN 
 
