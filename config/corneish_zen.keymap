@@ -216,7 +216,170 @@
 				, <&kp T>
 				, <&kp I>
 				, <&kp F>
-				, <&kp Y>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg2: prg2 {
+            label = "prg2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg3: prg3 {
+            label = "prg3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg4: prg4 {
+            label = "prg4";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg5: prg5 {
+            label = "prg5";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg6: prg6 {
+            label = "prg6";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg7: prg7 {
+            label = "prg7";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg8: prg8 {
+            label = "prg8";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg9: prg9 {
+            label = "prg9";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
+                ;
+    	};
+
+		prg0: prg0 {
+            label = "prg0";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(SPACE)>
+				, <&macro_wait_time 100>
+                , <&kp S>
+				, <&kp P>
+				, <&kp O>
+				, <&kp T>
+				, <&kp I>
+				, <&kp F>
+				, <&kp Z>
+				, <&kp ENTER>
                 ;
     	};
 
