@@ -760,11 +760,11 @@
 				&kp LC(LS(F4))				// @window move
 				&none						// 
 
-				&none						//
-				&kp LC(F1)					// @window snap Quater
+				&kp LC(F1)					// @window snap 
 				&kp LC(F2)					// @Window snap
-				&kp LC(F3)					// @window snap Quater
-				&kp LC(F4)					// @window snap fill
+				&kp LC(F3)					// @window snap 
+				&kp LC(F4)					// @window snap 
+				&kp LC(F5)					// @window snap 
 				&kp LA(LG(F12))				// #Rest Window
 
 				// ----------------------------------------
@@ -776,11 +776,11 @@
 				&kp LC(LS(F8))				// @window move
 				&none						//
 
-				&none						//
-				&kp LC(F5)					// @window snap 
-				&kp LC(F6)					// @Window snap
-				&kp LC(F7)					// @window snap 
-				&kp LC(F8)					// @window snap fill
+				&kp LC(F6)					// @window snap 
+				&kp LC(F7)					// @Window snap
+				&kp LC(F8)					// @window snap 
+				&kp LC(F9)					// @window snap 
+				&kp LC(F10)					// @window snap fill
 				&kp LA(LG(F13))				// #OPEN
 
 				// ----------------------------------------
@@ -792,11 +792,11 @@
 				&kp LC(LS(F12))				// #OPEN
 				&none						//
 
-				&none						//
-				&kp LC(F9)					// @OPEN 
-				&kp LC(F10)					// @OPEN
 				&kp LC(F11)					// @OPEN 
 				&kp LC(F12)					// @OPEN
+				&kp LC(F13)					// @OPEN 
+				&kp LC(F14)					// @OPEN
+				&kp LC(F15)					// @OPEN
 				&kp LA(LG(F15))				// #Corner
 
 				// ----------------------------------------
