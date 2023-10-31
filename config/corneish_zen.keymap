@@ -189,6 +189,17 @@
                 , <&kp ENTER>
                 ;
     	};
+		mNavResetI: mNavResetI {
+            label = "mNavResetI";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to iCHAR>
+                , <&macro_press &mo iNAV>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo iNAV>
+                ;
+    	};
 
 		// SWITCH
 
@@ -1704,7 +1715,7 @@
 		
 				&sl iFUNC
 				&mSpaceResetI
-				&sl iNAV
+				&mNavResetI
 				&sl iPRG
 				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
 				&sl iMOD
