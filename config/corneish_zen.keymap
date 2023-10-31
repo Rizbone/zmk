@@ -157,6 +157,15 @@
                 , <&kp ENTER>
                 ;
     	};
+		mNavReset: mNavReset {
+            label = "mNavReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&sl mNAV>
+                ;
+    	};
 
 		// IPAD
 
@@ -515,7 +524,7 @@
 		
 				&sl mFUNC
 				&mSpaceReset 
-				&sl mNAV
+				&mNavReset
 				&sl mPRG
 				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
 				&sl mMOD
