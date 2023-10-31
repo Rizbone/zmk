@@ -163,7 +163,7 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&sl mNAV>
+                , <&trans>
                 ;
     	};
 
