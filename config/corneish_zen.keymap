@@ -1083,87 +1083,8 @@
 		};
 
 
-
 		// -----------------------------------------------------|
-		// Layer 13 - mSMOD =	Spezial GUI						|
-		// -----------------------------------------------------|
-		
-
-		mac_smod
-		{	
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-			
-				&kp LG(DELETE)				// @Zeile entfernen 
-				&kp LG(LS(J))				//
-				&kp LG(LS(D))				//
-				&kp LG(LS(U))				//
-				&kp LG(LS(A))				//
-				&kp LG(LS(X))				//
-				
-				&kp LG(LS(P))				//
-				&kp LG(LS(H)) 				//
-				&kp LG(LS(L)) 				//
-				&kp LG(LS(M))				//
-				&kp LG(LS(W))				//
-				&kp LG(BACKSPACE)			// @Zeile enfternen
-
-				// ----------------------------------------
-		
-				&to mCHAR					// -
-				&kp LG(LS(C))				//
-				&kp LG(LS(T))				//
-				&kp LG(LS(I))				//
-				&kp LG(LS(E))				//
-				&kp LG(LS(O))				//
-				
-				&kp LG(LS(B))				//
-				&kp LG(LS(N))				//
-				&kp LG(LS(R))				//
-				&kp LG(LS(S))				//
-				&kp LG(LS(G))				//
-				&kp LG(LS(ENTER))			// @Enter Mod
-
-				// ----------------------------------------
-
-				&kp LG(Y)					// @Zurueck
-				&kp LG(LS(F))				//
-				&kp LG(LS(V))				//
-				&kp LG(LS(MINUS))			//
-				&kp LG(LS(Y))				//
-				&kp LG(LS(Q))				//
-
-				&kp LG(LS(Z))				//
-				&kp LG(LS(SEMICOLON))		//
-				&kp LG(LS(LEFT_BRACKET))	//
-				&kp LG(LS(SINGLE_QUOTE))	//
-				&kp LG(LS(K))				//
-				&kp LS(LG(Y))				// @Wiederholen
-
-				// ----------------------------------------
-
-				&none						//
-				&none						//
-				&trans						// nav
-				&none						//
-				&none						//
-				&trans						// origin
-
-				// ----------------------------------------
-			>;
-		};
-
-		
-
-
-
-
-
-		// -----------------------------------------------------|
-		// Layer 15 - SChar = 	  Buchstaben Shift				|
+		// Layer 13 - SChar = 	  Buchstaben Shift				|
 		// -----------------------------------------------------|
 
 		mac_schar
