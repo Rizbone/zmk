@@ -50,7 +50,7 @@
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl mNR>, <&sl mSYM>;
+            bindings = <&to mNR>, <&to mNRhard>;
         };
 
         mdReset: tap_dance_mdReset {
@@ -58,7 +58,7 @@
             label = "TAP_DANCE_mdReset";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&to mNRhard>, <&to mCHAR>;
+            bindings = <&to mCHAR>, <&none>;
         };
 
 		mdLs: tap_dance_mdLs {
@@ -121,6 +121,17 @@
                 , <&macro_press &mo mPRG>
     			, <&macro_pause_for_release>
 				, <&macro_release &mo mPRG>
+                ;
+    	};
+		mFuncReset: mFuncReset {
+            label = "mFuncReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&macro_press &mo mFUNC>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo mFunc>
                 ;
     	};
 		
