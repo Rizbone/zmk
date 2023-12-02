@@ -866,7 +866,298 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 10 - mSYM =	Symoble							|
+		// -----------------------------------------------------|
 
+		mac_symbole
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+				
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
+				&kp LS(NUHS)			// '
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
+				&kp LS(N2)				// "
+				&kp X					// x
+				
+				&kp LS(N4) 				// $
+				&kp LA(E)				// €
+				&kp LA(M)				// µ
+				&kp M					// m
+				&kp LS(N5)				// %
+				&kp BACKSPACE			// -
+
+				// ----------------------------------------
+
+				&to mCHAR				// 
+				&kp LA(L)				// @
+				&kp LA(N)				// ~
+				&kp GRAVE				// ^
+				&kp NUHS				// #
+				&kp LS(N6)				// &
+
+				&kp LS(COMMA)			// ;
+				&kp LS(N1)				// !
+				&kp LS(N3)				// §
+				&kp LS(SLASH)			// _
+				&kp LS(MINUS)			// ?
+				&kp LA(N7)				// |
+
+				// ----------------------------------------
+
+				&kp EQUAL				//
+				&kp LS(N7)				// /
+				&kp LS(N8)				// Runde
+				&kp LS(N9)				// Runde
+				&kp LS(RBRC)			// *
+				&kp LS(N0)				// =
+
+				&kp LS(DOT)				// :
+				&kp RBKT				// +
+				&kp COMMA				// ,
+				&kp DOT					// .
+				&kp SLASH				// -
+				&kp GRAVE				// ^
+		
+				// ----------------------------------------
+
+				&none 					//
+				&kp SPACE				//
+				&trans					// nav
+				&none					//
+				&sl mSSYM				// deep
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 11 - mSSYM =	Special Symbole					|
+		// -----------------------------------------------------|
+
+		mac_specialsonderzeichen
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
+				&kp LS(NUHS)			// '
+				&kp LA(N5)				// Eckige
+				&kp LA(N6)				// Eckige
+				&kp LS(N2)				// "
+				&kp X					// x
+
+				&kp LS(N4) 				// $
+				&kp LA(E)				// €
+				&kp LA(M)				// µ
+				&kp M					// m
+				&kp LS(N5)				// %
+				&kp BACKSPACE			// 
+
+				// ----------------------------------------
+
+				&to mCHAR				// 
+				&kp LA(L)				// @				
+				&kp LA(N)				// ~
+				&kp GRAVE				// ^
+				&kp NUHS				// #
+				&kp LS(N6)				// &
+
+				&kp LS(COMMA)			// ;
+				&kp LS(N1)				// !
+				&kp LS(N3)				// §
+				&kp LS(SLASH)			// _
+				&kp LS(MINUS)			// ?
+				&kp LA(N7)				// |
+
+				// ----------------------------------------
+
+				&kp LS(EQUAL)			//
+				&kp LS(LA(N7))			// \
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
+				&kp LS(RBRC)			// *
+				&kp LS(N0)				// =
+
+				&kp LS(DOT)				// :
+				&kp RBKT				// +
+				&kp COMMA				// ,
+				&kp DOT					// .
+				&kp SLASH				// -
+				&kp GRAVE				// ^
+
+				// ----------------------------------------
+
+				&none					//
+				&kp SPACE				//
+				&trans					// nav
+				&none					//
+				&trans					// origin
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};	
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 12 - mMOD =	GUI								|
+		// -----------------------------------------------------|
+
+		mac_mod
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LA(DELETE)				// @Wort entfernen
+				&kp LG(J)					//
+				&kp LG(D)					//
+				&kp LG(U)					//
+				&kp LG(A)					//
+				&kp LG(X)					//
+
+				&kp LG(P)					//
+				&kp LG(H)					//
+				&kp LG(L) 					//
+				&kp LG(M)					//
+				&kp LG(W) 					//
+				&kp LA(BACKSPACE)			// @Wort enfternen
+
+				// ----------------------------------------
+		
+				&to mCHAR					//
+				&kp LG(C)					//
+				&kp LG(T)					//
+				&kp LG(I)					//
+				&kp LG(E)					//
+				&kp LG(O)					//
+
+				&kp LG(B)					//
+				&kp LG(N)					//
+				&kp LG(R)					//
+				&kp LG(S)					//
+				&kp LG(G)					//
+				&kp LG(ENTER)				// @Enter Mod	
+
+				// ----------------------------------------
+
+				&kp LG(Y)					// @Zurueck
+				&kp LG(F)					//
+				&kp LG(V)					//
+				&kp LG(MINUS)				//
+				&kp LG(Y)					//
+				&kp LG(Q)					//
+
+				&kp LG(Z)					//
+				&kp LG(SEMICOLON)			//
+				&kp LG(LEFT_BRACKET)		//
+				&kp LG(SINGLE_QUOTE)		//
+				&kp LG(K) 					//
+				&kp LS(LG(Y))				// @Wiederholen
+
+				// ----------------------------------------
+		
+				&none						//
+				&kp LG(SPACE)				// 
+				&trans						// nav
+				&none						//
+				&none						//
+				&none						// deep
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 13 - SChar = 	  Buchstaben Shift				|
+		// -----------------------------------------------------|
+
+		mac_schar
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LS(ESC)
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				// ----------------------------------------
+
+				&to mCHAR
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdRs		
+
+				// ----------------------------------------		
+
+				&none						// 
+				&kp LS(SPACE)				//
+				&trans						// nav
+				&none						//
+				&mdNr						// nr
+				&none						//
+
+				// ----------------------------------------
+
+			>;		
+		
+	
+		};
 	};
 };
 
