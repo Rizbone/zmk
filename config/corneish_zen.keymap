@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
+
 // Mac
 
 #define mCHAR 0
@@ -131,7 +132,7 @@
                 = <&to mCHAR>
                 , <&macro_press &mo mFUNC>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mFunc>
+				, <&macro_release &mo mFUNC>
                 ;
     	};
 		
