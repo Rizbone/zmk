@@ -497,12 +497,12 @@
 
 				// ----------------------------------------
 
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
 				&none
-				&none				
 				&sl mNAV2					// deep
-				&trans						// for nav
-				&trans						// for nav
-				&trans						// for nav
+				&none
 
 				// ----------------------------------------							
 			>;
@@ -568,12 +568,12 @@
 
 				// ----------------------------------------
 
-				&none
-				&none
-				&trans						// Real Trans
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
+				&none						// 
 				&trans						// for nav
-				&trans						// for nav
-				&trans						// for nav
+				&none						//
 
 				// ----------------------------------------
 			>;
@@ -645,9 +645,9 @@
 
 				&none
 				&none
-				&trans						// nav
-				&sl mSPRG					// deep
-				&to mNR						// Nr Lock
+				&none
+				&sl mSPRG					// deep						
+				&none
 				&none
 
 				// ----------------------------------------
@@ -720,10 +720,10 @@
 
 				&none						//
 				&none						//
-				&trans						// nav
-				&trans						// origin
-				&to mNRhard					// Hard Lock
 				&none						//
+				&trans						// 
+				&none						// 
+				&none						// 
 
 				// ----------------------------------------
 
@@ -792,9 +792,9 @@
 				
 				// ----------------------------------------
 
-				&sl mSFUNC					// deep
+				&none
 				&none						//
-				&trans						// nav
+				&sl mSFUNC					// deep
 				&none						//
 				&none						//
 				&none						//
@@ -865,7 +865,7 @@
 		
 				// ----------------------------------------
 
-				&trans						// origin
+				&none						// 
 				&none						//
 				&trans						// nav
 				&none						//
@@ -938,11 +938,11 @@
 		
 				// ----------------------------------------
 
-				&none 					//
-				&kp SPACE				//
-				&trans					// nav
-				&none					//
 				&sl mSSYM				// deep
+				&none 					//
+				&none					// 
+				&none					//
+				&none					//
 				&none					//
 
 				// ----------------------------------------
@@ -1011,11 +1011,11 @@
 
 				// ----------------------------------------
 
+				&trans					//
 				&none					//
-				&kp SPACE				//
-				&trans					// nav
+				&none					// 
 				&none					//
-				&trans					// origin
+				&none					// 
 				&none					//
 
 				// ----------------------------------------
@@ -1087,10 +1087,10 @@
 		
 				&none						//
 				&kp LG(SPACE)				// 
-				&trans						// nav
+				&trans						// 
 				&none						//
 				&none						//
-				&none						// deep
+				&none						// 
 
 				// ----------------------------------------
 			>;
@@ -1159,9 +1159,9 @@
 
 				&none						// 
 				&kp LS(SPACE)				//
-				&trans						// nav
+				&none						// 
 				&none						//
-				&mdNr						// nr
+				&none						// 
 				&none						//
 
 				// ----------------------------------------
