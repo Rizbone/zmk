@@ -175,7 +175,7 @@
 
 				// ----------------------------------------
 	
-				&to mCHAR
+				&mdReset
 				&kp C
 				&kp T
 				&kp I
@@ -248,7 +248,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR
+				&mdReset
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -320,7 +320,7 @@
 
 				// ----------------------------------------
 	
-				&to mCHAR
+				&mdReset
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -465,7 +465,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR					// -
+				&mdReset					// -
 				&kp LG(F1)		  			// #Pfadsuche
 				&kp LG(F2)		  			// #Umbennen F2
 				&kp LSHIFT					// -
@@ -536,7 +536,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR					// -
+				&mdReset					// -
 				&kp LC(LS(F5))				// @window move
 				&kp LC(LS(F6))				// @window move
 				&kp LC(LS(F7))				// @window move
@@ -611,7 +611,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR					// -
+				&mdReset					// -
 				&kp LG(LA(N1))				// 1
 				&kp LG(LA(N2))				// 2
 				&kp LG(LA(N3))				// 3
@@ -686,7 +686,7 @@
 		
 				// ----------------------------------------
 
-				&to mCHAR
+				&mdReset
 				&kp LS(LA(F6))				//
 				&kp LS(LA(F7))				//
 				&kp LS(LA(F8))				//
@@ -760,7 +760,7 @@
 				
 				// ----------------------------------------
 
-				&to mCHAR					// -
+				&mdReset					// -
 				&kp LA(F6)					// @Craft Today
 				&kp LA(F7)					// @Craft Tomorrow
 				&kp LA(F8)					// #OPEN
@@ -832,7 +832,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR					// -
+				&mdReset					// -
 				&bt BT_SEL 0				//
 				&bt BT_SEL 1				//
 				&bt BT_SEL 2				//
@@ -906,7 +906,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR				// 
+				&mdReset				// 
 				&kp LA(L)				// @
 				&kp LA(N)				// ~
 				&kp GRAVE				// ^
@@ -979,7 +979,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR				// 
+				&mdReset				// 
 				&kp LA(L)				// @				
 				&kp LA(N)				// ~
 				&kp GRAVE				// ^
@@ -1053,7 +1053,7 @@
 
 				// ----------------------------------------
 		
-				&to mCHAR					//
+				&mdReset					//
 				&kp LG(C)					//
 				&kp LG(T)					//
 				&kp LG(I)					//
@@ -1125,7 +1125,7 @@
 	
 				// ----------------------------------------
 
-				&to mCHAR
+				&mdReset
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
