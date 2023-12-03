@@ -234,13 +234,13 @@
 
 				&kp ESC	
 				&kp LS(RBRC)
-				&kp
-				&kp 		
-				&kp 
+				&trans
+				&trans		
+				&trans
 				&kp X
 
-				&kp 
-				&kp 
+				&trans 
+				&trans
 				&kp C
 				&kp M
 				&kp RBKT		
@@ -266,13 +266,13 @@
 
 				&mdLs
 				&kp LS(N7)
-				&kp 
-				&kp 
+				&trans
+				&trans
 				&kp LS(SLASH)
-				&kp 
+				&trans
 
-				&kp 
-				&kp 
+				&trans
+				&trans
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
@@ -379,13 +379,13 @@
 
 				&kp ESC	
 				&kp LS(RBRC)
-				&kp
-				&kp 		
-				&kp 
+				&trans
+				&trans 		
+				&trans 
 				&kp X
 
-				&kp 
-				&kp 
+				&trans 
+				&trans 
 				&kp C
 				&kp M
 				&kp RBKT		
@@ -411,13 +411,13 @@
 
 				&mdLs
 				&kp LS(N7)
-				&kp 
-				&kp 
+				&trans 
+				&trans 
 				&kp LS(SLASH)
 				&kp 
 
-				&kp 
-				&kp 
+				&trans 
+				&trans 
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
