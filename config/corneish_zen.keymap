@@ -138,7 +138,7 @@
 		
 	};
 
-	
+
 
 
 
@@ -233,17 +233,17 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp LS(NUHS)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp LS(N2)
+				&kp LS(RBRC)
+				&kp
+				&kp 		
+				&kp 
 				&kp X
 
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
+				&kp 
+				&kp 
+				&kp C
 				&kp M
-				&kp LS(N5)			
+				&kp RBKT		
 				&kp BSPC
 
 				// ----------------------------------------
@@ -266,13 +266,13 @@
 
 				&mdLs
 				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
+				&kp 
+				&kp 
+				&kp LS(SLASH)
+				&kp 
 
-				&kp LS(DOT)
-				&kp RBKT
+				&kp 
+				&kp 
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
@@ -378,17 +378,17 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp LS(NUHS)
-				&kp NUBS
-				&kp LS(NUBS)			
-				&kp LS(N2)
+				&kp LS(RBRC)
+				&kp
+				&kp 		
+				&kp 
 				&kp X
 
-				&kp LS(N4)
-				&kp LA(E)
-				&kp LA(M)
+				&kp 
+				&kp 
+				&kp C
 				&kp M
-				&kp LS(N5)			
+				&kp RBKT		
 				&kp BSPC
 
 				// ----------------------------------------
@@ -411,13 +411,13 @@
 
 				&mdLs
 				&kp LS(N7)
-				&kp LS(N8)
-				&kp LS(N9)
-				&kp LS(RBRC)
-				&kp LS(N0)
+				&kp 
+				&kp 
+				&kp LS(SLASH)
+				&kp 
 
-				&kp LS(DOT)
-				&kp RBKT
+				&kp 
+				&kp 
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
@@ -450,50 +450,50 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp DELETE		  			// @Delete
-				&kp LC(LS(TAB))				// @Tap Switch
-				&kp LC(TAB)		  			// @Tab Switch 
-				&kp LG(SPACE)				// @Spotlight
-				&kp LG(F7)		  			// #Clipboard History
-
 				&kp LG(UP)					// @Home Sprung
 				&kp LS(TAB)					// @Tab
 				&kp UP						// @Up
 				&kp TAB						// @Tab
+				&kp LG(LC(LA(F3)))		 	// 
+
+				&kp LG(LC(LA(F1)))		 	// 
+				&kp LG(LC(LA(F2)))		 	// 
 				&kp PAGE_UP					// @Page Up
+				&kp LG(LC(LA(F4)))		 	// 
+				&kp LG(LC(LA(F5)))		 	// 
 				&kp BSPC					// -
 
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp LG(F1)		  			// #Pfadsuche
-				&kp LG(F2)		  			// #Umbennen F2
-				&kp LSHIFT					// -
-				&kp LCTRL					// -
-				&kp LG(F8)				  	// #OPEN
-
 				&kp LG(DOWN)				// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
+				&kp LG(LC(LA(F8)))		 	// 
+
+				&kp F13
+				&kp LG(LC(LA(F7)))		 	// 
 				&kp PG_DN					// @Page Down
+				&kp LG(LC(LA(F9)))		 	// 
+				&kp LG(LC(LA(F10)))		 	//
 				&kp ENTER					// -
 				
 				// ----------------------------------------
 
-				&kp LGUI					// -
-				&kp LG(F3)		  			// #Seitenleiste links
-				&kp LG(F4)					// #Raus
-				&kp LG(F5)					// #Rein
-				&kp LG(F6)		  			// #Seitenleiste rechts
-				&kp LG(F9)				  	// #OPEN 
-
-				&kp LG(TAB)					// @Prg Wechsel
+				&kp DELETE		  			// @Delete
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
 				&kp LG(RIGHT)				// @End  
-				&kp DEL						// -
+				&kp LG(LC(LA(F13)))		 	// 
+
+				&kp LG(LC(LA(F11)))		 	// 
+				&kp LG(LC(LA(F12)))		 	// 
+				&kp F11
+				&kp F12
+				&kp LG(LC(LA(F15)))		 	// 
+				&kp LCTL					// -
 
 				// ----------------------------------------
 
@@ -520,51 +520,51 @@
 
 				// ----------------------------------------
 
-				&kp LA(LG(F11))				// #OPEN
-				&kp LC(LS(F1))				// @window move
-				&kp LC(LS(F2))				// @window move
-				&kp LC(LS(F3))				// @window move
-				&kp LC(LS(F4))				// @window move
-				&none						// 
+				&kp ESC
+				&kp LG(LS(UP))
+				&kp LC(LS(TAB))
+				&kp LS(UP)					
+				&kp LC(TAB)
+				&kp LG(LA(LC(LS(F3))))		
 
-				&kp LC(F1)					// @window snap 
-				&kp LC(F2)					// @Window snap
-				&kp LC(F3)					// @window snap 
-				&kp LC(F4)					// @window snap 
-				&kp LC(F5)					// @window snap 
-				&kp LA(LG(F12))				// #Rest Window
+				&kp LG(LA(LC(LS(F1))))
+				&kp LG(LA(LC(LS(F2))))
+				&kp LC(PG_UP)				
+				&kp LG(LA(LC(LS(F4))))
+				&kp LG(LA(LC(LS(F5))))
+				&kp BACKSPACE
 
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp LC(LS(F5))				// @window move
-				&kp LC(LS(F6))				// @window move
-				&kp LC(LS(F7))				// @window move
-				&kp LC(LS(F8))				// @window move
-				&none						//
+				&kp LG(LS(DOWN))
+				&kp LS(LEFT)		
+				&kp LS(DOWN)		
+				&kp LS(RIGHT)		
+				&kp LG(LA(LC(LS(F8))))
 
-				&kp LC(F6)					// @window snap 
-				&kp LC(F7)					// @Window snap
-				&kp LC(F8)					// @window snap 
-				&kp LC(F9)					// @window snap 
-				&kp LC(F10)					// @window snap fill
-				&kp LA(LG(F13))				// #OPEN
+				&kp LS(F13)
+				&kp LG(LA(LC(LS(F7))))
+				&kp LC(PG_DN)
+				&kp LG(LA(LC(LS(F9))))
+				&kp LG(LA(LC(LS(10))))
+				&kp ENTER
 
 				// ----------------------------------------
 	
-				&kp LA(LG(F14))				// #OPEN
-				&kp LC(LS(F9))				// #OPEN
-				&kp LC(LS(F10))				// #deep rein
-				&kp LC(LS(F11))				// #deep raus
-				&kp LC(LS(F12))				// #OPEN
+				&kp DELETE
+				&kp LG(LS(LEFT))			// @Home 
+				&kp LA(LS(LEFT))			// @Wort Sprung
+				&kp LA(LS(RIGHT))			// @Wort Sprung
+				&kp LG(LS(RIGHT))			// @End  
 				&none						//
 
-				&kp LC(F11)					// @OPEN 
-				&kp LC(F12)					// @OPEN
-				&kp LC(F13)					// @OPEN 
-				&kp LC(F14)					// @OPEN
-				&kp LC(F15)					// @OPEN
-				&kp LA(LG(F15))				// #Corner
+				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
+				&kp LS(F11)
+				&kp LS(F12)
+				&kp LG(LA(LC(LS(F15))))
+				&kp LCTRL
 
 				// ----------------------------------------
 
@@ -1037,7 +1037,7 @@
 
 				// ----------------------------------------
 
-				&kp LA(DELETE)				// @Wort entfernen
+				&kp LG(ESC)					// 
 				&kp LG(J)					//
 				&kp LG(D)					//
 				&kp LG(U)					//
@@ -1049,7 +1049,7 @@
 				&kp LG(L) 					//
 				&kp LG(M)					//
 				&kp LG(W) 					//
-				&kp LA(BACKSPACE)			// @Wort enfternen
+				&kp LG(BACKSPACE)			//
 
 				// ----------------------------------------
 		
@@ -1065,11 +1065,11 @@
 				&kp LG(R)					//
 				&kp LG(S)					//
 				&kp LG(G)					//
-				&kp LG(ENTER)				// @Enter Mod	
+				&kp LG(ENTER)				// 
 
 				// ----------------------------------------
 
-				&kp LG(Y)					// @Zurueck
+				&kp LSHFT
 				&kp LG(F)					//
 				&kp LG(V)					//
 				&kp LG(MINUS)				//
@@ -1081,7 +1081,7 @@
 				&kp LG(LEFT_BRACKET)		//
 				&kp LG(SINGLE_QUOTE)		//
 				&kp LG(K) 					//
-				&kp LS(LG(Y))				// @Wiederholen
+				&kp LSHFT
 
 				// ----------------------------------------
 		
