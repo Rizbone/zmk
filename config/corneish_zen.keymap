@@ -207,12 +207,12 @@
 
 				// ----------------------------------------
 
-				&sl mFUNC
+				&sl mSYM
 				&kp SPACE
-				&sl mNAV
+				&sl mFUNC
 				&sl mPRG
+				&sl mNAV
 				&mdNr
-				&sl mMOD
 
 				// ----------------------------------------
 			>;
@@ -280,12 +280,12 @@
 
 				// ----------------------------------------
 		
-				&sl mFUNC
+				&sl mSYM
 				&mSpaceReset 
-				&mNavReset
+				&mFuncReset
 				&mPrgReset
-				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
-				&sl mMOD
+				&mNavReset
+				&mdNr
 			>;		
 		};
 
@@ -352,12 +352,12 @@
 
 				// ----------------------------------------
 
-				&sl mFUNC
+				&sl mSYM
 				&mSpaceReset 
-				&mNavReset
+				&mFuncReset
 				&mPrgReset
+				&mNavReset
 				&mdNr
-				&sl mMOD
 
 				// ----------------------------------------
 			>;
@@ -425,12 +425,12 @@
 
 				// ----------------------------------------
 		
+				&sl mSYM
+				&kp SPACE
 				&sl mFUNC
-				&kp SPACE 
-				&sl mNAV
 				&sl mPRG
-				&none 				// Wenn ich hier Symbole im Lock umsetzen will, dann nur ueber extra layer mit Sticky
-				&sl mMOD
+				&sl mNAV
+				&mdNr
 			>;		
 		};
 
