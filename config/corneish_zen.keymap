@@ -786,8 +786,8 @@
 				&kp LS(LA(F11))				// @Craft Einkauf
 				&kp LS(LA(F12))				// #OPEN
 				&kp LS(LA(F13))				// #OPEN
-				&kp LS(LA(F14))				// #OPEN
-				&kp LS(LA(F15))				// #OPEN
+				&kp LG(F16)					// #OPEN Different
+				&kp LG(F17)					// #OPEN Different
 				&kp LG(LS(F18))				// #OPEN
 				
 				// ----------------------------------------
@@ -816,7 +816,7 @@
 
 			// ----------------------------------------
 	
-				&kp LG(F16)				
+				&kp LA(F16)				
 				&kp LG(LA(F1))				// #OPEN
 				&kp LG(LA(F2))				// #OPEN
 				&kp LG(LA(F3))				// #OPEN
@@ -844,11 +844,11 @@
 				&kp LS(LA(LC(F8)))			// #OPEN
 				&kp LS(LA(LC(F9)))			// #OPEN
 				&kp LS(LA(LC(F10)))			// @Craft Last Day
-				&kp LG(F18)	
+				&kp LA(F18)	
 
 				// ----------------------------------------
 
-				&kp LG(F19)	
+				&kp LA(F19)	
 				&kp LG(LA(F11))				// @Craft Einkauf
 				&kp LG(LA(F12))				// #OPEN
 				&kp LG(LA(F13))				// #OPEN
@@ -858,9 +858,9 @@
 				&kp LS(LA(LC(F11)))			// @Craft Einkauf
 				&kp LS(LA(LC(F12)))			// #OPEN
 				&kp LS(LA(LC(F13)))			// #OPEN
-				&kp LS(LA(LC(F14)))			// #OPEN
-				&kp LS(LA(LC(F15)))			// #OPEN
-				&kp LG(F20)	
+				&kp LG(F18)					// #OPEN Different
+				&kp LG(F19)					// #OPEN Different
+				&kp LA(F20)	
 				
 				// ----------------------------------------
 
