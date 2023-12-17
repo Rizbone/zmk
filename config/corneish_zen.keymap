@@ -471,7 +471,7 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp LG(PLUS)			 	// 
+				&kp LG(LC(LA(F19)))		 	// 
 				&kp LG(UP)					// @Home Sprung
 				&kp UP						// @Up
 				&kp LG(DOWN)				// @End Sprung
@@ -487,7 +487,7 @@
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp LG(MINUS)			 	// 
+				&kp LG(LC(LA(F20)))		 	// 
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
@@ -542,7 +542,7 @@
 				// ----------------------------------------
 
 				&kp ESC
-				&kp LG(LS(PLUS))
+				&kp LG(LA(LC(LS(F19))))		
 				&kp LG(LS(UP))
 				&kp LS(UP)					
 				&kp LG(LS(DOWN))
@@ -558,7 +558,7 @@
 				// ----------------------------------------
 
 				&mdReset					
-				&kp LG(LS(MINUS))
+				&kp LG(LA(LC(LS(F20))))		
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
