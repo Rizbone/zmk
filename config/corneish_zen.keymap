@@ -399,7 +399,7 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp LS(RBRC)
+				&trans
 				&trans
 				&trans 		
 				&trans 
@@ -408,8 +408,8 @@
 				&trans 
 				&trans 
 				&kp C
-				&kp M
-				&kp RBKT		
+				&trans 
+				&trans
 				&kp BSPC
 
 				// ----------------------------------------
@@ -431,17 +431,17 @@
 				// ----------------------------------------
 
 				&mdLs
-				&kp LS(N7)
+				&trans
 				&trans 
 				&trans 
-				&kp LS(SLASH)
+				&trans
 				&trans
 
 				&trans 
 				&trans 
 				&kp COMMA
 				&kp DOT
-				&kp SLASH		
+				&trans
 				&mdRs
 
 				// ----------------------------------------
