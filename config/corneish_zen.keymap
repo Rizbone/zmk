@@ -788,11 +788,11 @@
 				&kp LC(LA(F9))				// #OPEN
 				&kp LC(LA(F10))				// @Craft Last Day
 
-				&kp LS(LA(F6))				// @Craft Today
-				&kp LS(LA(F7))				// @Craft Tomorrow
-				&kp LS(LA(F8))				// #OPEN
-				&kp LS(LA(F9))				// #OPEN
-				&kp LS(LA(F10))				// @Craft Last Day
+				&kp LG(T)
+				&kp LG(C)
+				&kp LG(X)
+				&kp LG(LA(V))
+				&kp LG(V)
 				&kp LG(LS(F16))				// #OPEN
 
 				// ----------------------------------------
@@ -804,11 +804,11 @@
 				&kp LG(A)
 				&kp LG(S)
 
-				&kp LS(LA(F11))	
-				&kp LS(LA(F12))	
-				&kp LS(LA(F13))	
-				&kp LS(LA(F14))	
-				&kp LS(LA(F15))	
+				&kp LS(LA(F6))	
+				&kp LS(LA(F7))	
+				&kp LS(LA(F8))	
+				&kp LS(LA(F9))	
+				&kp LS(LA(F10))	
 				&kp LG(LS(F18))				// #OPEN
 				
 				// ----------------------------------------
