@@ -766,17 +766,17 @@
 				// ----------------------------------------
 	
 				&kp LG(LS(F13))				// #OPEN
-				&kp LC(LA(F1))				// #OPEN
-				&kp LC(LA(F2))				// #OPEN
-				&kp LC(LA(F3))				// #OPEN
-				&kp LC(LA(F4))				// #OPEN
+				&kp LG(P)
+				&kp LG(E)
+				&kp LG(LS(N))
+				&kp LG(F)
 				&kp LC(LA(F5))				// #OPEN
 
 				&kp LS(LA(F1))				// #OPEN
-				&kp LS(LA(F2))				// #OPEN
-				&kp LS(LA(F3))				// #OPEN
-				&kp LS(LA(F4))				// #OPEN
-				&kp LS(LA(F5))				// #OPEN
+				&kp LG(I)				
+				&kp LG(D)	
+				&kp LG(R)
+				&kp LG(W)
 				&kp LG(LS(F14))				// #OPEN
 				
 				// ----------------------------------------
@@ -798,17 +798,17 @@
 				// ----------------------------------------
 
 				&kp LSHFT
-				&kp LC(LA(F11))				// @Craft Einkauf
-				&kp LC(LA(F12))				// #OPEN
-				&kp LC(LA(F13))				// #OPEN
-				&kp LC(LA(F14))				// #OPEN
-				&kp LC(LA(F15))				// #OPEN
+				&kp LG(S)
+				&kp LG(Y)
+				&kp LG(LS(Y))
+				&kp LG(C)
+				&kp LG(X)
 
 				&kp LS(LA(F11))				// @Craft Einkauf
-				&kp LS(LA(F12))				// #OPEN
-				&kp LS(LA(F13))				// #OPEN
-				&kp LG(F16)					// #OPEN Different
-				&kp LG(F17)					// #OPEN Different
+				&kp LG(V)
+				&kp LG(LA(V))
+				&kp LG(A)
+				&kp LG(T)
 				&kp LG(LS(F18))				// #OPEN
 				
 				// ----------------------------------------
