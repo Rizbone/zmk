@@ -767,14 +767,14 @@
 	
 				&kp LG(LS(F13))				// #OPEN
 				&kp LG(P)
-				&kp LG(B)
 				&kp LG(I)
+				&kp LG(B)
 				&kp LG(F)
-				&kp LG(D)
+				&kp LG(E)
 
 				&kp LS(LA(F1))				// #OPEN
 				&kp LG(LA(I))				
-				&kp LG(LS(N))	
+				&kp LG(D)	
 				&kp LG(R)
 				&kp LG(W)
 				&kp LG(LS(F14))				// #OPEN
@@ -798,17 +798,17 @@
 				// ----------------------------------------
 
 				&kp LSHFT
-				&kp LG(T)
+				&kp LG(LS(N))
 				&kp LG(Y)
 				&kp LG(LS(Y))
 				&kp LG(A)
 				&kp LG(S)
 
-				&kp LS(LA(F11))				// @Craft Einkauf
-				&kp LG(C)
-				&kp LG(X)
-				&kp LG(LA(V))
-				&kp LG(V)
+				&kp LS(LA(F11))	
+				&kp LS(LA(F12))	
+				&kp LS(LA(F13))	
+				&kp LS(LA(F14))	
+				&kp LS(LA(F15))	
 				&kp LG(LS(F18))				// #OPEN
 				
 				// ----------------------------------------
