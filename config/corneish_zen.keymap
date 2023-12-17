@@ -496,7 +496,7 @@
 				&kp LG(LC(LA(F6)))		 	//
 				&kp TAB						// @Tab
 				&kp PG_DN
-				&kp LS(TAB)					// @Tab
+				&kp LG(LC(LA(F9)))		 	//
 				&kp LG(LC(LA(F10)))		 	//
 				&kp ENTER					// -
 				
@@ -565,7 +565,7 @@
 				&kp LG(LA(LC(LS(F16))))
 
 				&kp LG(LA(LC(LS(F6))))
-				&kp LG(LA(LC(LS(F7))))
+				&kp LS(TAB)
 				&kp LC(PG_DN)
 				&kp LG(LA(LC(LS(F9))))
 				&kp LG(LA(LC(LS(10))))
