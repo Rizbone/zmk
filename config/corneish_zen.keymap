@@ -135,6 +135,16 @@
 				, <&macro_release &mo mFUNC>
                 ;
     	};
+
+		mFuncMark: mFuncMark {
+            label = "mFuncMark";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LEFT)>
+				, <&kp LS(LG(RIGHT))>
+                ;
+    	};
 		
 	};
 
@@ -470,7 +480,7 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LG(LC(LA(F8)))		 	// 
+				&kp LG(LC(LA(F16)))		 	// 
 
 				&kp LS(TAB)					// @Tab
 				&kp TAB						// @Tab
@@ -489,7 +499,7 @@
 				&kp LG(LC(LA(F13)))		 	// 
 
 				&kp LG(LC(LA(F11)))		 	// 
-				&kp LG(LC(LA(F12)))		 	// 
+				&mFuncMark
 				&kp F11
 				&kp F12
 				&kp LG(LC(LA(F15)))		 	// 
@@ -541,7 +551,7 @@
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
-				&kp LG(LA(LC(LS(F8))))
+				&kp LG(LA(LC(LS(F16))))
 
 				&kp LG(LA(LC(LS(F6))))
 				&kp LG(LA(LC(LS(F7))))
