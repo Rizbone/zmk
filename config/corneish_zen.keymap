@@ -145,7 +145,18 @@
 				, <&kp LS(LG(RIGHT))>
                 ;
     	};
-		
+
+		mFuncMarkSoft: mFuncMarkSoft {
+            label = "mFuncMarkSoft";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LA(LEFT)>
+				, <&kp LS(LA(RIGHT))>
+                ;
+    	};
+
+
 	};
 
 
@@ -570,7 +581,7 @@
 				&kp LG(LA(LC(LS(F1))))
 
 				&kp LG(LA(LC(LS(F11))))
-				&kp LG(LA(LC(LS(F12))))
+				&mFuncMarkSoft
 				&kp LS(F11)
 				&kp LS(F12)
 				&kp LG(LA(LC(LS(F15))))
