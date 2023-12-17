@@ -242,7 +242,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 1 - mNR = 	  Zahlen 						|
+		// Layer 1 - mNR = 	  Zahlen 							|
 		// -----------------------------------------------------|
 
 		mac_zahlen
@@ -254,18 +254,18 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp LS(RBRC)
-				&trans
-				&trans		
-				&trans
-				&kp X
+				&kp LG(N1)
+				&kp LG(N2)
+				&kp LG(N3)	
+				&kp LG(N4)
+				&kp LG(N5)
 
-				&trans 
-				&trans
-				&kp C
-				&kp M
-				&kp RBKT		
-				&kp BSPC
+				&kp LG(N6)
+				&kp LG(N7)
+				&kp LG(N8)
+				&kp LG(N9)
+				&kp LG(N0)
+				&kp BACKSPACE
 
 				// ----------------------------------------
 
@@ -286,17 +286,17 @@
 				// ----------------------------------------
 
 				&mdLs
-				&kp LS(N7)
 				&trans
 				&trans
-				&kp LGUI
+				&trans
+				&trans
 				&trans
 
 				&trans
-				&kp LGUI
+				&trans
 				&kp COMMA
 				&kp DOT
-				&kp SLASH		
+				&trans
 				&mdRs
 
 				// ----------------------------------------
