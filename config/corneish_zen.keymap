@@ -289,11 +289,11 @@
 				&kp LS(N7)
 				&trans
 				&trans
-				&kp LS(SLASH)
+				&kp LGUI
 				&trans
 
 				&trans
-				&trans
+				&kp LGUI
 				&kp COMMA
 				&kp DOT
 				&kp SLASH		
@@ -798,17 +798,17 @@
 				// ----------------------------------------
 
 				&kp LSHFT
-				&kp LG(S)
+				&kp LG(T)
 				&kp LG(Y)
 				&kp LG(LS(Y))
-				&kp LG(C)
-				&kp LG(X)
+				&kp LG(A)
+				&kp LG(S)
 
 				&kp LS(LA(F11))				// @Craft Einkauf
-				&kp LG(V)
+				&kp LG(C)
+				&kp LG(X)
 				&kp LG(LA(V))
-				&kp LG(A)
-				&kp LG(T)
+				&kp LG(V)
 				&kp LG(LS(F18))				// #OPEN
 				
 				// ----------------------------------------
