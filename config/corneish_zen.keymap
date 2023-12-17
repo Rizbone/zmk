@@ -770,12 +770,12 @@
 				&kp LG(B)
 				&kp LG(I)
 				&kp LG(F)
-				&kp LC(LA(F5))				// #OPEN
+				&kp LG(D)
 
 				&kp LS(LA(F1))				// #OPEN
 				&kp LG(LA(I))				
 				&kp LG(LS(N))	
-				&kp LG(D)
+				&kp LG(R)
 				&kp LG(W)
 				&kp LG(LS(F14))				// #OPEN
 				
