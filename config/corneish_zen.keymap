@@ -471,7 +471,7 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp PG_UP					// @Page
+				&kp LG(PLUS)			 	// 
 				&kp LG(UP)					// @Home Sprung
 				&kp UP						// @Up
 				&kp LG(DOWN)				// @End Sprung
@@ -479,7 +479,7 @@
 
 				&kp LG(LC(LA(F1)))		 	// 
 				&kp LG(LC(LA(F2)))		 	// 
-				&kp LG(LC(LA(F3)))
+				&kp PG_UP
 				&kp LG(LC(LA(F4)))		 	// 
 				&kp LG(LC(LA(F5)))		 	// 
 				&kp BSPC					// -
@@ -487,16 +487,16 @@
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp PG_DN					// @Page 				
+				&kp LG(MINUS)			 	// 
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
 				&kp LG(LC(LA(F16)))		 	// 
 
-				&kp LS(TAB)					// @Tab
+				&kp LG(LC(LA(F6)))		 	//
 				&kp TAB						// @Tab
-				&kp LG(LC(LA(F8)))		 	//
-				&kp LG(LC(LA(F9)))		 	// 
+				&kp PG_DN
+				&kp LS(TAB)					// @Tab
 				&kp LG(LC(LA(F10)))		 	//
 				&kp ENTER					// -
 				
@@ -507,10 +507,10 @@
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
 				&kp LG(RIGHT)				// @End  
-				&kp LG(LC(LA(F13)))		 	// 
+				&mFuncMark
 
 				&kp LG(LC(LA(F11)))		 	// 
-				&mFuncMark
+				&kp LG(LC(LA(F12)))		 	// 
 				&kp F11
 				&kp F12
 				&kp LG(LC(LA(F15)))		 	// 
@@ -542,7 +542,7 @@
 				// ----------------------------------------
 
 				&kp ESC
-				&kp LC(PG_UP)
+				&kp LG(LS(PLUS))
 				&kp LG(LS(UP))
 				&kp LS(UP)					
 				&kp LG(LS(DOWN))
@@ -550,7 +550,7 @@
 
 				&kp LG(LA(LC(LS(F1))))
 				&kp LG(LA(LC(LS(F2))))
-				&kp LG(LA(LC(LS(F3))))		
+				&kp LC(PG_UP)
 				&kp LG(LA(LC(LS(F4))))
 				&kp LG(LA(LC(LS(F5))))
 				&kp BACKSPACE
@@ -558,7 +558,7 @@
 				// ----------------------------------------
 
 				&mdReset					
-				&kp LC(PG_DN)
+				&kp LG(LS(MINUS))
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
@@ -566,7 +566,7 @@
 
 				&kp LG(LA(LC(LS(F6))))
 				&kp LG(LA(LC(LS(F7))))
-				&kp LG(LA(LC(LS(F8))))
+				&kp LC(PG_DN)
 				&kp LG(LA(LC(LS(F9))))
 				&kp LG(LA(LC(LS(10))))
 				&kp ENTER
@@ -578,10 +578,10 @@
 				&kp LA(LS(LEFT))			// @Wort Sprung
 				&kp LA(LS(RIGHT))			// @Wort Sprung
 				&kp LG(LS(RIGHT))			// @End  
-				&kp LG(LA(LC(LS(F1))))
+				&mFuncMarkSoft
 
 				&kp LG(LA(LC(LS(F11))))
-				&mFuncMarkSoft
+				&kp LG(LA(LC(LS(F12))))
 				&kp LS(F11)
 				&kp LS(F12)
 				&kp LG(LA(LC(LS(F15))))
