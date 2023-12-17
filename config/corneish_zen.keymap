@@ -848,7 +848,7 @@
 				&kp LS(LA(LC(F2)))			// #OPEN
 				&kp LS(LA(LC(F3)))			// #OPEN
 				&kp LS(LA(LC(F4)))			// #OPEN
-				&kp LS(LA(LC(F5)))			// #OPEN
+				&kp LS(LG(W))				// Close
 				&kp LG(F17)	
 				
 				// ----------------------------------------
