@@ -493,7 +493,7 @@
 				&kp RIGHT 					// @Right
 				&mFuncMark
 
-				&kp LG(LC(LA(F6)))		 	//
+				&kp LS(TAB)
 				&kp TAB						// @Tab
 				&kp PG_DN
 				&kp LG(LC(LA(F9)))		 	//
