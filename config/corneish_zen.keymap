@@ -475,7 +475,7 @@
 				&kp LG(UP)					// @Home Sprung
 				&kp UP						// @Up
 				&kp LG(DOWN)				// @End Sprung
-				&kp LG(LC(LA(F3)))		 	// 
+				&kp LG(LC(LA(F16)))		 	// 
 
 				&kp LG(LC(LA(F1)))		 	// 
 				&kp LG(LC(LA(F2)))		 	// 
@@ -491,7 +491,7 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LG(LC(LA(F16)))		 	// 
+				&mFuncMark
 
 				&kp LG(LC(LA(F6)))		 	//
 				&kp TAB						// @Tab
@@ -507,7 +507,7 @@
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
 				&kp LG(RIGHT)				// @End  
-				&mFuncMark
+				&kp LG(LC(LA(F18)))		 	// 
 
 				&kp LG(LC(LA(F11)))		 	// 
 				&kp LG(LC(LA(F12)))		 	// 
@@ -546,7 +546,7 @@
 				&kp LG(LS(UP))
 				&kp LS(UP)					
 				&kp LG(LS(DOWN))
-				&kp LG(LA(LC(LS(F3))))		
+				&kp LG(LA(LC(LS(F16))))		
 
 				&kp LG(LA(LC(LS(F1))))
 				&kp LG(LA(LC(LS(F2))))
@@ -562,7 +562,7 @@
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
-				&kp LG(LA(LC(LS(F16))))
+				&mFuncMarkSoft
 
 				&kp LG(LA(LC(LS(F6))))
 				&kp LS(TAB)
@@ -578,7 +578,7 @@
 				&kp LA(LS(LEFT))			// @Wort Sprung
 				&kp LA(LS(RIGHT))			// @Wort Sprung
 				&kp LG(LS(RIGHT))			// @End  
-				&mFuncMarkSoft
+				&kp LG(LA(LC(LS(F18))))
 
 				&kp LG(LA(LC(LS(F11))))
 				&kp LG(LA(LC(LS(F12))))
