@@ -466,7 +466,7 @@
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp PA_DN					// @Page 				
+				&kp PG_DN					// @Page 				
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
