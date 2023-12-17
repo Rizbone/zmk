@@ -797,7 +797,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(F17))				// #OPEN
+				&kp LSHFT
 				&kp LC(LA(F11))				// @Craft Einkauf
 				&kp LC(LA(F12))				// #OPEN
 				&kp LC(LA(F13))				// #OPEN
