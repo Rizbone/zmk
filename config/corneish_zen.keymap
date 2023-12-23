@@ -786,7 +786,7 @@
 
 				// ----------------------------------------
 
-				&kp LSFT
+				&kp LSHIFT
 				&kp LG(S)
 				&kp LG(Y)
 				&kp LG(LS(Y))
@@ -875,7 +875,7 @@
 				// ----------------------------------------
 
 				&none						// 
-				&mMOD						//
+				&sl mMOD						//
 				&trans						// nav
 				&none						//
 				&none						//
@@ -1078,7 +1078,7 @@
 
 				// ----------------------------------------
 
-				&kp LSHFT
+				&kp LSHIFT
 				&kp LG(F)					//
 				&kp LG(V)					//
 				&kp LG(MINUS)				//
@@ -1090,7 +1090,7 @@
 				&kp LG(LEFT_BRACKET)		//
 				&kp LG(SINGLE_QUOTE)		//
 				&kp LG(K) 					//
-				&kp LSHFT
+				&kp LSHIFT
 
 				// ----------------------------------------
 		
