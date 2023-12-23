@@ -447,6 +447,149 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer = 4 - mNAV - Navigation						|
+		// -----------------------------------------------------|
+
+		mac_navigation
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// -
+				&kp LG(UP)					// @Home Sprung
+				&kp LS(TAB)
+				&kp UP						// @Up
+				&kp TAB
+				&kp LG(LC(LA(F16)))		 	// 
+
+				&kp LG(LC(LA(F1)))		 	// 
+				&kp LG(LC(LA(F2)))		 	// 
+				&kp PG_UP
+				&kp LG(LC(LA(F4)))		 	// 
+				&kp LG(LC(LA(F5)))		 	// 
+				&kp BSPC					// -
+
+				// ----------------------------------------
+
+				&mdReset					// -
+				&kp LG(DOWN)				// @End Sprung
+				&kp LEFT 					// @Left
+				&kp DOWN					// @Down
+				&kp RIGHT 					// @Right
+				&mFuncMark
+
+				&kp LG(LC(LA(F6)))		 	//
+				&kp F13
+				&kp PG_DN
+				&kp F14
+				&kp LG(LC(LA(F10)))		 	//
+				&kp ENTER					// -
+				
+				// ----------------------------------------
+
+				&kp DELETE		  			// @Delete
+				&kp LG(LEFT)				// @Home 
+				&kp LA(LEFT)				// @Wort Sprung
+				&kp LA(RIGHT)				// @Wort Sprung
+				&kp LG(RIGHT)				// @End  
+				&kp LG(LC(LA(F18)))		 	// 
+
+				&kp LG(LC(LA(F11)))		 	// 
+				&kp LG(LC(LA(F12)))		 	// 
+				&kp F11
+				&kp F12
+				&kp LG(LC(LA(F15)))		 	// 
+				&kp LCTRL					// -
+
+				// ----------------------------------------
+
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
+				&none
+				&sl mNAV2					// deep
+				&none
+
+				// ----------------------------------------							
+			>;
+		};
+
+		// ---------------------------------------------------------|
+		// Layer = 5 - mNAV2 - Navigation deep						|
+		// ---------------------------------------------------------|		
+
+		mac_navigation2
+		{		
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC	
+				&kp LG(LS(UP))
+				&kp LS(TAB)
+				&kp LS(UP)					
+				&kp TAB
+				&kp LG(LA(LC(LS(F16))))		
+
+				&kp LG(LA(LC(LS(F1))))
+				&kp LG(LA(LC(LS(F2))))
+				&kp LC(PG_UP)
+				&kp LG(LA(LC(LS(F4))))
+				&kp LG(LA(LC(LS(F5))))
+				&kp BACKSPACE
+
+				// ----------------------------------------
+
+				&mdReset					
+				&kp LG(LS(DOWN))				
+				&kp LS(LEFT)		
+				&kp LS(DOWN)		
+				&kp LS(RIGHT)		
+				&mFuncMark
+
+				&kp LG(LA(LC(LS(F6))))
+				&kp LS(F13)
+				&kp LC(PG_DN)
+				&kp LS(F14)
+				&kp LG(LA(LC(LS(F10))))
+				&kp ENTER
+
+				// ----------------------------------------
+	
+				&kp DELETE
+				&kp LG(LS(LEFT))			// @Home 
+				&kp LA(LS(LEFT))			// @Wort Sprung
+				&kp LA(LS(RIGHT))			// @Wort Sprung
+				&kp LG(LS(RIGHT))			// @End  
+				&kp LG(LA(LC(LS(F18))))
+
+				&kp LG(LA(LC(LS(F11))))
+				&kp LG(LA(LC(LS(F12))))
+				&kp LS(F11)
+				&kp LS(F12)
+				&kp LG(LA(LC(LS(F15))))
+				&kp LCTRL
+
+				// ----------------------------------------
+
+				&sl mSYM
+				&kp SPACE				
+				&sl mFUNC
+				&none						// 
+				&trans						// 
+				&none						//
+
+				// ----------------------------------------
+			>;
+		};
+
+
 
 	};
 };
