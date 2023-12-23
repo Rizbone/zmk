@@ -569,7 +569,7 @@
 				&kp LS(F13)
 				&kp LC(PG_DN)
 				&kp LS(F14)
-				&kp LG(LA(LC(LS(10))))
+				&kp LG(LA(LC(LS(F10))))
 				&kp ENTER
 
 				// ----------------------------------------
@@ -849,8 +849,8 @@
 				&kp LS(LA(LC(F2)))			// #OPEN
 				&kp LS(LA(LC(F3)))			// #OPEN
 				&kp LS(LA(LC(F4)))			// #OPEN
-				&kp LS(LG(W))				// Close
-				&kp LG(F17)	
+				&kp LS(LA(LC(F5)))			// #OPEN
+				&kp LS(LG(W))
 				
 				// ----------------------------------------
 
@@ -882,7 +882,7 @@
 				&kp LS(LA(LC(F13)))			// #OPEN
 				&kp LG(F18)					// #OPEN Different
 				&kp LG(F19)					// #OPEN Different
-				&kp LA(F20)	
+				&kp LS(LG(T))
 				
 				// ----------------------------------------
 
