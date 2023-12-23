@@ -742,8 +742,76 @@
 					
 
 
+		// -----------------------------------------------------|
+		// Layer 8 - mFUNC =	Funktionen						|
+		// -----------------------------------------------------|
 
+		mac_function
+		{
+			label = "MAC";
 
+			bindings = <
+
+				// ----------------------------------------
+	
+				&kp LG(LS(F13))				
+				&kp LC(LA(F1))	
+				&kp LC(LA(F2))	
+				&kp LC(LA(F3))	
+				&kp LC(LA(F4))	
+				&kp LC(LA(F5))	
+
+				&kp LS(LA(F1))	
+				&kp LS(LA(F2))					
+				&kp LS(LA(F3))		
+				&kp LS(LA(F4))	
+				&kp LS(LA(F5))	
+				&kp LG(W)				
+				
+				// ----------------------------------------
+
+				&mdReset					// -
+				&kp LG(A)
+				&kp LC(LA(F7))				
+				&kp LC(LA(F8))				
+				&kp LG(C)			
+				&kp LG(X)
+
+				&kp LG(LA(V))
+				&kp LG(V)
+				&kp LS(LA(F8))				
+				&kp LS(LA(F9))	
+				&kp LS(LA(F10))	
+				&kp LG(LS(F16))				// #OPEN
+
+				// ----------------------------------------
+
+				&kp LSHFT
+				&kp LG(S)
+				&kp LG(Y)
+				&kp LG(LS(Y))
+				&kp LG(O)
+				&kp LC(LA(F15))
+
+				&kp LG(P)	
+				&kp LS(LA(F11))	
+				&kp LG(B)
+				&kp LG(I)	
+				&kp LG(F)	
+				&kp LG(T)
+				
+				// ----------------------------------------
+
+				&kp LGUI
+				&sl mMOD					//
+				&sl mSFUNC					// deep
+				&none						//
+				&none						//
+				&none						//
+
+				// ----------------------------------------
+			>;
+		};
 
 	};
 };
