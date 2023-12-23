@@ -286,17 +286,17 @@
 				// ----------------------------------------
 
 				&mdLs
-				&trans
-				&trans
-				&trans
-				&trans
-				&trans
+				&kp LC(N1)
+				&kp LC(N2)
+				&kp LC(N3)
+				&kp LC(N4)
+				&kp LC(N5)
 
-				&trans
-				&trans
+				&kp LC(N6)
+				&kp LC(N7)
 				&kp COMMA
 				&kp DOT
-				&trans
+				&kp LC(N0)
 				&mdRs
 
 				// ----------------------------------------
@@ -471,10 +471,11 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp LG(LC(LA(F19)))		 	// 
+	
 				&kp LG(UP)					// @Home Sprung
+				&kp LS(TAB)
 				&kp UP						// @Up
-				&kp LG(DOWN)				// @End Sprung
+				&kp TAB
 				&kp LG(LC(LA(F16)))		 	// 
 
 				&kp LG(LC(LA(F1)))		 	// 
@@ -487,16 +488,16 @@
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp LG(LC(LA(F20)))		 	// 
+				&kp LG(DOWN)				// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
 				&mFuncMark
 
-				&kp LS(TAB)
-				&kp TAB						// @Tab
+				&kp LG(LC(LA(F6)))		 	//
+				&kp F13
 				&kp PG_DN
-				&kp LG(LC(LA(F9)))		 	//
+				&kp F14
 				&kp LG(LC(LA(F10)))		 	//
 				&kp ENTER					// -
 				
@@ -541,11 +542,11 @@
 
 				// ----------------------------------------
 
-				&kp ESC
-				&kp LG(LA(LC(LS(F19))))		
+				&kp ESC	
 				&kp LG(LS(UP))
+				&kp LS(TAB)
 				&kp LS(UP)					
-				&kp LG(LS(DOWN))
+				&kp TAB
 				&kp LG(LA(LC(LS(F16))))		
 
 				&kp LG(LA(LC(LS(F1))))
@@ -558,16 +559,16 @@
 				// ----------------------------------------
 
 				&mdReset					
-				&kp LG(LA(LC(LS(F20))))		
+				&kp LG(LS(DOWN))				
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
-				&mFuncMarkSoft
+				&mFuncMark
 
 				&kp LG(LA(LC(LS(F6))))
-				&kp LS(TAB)
+				&kp LS(F13)
 				&kp LC(PG_DN)
-				&kp LG(LA(LC(LS(F9))))
+				&kp LS(F14)
 				&kp LG(LA(LC(LS(10))))
 				&kp ENTER
 
@@ -666,7 +667,7 @@
 
 				&none
 				&none
-				&none
+				&kp LG(TAB)
 				&sl mSPRG					// deep						
 				&kp LG(SPACE)
 				&none
@@ -765,55 +766,55 @@
 
 				// ----------------------------------------
 	
-				&kp LG(LS(F13))				// #OPEN
-				&kp LG(P)
-				&kp LG(I)
-				&kp LG(B)
-				&kp LG(F)
-				&kp LG(E)
+				&kp LG(LS(F13))				
+				&kp LC(LA(F1))	
+				&kp LC(LA(F2))	
+				&kp LC(LA(F3))	
+				&kp LC(LA(F4))	
+				&kp LC(LA(F5))	
 
-				&kp LS(LA(F1))				// #OPEN
-				&kp LG(LA(I))				
-				&kp LG(D)	
-				&kp LG(R)
-				&kp LG(W)
-				&kp LG(LS(F14))				// #OPEN
+				&kp LS(LA(F1))	
+				&kp LS(LA(F2))					
+				&kp LS(LA(F3))		
+				&kp LS(LA(F4))	
+				&kp LS(LA(F5))	
+				&kp LG(W)				
 				
 				// ----------------------------------------
 
 				&mdReset					// -
-				&kp LC(LA(F6))				// @Craft Today
-				&kp LC(LA(F7))				// @Craft Tomorrow
-				&kp LC(LA(F8))				// #OPEN
-				&kp LC(LA(F9))				// #OPEN
-				&kp LC(LA(F10))				// @Craft Last Day
-
-				&kp LG(T)
-				&kp LG(C)
+				&kp LG(A)
+				&kp LC(LA(F7))				
+				&kp LC(LA(F8))				
+				&kp LG(C)			
 				&kp LG(X)
+
 				&kp LG(LA(V))
 				&kp LG(V)
+				&kp LS(LA(F8))				
+				&kp LS(LA(F9))	
+				&kp LS(LA(F10))	
 				&kp LG(LS(F16))				// #OPEN
 
 				// ----------------------------------------
 
 				&kp LSHFT
-				&kp LG(LS(N))
+				&kp LG(S)
 				&kp LG(Y)
 				&kp LG(LS(Y))
-				&kp LG(A)
-				&kp LG(S)
+				&kp LG(O)
+				&kp LC(LA(F15))
 
-				&kp LS(LA(F6))	
-				&kp LS(LA(F7))	
-				&kp LS(LA(F8))	
-				&kp LS(LA(F9))	
-				&kp LS(LA(F10))	
-				&kp LG(LS(F18))				// #OPEN
+				&kp LG(P)	
+				&kp LS(LA(F11))	
+				&kp LG(B)
+				&kp LG(I)	
+				&kp LG(F)	
+				&kp LG(T)
 				
 				// ----------------------------------------
 
-				&none
+				&kp LGUI
 				&sl mMOD					//
 				&sl mSFUNC					// deep
 				&none						//
@@ -886,7 +887,7 @@
 				// ----------------------------------------
 
 				&none						// 
-				&none						//
+				&mMOD						//
 				&trans						// nav
 				&none						//
 				&none						//
