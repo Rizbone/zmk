@@ -813,6 +813,79 @@
 			>;
 		};
 
+
+		// -----------------------------------------------------|
+		// Layer 9 - mSFUNC =	Spezial Funktionen				|
+		// -----------------------------------------------------|
+
+		mac_specialfunction
+		{
+			label = "MAC";
+
+			bindings = <
+
+			// ----------------------------------------
+	
+				&kp LA(F16)				
+				&kp LG(LA(F1))				// #OPEN
+				&kp LG(LA(F2))				// #OPEN
+				&kp LG(LA(F3))				// #OPEN
+				&kp LG(LA(F4))				// #OPEN
+				&kp LG(LA(F5))				// #OPEN
+
+				&kp LS(LA(LC(F1)))			// #OPEN
+				&kp LS(LA(LC(F2)))			// #OPEN
+				&kp LS(LA(LC(F3)))			// #OPEN
+				&kp LS(LA(LC(F4)))			// #OPEN
+				&kp LS(LA(LC(F5)))			// #OPEN
+				&kp LS(LG(W))
+				
+				// ----------------------------------------
+
+				&mdReset					// -
+				&kp LG(LA(F6))				// @Craft Today
+				&kp LG(LA(F7))				// @Craft Tomorrow
+				&kp LG(LA(F8))				// #OPEN
+				&kp LG(LA(F9))				// #OPEN
+				&kp LG(LA(F10))				// @Craft Last Day
+
+				&kp LS(LA(LC(F6)))			// @Craft Today
+				&kp LS(LA(LC(F7)))			// @Craft Tomorrow
+				&kp LS(LA(LC(F8)))			// #OPEN
+				&kp LS(LA(LC(F9)))			// #OPEN
+				&kp LS(LA(LC(F10)))			// @Craft Last Day
+				&kp LA(F18)	
+
+				// ----------------------------------------
+
+				&kp LA(F19)	
+				&kp LG(LA(F11))				// @Craft Einkauf
+				&kp LG(LA(F12))				// #OPEN
+				&kp LG(LA(F13))				// #OPEN
+				&kp LG(LA(F14))				// #OPEN
+				&kp LG(LA(F15))				// #OPEN
+
+				&kp LS(LA(LC(F11)))			// @Craft Einkauf
+				&kp LS(LA(LC(F12)))			// #OPEN
+				&kp LS(LA(LC(F13)))			// #OPEN
+				&kp LG(F18)					// #OPEN Different
+				&kp LG(F19)					// #OPEN Different
+				&kp LS(LG(T))
+				
+				// ----------------------------------------
+
+				&none						// 
+				&mMOD						//
+				&trans						// nav
+				&none						//
+				&none						//
+				&none						//
+
+				// ----------------------------------------       
+			>;
+		};
+
+
 	};
 };
 
