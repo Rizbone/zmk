@@ -545,7 +545,7 @@
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
-				&kp LG(LA(LC(LS(F16))))		
+				&mFuncMarkLine
 
 				&kp LG(LA(LC(LS(F1))))
 				&kp LG(LA(LC(LS(F2))))
@@ -561,7 +561,7 @@
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
-				&mFuncMark
+				&mFuncMarkWord
 
 				&kp LG(LA(LC(LS(F6))))
 				&kp LS(F13)
