@@ -27,8 +27,9 @@
 #define mSSYM 11
 
 #define mMOD 12	
+#define mSMOD 13	
 
-#define mSCHAR 13
+#define mSCHAR 14
 
 
  
@@ -666,9 +667,9 @@
 
 				&none
 				&none
-				&none
+				&kp LG(ESC)					// special
 				&sl mSPRG					// deep						
-				&kp LG(SPACE)
+				&sl mSMOD					// alternativ
 				&none
 
 				// ----------------------------------------
@@ -742,9 +743,9 @@
 
 				&none						//
 				&none						//
-				&none						//
+				&kp LG(LS(ESC))				//
 				&trans						// 
-				&none						// 
+				&sl mSMOD					// 
 				&none						// 
 
 				// ----------------------------------------
@@ -817,7 +818,7 @@
 				&kp LGUI
 				&sl mMOD					//
 				&sl mSFUNC					// deep
-				&none						//
+				&kp LG(KC_SPC)
 				&none						//
 				&none						//
 
@@ -889,8 +890,8 @@
 
 				&kp LCTRL					//
 				&sl mMOD					//
-				&trans						// nav
-				&none						//
+				&trans						// 
+				&kp LG(LS(KC_SPC))			//
 				&none						//
 				&none						//
 
@@ -1117,6 +1118,77 @@
 			>;
 		};
 
+
+		// -----------------------------------------------------|
+		// Layer 12 - mMOD =	SGUI								|
+		// -----------------------------------------------------|
+
+		mac_smod
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(ESC)					// 
+				&kp LG(J)					//
+				&kp LG(D)					//
+				&kp LG(U)					//
+				&kp LG(A)					//
+				&kp LG(X)					//
+
+				&kp LG(P)					//
+				&kp LG(H)					//
+				&kp LG(L) 					//
+				&kp LG(M)					//
+				&kp LG(W) 					//
+				&kp LG(BACKSPACE)			//
+
+				// ----------------------------------------
+		
+				&mdReset					//
+				&kp LG(C)					//
+				&kp LG(T)					//
+				&kp LG(I)					//
+				&kp LG(E)					//
+				&kp LG(O)					//
+
+				&kp LG(B)					//
+				&kp LG(N)					//
+				&kp LG(R)					//
+				&kp LG(S)					//
+				&kp LG(G)					//
+				&kp LG(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LG(F)					//
+				&kp LG(V)					//
+				&kp LG(MINUS)				//
+				&kp LG(Y)					//
+				&kp LG(Q)					//
+
+				&kp LG(Z)					//
+				&kp LG(SEMICOLON)			//
+				&kp LG(LEFT_BRACKET)		//
+				&kp LG(SINGLE_QUOTE)		//
+				&kp LG(K) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&kp LG(SPACE)				// 
+				&trans						// 
+				&none						//
+				&none						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
 
 
 		// -----------------------------------------------------|
