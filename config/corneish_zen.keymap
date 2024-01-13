@@ -317,7 +317,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&to mNrhard
+				&to mNRhard
 			>;		
 		};
 
