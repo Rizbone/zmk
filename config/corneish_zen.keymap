@@ -53,9 +53,9 @@
 		mo_to: behavior_mo_to {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            bindings = <&to>, <&mo>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <120>;
+            bindings = <&mo>, <&to>;
         };
 
         mdNr: tap_dance_mdNr {
