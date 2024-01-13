@@ -302,7 +302,7 @@
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
 				&kp LS(RBKT)			// *
-				&kp LS(LA(N7))			// \
+				&kp LS(LA(N7))			// 
 
 				&kp LS(N0)				// =
 				&kp RBKT  				// +
@@ -446,7 +446,7 @@
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
 				&kp LS(RBKT)			// *
-				&kp LS(LA(N7))			// \
+				&kp LS(LA(N7))			// 
 
 				&kp LS(N0)				// =
 				&kp RBKT  				// +
