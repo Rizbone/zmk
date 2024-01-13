@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <0>;
+            tapping-term-ms = <200>;
             bindings = <&mo>, <&to>;
         };
 
@@ -244,7 +244,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&mdNr
+				&mo_to mNR mNR
 
 				// ----------------------------------------
 			>;
