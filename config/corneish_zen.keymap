@@ -79,7 +79,7 @@
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
         };
-		mo_tog: behavior_mo_tog {
+		mo_to: behavior_mo_to {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -242,7 +242,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&mdNr
+				&mo_to 2 1				//&mdNr
 
 				// ----------------------------------------
 			>;
