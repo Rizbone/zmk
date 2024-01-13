@@ -49,12 +49,20 @@
 
 		// MAC
 
+		mo_to: behavior_mo_to {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&to>;
+        };
+
         mdNr: tap_dance_mdNr {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&to mNR>, <&to mNRhard>;
+            bindings = <&mo_to mNR mNR>, <&to mNRhard>;
         };
 
         mdReset: tap_dance_mdReset {
@@ -78,13 +86,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
-        };
-		mo_to: behavior_mo_to {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&to>;
         };
 
     };
@@ -242,7 +243,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&mo_to mNR mNRhard				//&mdNr
+				&mdNr
 
 				// ----------------------------------------
 			>;
