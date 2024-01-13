@@ -50,12 +50,20 @@
 
 		// MAC
 
+		mo_to: behavior_mo_to {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <120>;
+            bindings = <&mo>, <&tog>;
+        };
+
         mdNr: tap_dance_mdNr {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sl mNR>, <&to mNRhard>;
+            bindings = <&sl mNR>, <&mo_to mNr mNRhard>;
         };
 
         mdReset: tap_dance_mdReset {
