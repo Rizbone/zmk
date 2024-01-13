@@ -243,7 +243,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&mdNr
+				&mo_to mNR mNR //&mdNr
 
 				// ----------------------------------------
 			>;
