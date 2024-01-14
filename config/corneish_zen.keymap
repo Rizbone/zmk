@@ -148,6 +148,17 @@
 				, <&macro_release &mo mFUNC>
                 ;
     	};
+		mSymReset: mSymReset {
+            label = "mSymReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&macro_press &mo mSYM>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo mSYM>
+                ;
+    	};
 
 		mFuncMarkLine: mFuncMarLine {
             label = "mFuncMarkLnie";
@@ -313,7 +324,7 @@
 
 				// ----------------------------------------
 		
-				&sl mSYM
+				&mmSymReset
 				&mSpaceReset 
 				&mFuncReset
 				&mPrgReset
@@ -1030,8 +1041,8 @@
 
 				&kp LSHIFT
 				&kp LS(LA(N7))			// 
-				&kp RA(N8)
-				&kp RA(N9)
+				&trans
+				&trans
 				&trans
 				&trans					//
 
