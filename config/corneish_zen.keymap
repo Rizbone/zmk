@@ -226,7 +226,8 @@
             #binding-cells = <0>;
             bindings
                 = <&tog mNRhard>
-                , <&none>
+				, <&macro_press &mo mSShift>
+            	, <&macro_release &mo mSShift>
                 ;
     	};
 
