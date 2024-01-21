@@ -220,6 +220,16 @@
                 ;
     	};
 
+		mNrShift: mNrShift {
+            label = "mNrShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&tog mNRhard>
+                ;
+    	};
+
 	};
 
 
@@ -1613,7 +1623,7 @@
 				&mAlterShift				// 
 				&mPNAVShift					//
 				&mNavShift					//
-				&tog mNRhard				// 
+				&mNrShift
 
 				// ----------------------------------------
 			>;
@@ -1686,7 +1696,7 @@
 				&mAlterShift
 				&mPNAVShift					//
 				&mNavShift					//
-				&tog mNRhard				// 
+				&mNrShift
 
 				// ----------------------------------------
 			>;
