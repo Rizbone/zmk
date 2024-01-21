@@ -317,17 +317,17 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&kp LG(N1)
-				&kp LG(N2)
-				&kp LG(N3)	
-				&kp LG(N4)
-				&kp LG(N5)
-
-				&kp LG(N6)
-				&kp LG(N7)
-				&kp LG(N8)
-				&kp LG(N9)
-				&kp LG(N0)
+				&kp LS(LA(N7))			// backlslash
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// ^
+				&kp X
+				
+				&kp LS(NUHS)			// '
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
+				&kp M
+				&kp LS(SLASH)			// _
 				&kp BACKSPACE
 
 				// ----------------------------------------
@@ -350,15 +350,15 @@
 
 				&mdLs
 				&kp LS(N7)				// /
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
-				&kp LS(RBKT)			// *
-				&kp LS(LA(N7))			// 
+				&kp LS(RBKT)			// *				
+				&kp LS(N5)				// %
+				&kp LA(E)				// €
+				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
-				&kp RBKT  				// +
-				&kp COMMA				// ,
 				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp RBKT  				// +
 				&kp SLASH 				// -
 				&mdRs
 
@@ -461,17 +461,17 @@
 				// ----------------------------------------
 
 				&kp ESC	
-				&trans
-				&kp K
-				&kp G
-				&trans 
+				&kp LS(LA(N7))			// backlslash
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// ^
 				&kp X
-
-				&trans 
-				&trans 
-				&kp C
+				
+				&kp LS(NUHS)			// '
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
 				&kp M
-				&trans
+				&kp LS(SLASH)			// _
 				&kp BSPC
 
 				// ----------------------------------------
@@ -494,15 +494,15 @@
 
 				&mdLs
 				&kp LS(N7)				// /
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
-				&kp LS(RBKT)			// *
-				&kp LS(LA(N7))			// 
+				&kp LS(RBKT)			// *				
+				&kp LS(N5)				// %
+				&kp LA(E)				// €
+				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
-				&kp RBKT  				// +
-				&kp COMMA				// ,
 				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp RBKT  				// +
 				&kp SLASH 				// -
 				&mdRs
 
@@ -731,7 +731,7 @@
 				&none
 				&none
 				&sl mSPRG					// deep						
-				&none
+				&mNavShift
 				&none
 
 				// ----------------------------------------
@@ -807,7 +807,7 @@
 				&none						//
 				&none
 				&trans						// 
-				&sl mPNAV					// 
+				&mNavShift
 				&none						// 
 
 				// ----------------------------------------
@@ -881,7 +881,7 @@
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
-				&none						//
+				&mNavShift						//
 				&none						//
 
 				// ----------------------------------------
@@ -954,7 +954,7 @@
 				&sl mSGUI					//
 				&trans						// 
 				&none
-				&none						//
+				&mNavShift						//
 				&none						//
 
 				// ----------------------------------------       
@@ -975,17 +975,17 @@
 
 				// ----------------------------------------
 				
-				&kp LG(LC(SPACE))   	// @Sonderzeichen
-				&kp LS(N5)				// %
+				&kp LCTRL
+				&kp LS(LA(N7))			// backlslash
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
 				&kp GRAVE				// ^
-				&kp GRAVE				// ^
-				&kp LA(N7)				//
-				&kp RA(M)				// 
+				&kp X
 				
 				&kp LS(NUHS)			// '
-				&kp LA(E)				// €
 				&kp LS(DOT)				// :
 				&kp LS(COMMA)			// ;
+				&kp M
 				&kp LS(SLASH)			// _
 				&kp BACKSPACE			// Backspace
 
@@ -993,7 +993,7 @@
 
 				&mdReset				// 
 				&kp LA(L)				// @
-				&kp GRAVE				// ^
+				&kp LA(N7)				// grader strich
 				&kp LS(N6)				// &
 				&kp NUHS				// #
 				&kp LS(N3)				// §
@@ -1009,17 +1009,17 @@
 
 				&kp LSHIFT				//
 				&kp LS(N7)				// /
-				&kp NUBS				// Spitze
-				&kp LS(NUBS)			// Spitze
-				&kp LS(RBKT)			// *
-				&kp LS(LA(N7))			// 
+				&kp LS(RBKT)			// *				
+				&kp LS(N5)				// %
+				&kp LA(E)				// €
+				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
-				&kp RBKT  				// +
-				&kp COMMA				// ,
 				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&kp DEL
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 		
 				// ----------------------------------------
 
@@ -1027,7 +1027,7 @@
 				&kp LGUI 				//
 				&none					// 
 				&none					//
-				&none					//
+				&mNavShift					//
 				&none					//
 
 				// ----------------------------------------
@@ -1047,7 +1047,7 @@
 
 				// ----------------------------------------
 
-				&kp LG(LC(SPACE))   	// @Sonderzeichen
+				&trans
 				&trans					//
 				&trans 					// 
 				&trans					//
@@ -1055,9 +1055,9 @@
 				&trans					//
 
 				&trans					//
-				&kp LS(N4) 				// $
-				&kp LA(N8)				// Geschweift
-				&kp LA(N9)				// Geschweift
+				&trans
+				&trans					//
+				&kp RA(M)				// 
 				&trans					//
 				&kp BACKSPACE			// 
 
@@ -1083,23 +1083,23 @@
 				&kp LS(LA(N7))			// 
 				&trans
 				&trans
-				&trans
+				&kp LS(N4) 				// $
 				&trans					//
 
 				&kp LA(N)				// ~
 				&trans
-				&kp LS(COMMA)			// ;
-				&kp LS(DOT)				// :
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
 				&kp LS(SLASH)			// _
-				&trans
+				&kp LG(LC(SPACE))   	// @Sonderzeichen
 
 				// ----------------------------------------
 
 				&trans					//
-				&kp LCTL				//
+				&none
 				&none					// 
 				&none					//
-				&none					// 
+				&mNavShift				// 
 				&none					//
 
 				// ----------------------------------------
@@ -1173,7 +1173,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&none						//
+				&mNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -1245,7 +1245,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&none						//
+				&mNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -1317,7 +1317,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&none						//
+				&mNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -1390,7 +1390,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&none						//
+				&mNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -1463,7 +1463,7 @@
 				&none
 				&none						// 
 				&none						//
-				&none
+				&mNavShift
 				&none						// 
 
 				// ----------------------------------------
@@ -1537,7 +1537,7 @@
 				&kp LS(SPACE)				//
 				&none						// 
 				&none						//
-				&none						// 
+				&mNavShift						// 
 				&none						//
 
 				// ----------------------------------------
