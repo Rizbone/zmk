@@ -206,9 +206,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&sl mPNAV>
-                , <&macro_press &mo mSShift>
-            	, <&macro_release &mo mSShift>
+                = <&to mCHAR>
+                , <&macro_press &mo mPNAV>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo mPNAV>
                 ;
     	};
 
