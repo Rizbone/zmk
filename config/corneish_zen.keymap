@@ -35,9 +35,12 @@
 #define mCTL 15
 
 #define mPNAV 16	
+#define mSCHAR 17
 
-#define mSShift 17
-#define mSCHAR 18
+#define mSShift 18
+#define mSShift 19
+
+
 
 
  
@@ -1439,7 +1442,82 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 17 - mSideShift =	Side Shift					|
+		// Layer 17 - SChar = 	  Buchstaben Shift				|
+		// -----------------------------------------------------|
+
+		mac_schar
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LS(ESC)
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				// ----------------------------------------
+
+				&mdReset
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				// ----------------------------------------
+
+				&mdLs
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdRs		
+
+				// ----------------------------------------		
+
+				&none						// 
+				&kp LS(SPACE)				//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+
+			>;		
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 18 - mSideShift =	Side Shift					|
 		// -----------------------------------------------------|
 
 		mac_mSShift
@@ -1510,11 +1588,12 @@
 		};
 
 
+
 		// -----------------------------------------------------|
-		// Layer 18 - SChar = 	  Buchstaben Shift				|
+		// Layer 19 - mSideShiftDeep =	Side Shift	Deep		|
 		// -----------------------------------------------------|
 
-		mac_schar
+		mac_mSShiftDeep
 		{
 			label = "MAC";
 
@@ -1522,64 +1601,63 @@
 
 				// ----------------------------------------
 
-				&kp LS(ESC)
-				&kp LS(J) 
-				&kp LS(D)	 
-				&kp LS(U)
-				&kp LS(A)
-				&kp LS(X)
+				&kp ESC						// 
+				&kp LA(F1)					//
+				&kp LA(F2)					//
+				&kp LA(F3)					//
+				&kp LA(F4)					//
+				&kp LA(F5)					//
 
-				&kp LS(P)
-				&kp LS(H)
-				&kp LS(L)
-				&kp LS(M)
-				&kp LS(W)
-				&kp LS(BSPC)
-	
+				&kp LG(F1)					//
+				&kp LG(F2)					//
+				&kp LG(F3) 					//
+				&kp LG(F4)					//
+				&kp LG(F5) 					//
+				&kp DEL						//
+
 				// ----------------------------------------
+		
+				&trans
+				&kp LA(F6)					//
+				&kp LA(F7)					//
+				&kp LA(F8)					//
+				&kp LA(F9)					//
+				&kp LA(F10)					//
 
-				&mdReset
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)
-
-				&kp LS(B)
-				&kp LS(N)
-				&kp LS(R)
-				&kp LS(S)
-				&kp LS(G)
-				&kp LS(RET)
-	
-				// ----------------------------------------
-
-				&mdLs
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-
-				&kp LS(Z)
-				&kp LS(SEMI)
-				&kp LS(LBKT)
-				&kp LS(SQT)
-				&kp LS(K)
-				&mdRs		
-
-				// ----------------------------------------		
-
-				&none						// 
-				&kp LS(SPACE)				//
-				&none						// 
-				&none						//
-				&none						// 
-				&none						//
+				&kp LG(F6)					//
+				&kp LG(F7)					//
+				&kp LG(F8)					//
+				&kp LG(F9)					//
+				&kp LG(F10)					//
+				&kp LG(LA(ENTER))			// 
 
 				// ----------------------------------------
 
-			>;		
+				&trans
+				&kp LA(F11)					//
+				&kp LA(F12)					//
+				&kp LA(F13)					//
+				&kp LA(F14)					//
+				&kp LA(F15)					//
+
+				&kp LG(F11)					//
+				&kp LG(F12)					//
+				&kp LG(F13)					//
+				&kp LG(F14)					//
+				&kp LG(F15)					//
+				&trans
+
+				// ----------------------------------------
+		
+				&sl mSYM					//
+				&kp LG(LA(SPACE))			//
+				&sl mCTL					// 
+				&sl mPNAV					//
+				&sl mNAV					//
+				&tog mNRhard				// 
+
+				// ----------------------------------------
+			>;
 		};
 
 
