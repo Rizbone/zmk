@@ -503,12 +503,12 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LG(LC(LA(F16)))		 	// 
+				&kp LG(A)				 	// 
 
-				&kp LG(LC(LA(F1)))		 	// 
-				&kp LG(LC(LA(F2)))		 	// 
+				&kp LS(F1)				 	// 
+				&kp LS(F2)				 	// 
 				&kp PG_UP
-				&kp LG(LC(LA(F4)))		 	// 
+				&kp LS(F4)				 	// 
 				&kp LGUI
 				&kp BSPC					// -
 
@@ -521,28 +521,28 @@
 				&kp RIGHT 					// @Right
 				&mFuncMarkLine
 
-				&kp LG(LC(LA(F6)))		 	//
-				&kp F13
+				&kp LS(F6)				 	// 
+				&kp LS(F7)				 	// 
 				&kp PG_DN
-				&kp F14
+				&kp LS(F9)				 	// 
 				&kp LCTL
 				&kp ENTER					// -
 				
 				// ----------------------------------------
 
-				&kp LG(LC(LA(F19)))		 	// 
+				&mdLs
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
 				&kp LG(RIGHT)				// @End  
 				&mFuncMarkWord
 
-				&kp LG(LC(LA(F11)))		 	// 
-				&kp F15
-				&kp F16
-				&kp F17
-				&kp F18
-				&kp DEL
+				&kp LS(F11)				 	// 
+				&kp LS(F12)				 	// 
+				&kp LS(F13)				 	// 
+				&kp LS(F14)				 	// 
+				&kp LS(F15)				 	// 
+				&mdRs
 
 				// ----------------------------------------
 
