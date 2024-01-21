@@ -188,6 +188,28 @@
                 ;
     	};
 
+
+
+		mAlterShift: mAlterShift {
+            label = "mAlterShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&sl mAlter>
+                ;
+    	};
+
+		mPNAVShift: mPNAVShift {
+            label = "mPNAVShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&sl mPNAV>
+                ;
+    	};
+
 		mNavShift: mNavShift {
             label = "mNavShift";
             compatible = "zmk,behavior-macro";
@@ -1586,10 +1608,10 @@
 
 				// ----------------------------------------
 		
-				&sl mSYM					//
-				&kp LG(SPACE)
-				&sl mAlter					// 
-				&sl mPNAV					//
+				&none
+				&mPNAVShift
+				&mAlterShift				// 
+				&mPNAVShift					//
 				&mNavShift					//
 				&tog mNRhard				// 
 
@@ -1659,10 +1681,10 @@
 
 				// ----------------------------------------
 		
-				&sl mSYM					//
+				&none
 				&kp LG(LA(SPACE))			//
-				&sl mCTL					// 
-				&sl mPNAV					//
+				&mAlterShift
+				&mPNAVShift					//
 				&mNavShift					//
 				&tog mNRhard				// 
 
