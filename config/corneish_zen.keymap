@@ -38,7 +38,7 @@
 #define mSCHAR 17
 
 #define mSShift 18
-#define mSShift 19
+#define mSShiftDeep 19
 
 
 
@@ -1638,7 +1638,7 @@
 				&kp LA(F12)					//
 				&kp LA(F13)					//
 				&kp LA(F14)					//
-				&kp LA(F15)					//
+				&kp LA(F15)					//xUq
 
 				&kp LG(F11)					//
 				&kp LG(F12)					//
