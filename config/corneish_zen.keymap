@@ -660,7 +660,7 @@
 
 				// ----------------------------------------
 
-				&mdReset					// -
+				&kp LG(TAB)
 				&kp LG(LA(N1))				// 1
 				&kp LG(LA(N2))				// 2
 				&kp LG(LA(N3))				// 3
@@ -672,11 +672,11 @@
 				&kp LG(LA(N8))				// 8
 				&kp LG(LA(N9))				// 9
 				&kp LG(LA(N0))				// 0
-				&kp LG(SPACE)				// 
+				&kp LG(LS(F4))
 
 				// ----------------------------------------
 
-				&kp LG(TAB)
+				&kp LG(LS(F5))
 				&kp LC(LA(N1))			// 21 			
 				&kp LC(LA(N2))			// 22
 				&kp LC(LA(N3))			// 23
@@ -688,7 +688,7 @@
 				&kp LC(LA(N8))			// 28
 				&kp LC(LA(N9))			// 29
 				&kp LC(LA(N0))			// 30
-				&kp LG(ESC)
+				&kp LG(LS(F6))
 		
 				// ----------------------------------------
 
@@ -696,7 +696,7 @@
 				&none
 				&none
 				&sl mSPRG					// deep						
-				&sl mPNAV					// alternativ
+				&none
 				&none
 
 				// ----------------------------------------
@@ -736,7 +736,7 @@
 		
 				// ----------------------------------------
 
-				&mdReset
+				&kp LG(LS(F9))			// #OPEN
 				&kp LA(F6)				//
 				&kp LA(F7)				//
 				&kp LA(F8)				//
@@ -810,7 +810,7 @@
 				
 				// ----------------------------------------
 
-				&mdReset					// -
+				&kp LG(LS(F14))		
 				&kp LG(A)
 				&kp LC(LA(F7))				
 				&kp LC(LA(F8))				
@@ -826,7 +826,7 @@
 
 				// ----------------------------------------
 
-				&kp LS(LG(F17))
+				&kp LS(LG(F15))
 				&kp LG(S)
 				&kp LG(Y)
 				&kp LG(LS(Y))
@@ -867,7 +867,7 @@
 
 			// ----------------------------------------
 	
-				&kp LA(F16)				
+				&kp LG(LS(F16))			
 				&kp LG(LA(F1))				// #OPEN
 				&kp LG(LA(F2))				// #OPEN
 				&kp LG(LA(F3))				// #OPEN
@@ -883,7 +883,7 @@
 				
 				// ----------------------------------------
 
-				&mdReset					// -
+				&kp LG(LS(F17))		
 				&kp LG(LA(F6))				// @Craft Today
 				&kp LG(LA(F7))				// @Craft Tomorrow
 				&kp LG(LA(F8))				// #OPEN
@@ -899,7 +899,7 @@
 
 				// ----------------------------------------
 
-				&kp LA(F19)	
+				&kp LG(LS(F18))		
 				&kp LG(LA(F11))				// @Craft Einkauf
 				&kp LG(LA(F12))				// #OPEN
 				&kp LG(LA(F13))				// #OPEN
@@ -916,7 +916,7 @@
 				// ----------------------------------------
 
 				&none
-				&sl mCTL					//
+				&sl mSGUI					//
 				&trans						// 
 				&none
 				&none						//
