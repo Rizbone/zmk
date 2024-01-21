@@ -29,10 +29,15 @@
 #define mSSYM 11
 
 #define mGUI 12	
-#define mCTL 13	
-#define mPNAV 14	
+#define mSGUI 13
 
-#define mSCHAR 15
+#define mAlter 14
+#define mCTL 15
+
+#define mPNAV 16	
+
+#define mSShift 17
+#define mSCHAR 18
 
 
  
@@ -219,7 +224,7 @@
 
 				// ----------------------------------------
 	
-				&mdReset
+				&sl mSShift
 				&kp C
 				&kp T
 				&kp I
@@ -292,7 +297,7 @@
 
 				// ----------------------------------------
 
-				&mdReset
+				&sl mSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -363,7 +368,7 @@
 
 				// ----------------------------------------
 	
-				&mdReset
+				&sl mSShift
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -436,7 +441,7 @@
 
 				// ----------------------------------------
 
-				&mdReset
+				&sl mSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -546,7 +551,7 @@
 				&sl mFUNC
 				&none
 				&sl mNAV2					// deep
-				&none
+				&to mCHAR
 
 				// ----------------------------------------							
 			>;
@@ -617,7 +622,7 @@
 				&sl mFUNC
 				&none						// 
 				&trans						// 
-				&none						//
+				&to mNRhard					//
 
 				// ----------------------------------------
 			>;
@@ -1140,8 +1145,154 @@
 			>;
 		};
 
+
 		// -----------------------------------------------------|
-		// Layer 13 - mCTL =	CTL								|
+		// Layer 13 - mSGUI =	SGUI								|
+		// -----------------------------------------------------|
+
+		mac_sgui
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(LS(ESC))					// 
+				&kp LG(LS(J))					//
+				&kp LG(LS(D))					//
+				&kp LG(LS(U))					//
+				&kp LG(LS(A))					//
+				&kp LG(LS(X))					//
+
+				&kp LG(LS(P))					//
+				&kp LG(LS(H))					//
+				&kp LG(LS(L))					//
+				&kp LG(LS(M))					//
+				&kp LG(LS(W))					//
+				&kp LG(LS(BACKSPACE))			//
+
+				// ----------------------------------------
+		
+				&mdReset					//
+				&kp LG(LS(C))					//
+				&kp LG(LS(T))					//
+				&kp LG(LS(I))					//
+				&kp LG(LS(E))					//
+				&kp LG(LS(O))					//
+
+				&kp LG(LS(B))					//
+				&kp LG(LS(N))					//
+				&kp LG(LS(R))					//
+				&kp LG(LS(S))					//
+				&kp LG(LS(G))					//
+				&kp LG(LS(ENTER))				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LG(LS(F))					//
+				&kp LG(LS(V))					//
+				&kp LG(LS(MINUS))				//
+				&kp LG(LS(Y))					//
+				&kp LG(LS(Q))					//
+
+				&kp LG(LS(Z))					//
+				&kp LG(LS(SEMICOLON))			//
+				&kp LG(LS(LEFT_BRACKET))		//
+				&kp LG(LS(SINGLE_QUOTE))		//
+				&kp LG(LS(K)) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&none						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 14 - mAlter =	Alterantive						|
+		// -----------------------------------------------------|
+
+		mac_mAlter
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&none
+				&kp LG(N1)					// 11
+				&kp LG(N2)					// 12
+				&kp LG(N3)					// 13
+				&kp LG(N4)					// 14
+				&kp LG(N5)					// 15
+
+				&kp LG(N6)					// 16
+				&kp LG(N7)					// 17
+				&kp LG(N8)					// 18
+				&kp LG(N9)					// 19
+				&kp LG(N0)					// 20
+				&none
+
+				// ----------------------------------------
+		
+				&none
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
+				&none
+
+				// ----------------------------------------
+
+				&none
+				&kp F11
+				&kp F12
+				&kp F13
+				&kp F14
+				&kp F15
+
+				&kp F16
+				&kp F17
+				&kp F18
+				&kp F19
+				&kp F20
+				&none
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&none						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 15 - mCTL =	CTL								|
 		// -----------------------------------------------------|
 
 		mac_ctl
@@ -1214,10 +1365,84 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 14 - mPNAV =	Programm NAV					|
+		// Layer 16 - mPNAV =	Programm NAV					|
 		// -----------------------------------------------------|
 
 		mac_pnav
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&none						//
+				&none						//
+				&none						//
+				&kp LG(LS(Q))				// 
+				&kp LG(LS(W))				// 
+				&kp LG(LS(E))				// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none						//
+				&kp LG(LS(A))				// 
+				&kp LG(LS(S))				// 
+				&kp LG(LS(D))				// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+
+				&none						//
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none
+				&none						// 
+				&none						//
+				&none
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 17 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		mac_mSShift
 		{
 			label = "MAC";
 
@@ -1237,11 +1462,11 @@
 				&kp LG(F3) 					//
 				&kp LG(F4)					//
 				&kp LG(F5) 					//
-				&kp BACKSPACE				//
+				&kp DEL						//
 
 				// ----------------------------------------
 		
-				&mdReset					//
+				&trans
 				&kp LA(F6)					//
 				&kp LA(F7)					//
 				&kp LA(F8)					//
@@ -1253,11 +1478,11 @@
 				&kp LG(F8)					//
 				&kp LG(F9)					//
 				&kp LG(F10)					//
-				&kp ENTER					// 
+				&kp LG(ENTER)				// 
 
 				// ----------------------------------------
 
-				&kp LSHIFT
+				&trans
 				&kp LA(F11)					//
 				&kp LA(F12)					//
 				&kp LA(F13)					//
@@ -1269,16 +1494,16 @@
 				&kp LG(F13)					//
 				&kp LG(F14)					//
 				&kp LG(F15)					//
-				&kp LSHIFT
+				&trans
 
 				// ----------------------------------------
 		
-				&none						//
-				&none
-				&none						// 
-				&none						//
-				&trans						//
-				&none						// 
+				&sl mSYM					//
+				&kp LG(SPACE)
+				&sl mAlter					// 
+				&sl mPNAV					//
+				&sl mNAV					//
+				&tog mNRhard				// 
 
 				// ----------------------------------------
 			>;
@@ -1286,7 +1511,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 15 - SChar = 	  Buchstaben Shift				|
+		// Layer 18 - SChar = 	  Buchstaben Shift				|
 		// -----------------------------------------------------|
 
 		mac_schar
