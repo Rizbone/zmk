@@ -571,15 +571,15 @@
 
 				&kp ESC	
 				&kp LG(LS(UP))
-				&kp LS(TAB)
+				&none
 				&kp LS(UP)					
-				&kp TAB
-				&kp LG(LA(LC(LS(F16))))
+				&none
+				&kp LG(A)
 
-				&kp LG(LA(LC(LS(F1))))
-				&kp LG(LA(LC(LS(F2))))
-				&kp LC(PG_UP)
-				&kp LG(LA(LC(LS(F4))))
+				&none
+				&none
+				&none
+				&none
 				&kp LGUI
 				&kp BACKSPACE
 
@@ -592,28 +592,28 @@
 				&kp LS(RIGHT)		
 				&mFuncMarkLine
 
-				&kp LG(LA(LC(LS(F6))))
-				&kp LS(F13)
-				&kp LC(PG_DN)
-				&kp LS(F14)
+				&none
+				&none
+				&none
+				&none
 				&kp LCTL
 				&kp ENTER
 
 				// ----------------------------------------
 	
-				&kp LG(LC(LA(LS(F19))))		 	
+				&mdLs	
 				&kp LG(LS(LEFT))			// @Home 
 				&kp LA(LS(LEFT))			// @Wort Sprung
 				&kp LA(LS(RIGHT))			// @Wort Sprung
 				&kp LG(LS(RIGHT))			// @End  
 				&mFuncMarkWord
 
-				&kp LG(LA(LC(LS(F11))))
-				&kp LS(F15)
-				&kp LS(F16)
-				&kp LS(F17)
-				&kp LS(F18)
-				&kp DEL
+				&none
+				&none
+				&none
+				&none
+				&none
+				&mdRs
 
 				// ----------------------------------------
 
