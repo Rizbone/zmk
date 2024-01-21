@@ -225,8 +225,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&to mCHAR>
-                , <&tog mNRhard>
+                = <&tog mNRhard>
+                , <&none>
                 ;
     	};
 
@@ -1619,7 +1619,7 @@
 				// ----------------------------------------
 		
 				&none
-				&mPNAVShift
+				&kp LG(SPACE)
 				&mAlterShift				// 
 				&mPNAVShift					//
 				&mNavShift					//
