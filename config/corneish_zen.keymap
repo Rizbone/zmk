@@ -195,9 +195,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&sl mAlter>
-                , <&macro_press &mo mSShift>
-            	, <&macro_release &mo mSShift>
+                = <&to mCHAR>
+                , <&macro_press &mo mAlter>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo mAlter>
                 ;
     	};
 
@@ -218,10 +219,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&sl mNAV>
-				, <&macro_press &mo mSShift>
-            	, <&macro_release &mo mSShift>
-                ;
+                = <&to mCHAR>
+                , <&macro_press &mo mNAV>
+    			, <&macro_pause_for_release>
+				, <&macro_release &mo mNAV>
     	};
 
 		mNrShift: mNrShift {
