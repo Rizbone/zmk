@@ -188,6 +188,16 @@
                 ;
     	};
 
+		mNavShift: mNavShift {
+            label = "mNavShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&sl mNAV>
+                ;
+    	};
+
 	};
 
 
@@ -1580,7 +1590,7 @@
 				&kp LG(SPACE)
 				&sl mAlter					// 
 				&sl mPNAV					//
-				&sl mNAV					//
+				&mNavShift					//
 				&tog mNRhard				// 
 
 				// ----------------------------------------
@@ -1653,7 +1663,7 @@
 				&kp LG(LA(SPACE))			//
 				&sl mCTL					// 
 				&sl mPNAV					//
-				&sl mNAV					//
+				&mNavShift					//
 				&tog mNRhard				// 
 
 				// ----------------------------------------
