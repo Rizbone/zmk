@@ -223,6 +223,7 @@
                 , <&macro_press &mo mNAV>
     			, <&macro_pause_for_release>
 				, <&macro_release &mo mNAV>
+				;
     	};
 
 		mNrShift: mNrShift {
