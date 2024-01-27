@@ -28,18 +28,16 @@
 #define mSYM 10
 #define mSSYM 11
 
-#define mGUI 12	
+#define mGUI 12
 #define mSGUI 13
+#define mCTL 14
+#define mALT 15
 
-#define mAlter 14
-#define mCTL 15
+#define mAlter 16
+#define mPNAV 17	
 
-#define mPNAV 16	
-#define mSCHAR 17
-
-#define mSShift 18
-#define mSShiftDeep 19
-
+#define mSCHAR 18
+#define mSShift 19
 
 
 
@@ -386,7 +384,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&mdNr
+				&to mCHAR
 			>;		
 		};
 
@@ -530,7 +528,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&mdNr
+				&to mCHAR
 			>;		
 		};
 
@@ -603,7 +601,7 @@
 				&sl mFUNC
 				&none
 				&sl mNAV2					// deep
-				&to mCHAR
+				&none
 
 				// ----------------------------------------							
 			>;
@@ -623,14 +621,14 @@
 
 				&kp ESC	
 				&kp LG(LS(UP))
-				&none
+				&kp LS(TAB)
 				&kp LS(UP)					
-				&none
+				&kp TAB
 				&kp LG(A)
 
 				&none
 				&none
-				&none
+				&kp LG(PG_UP)
 				&none
 				&kp LGUI
 				&kp BACKSPACE
@@ -644,10 +642,10 @@
 				&kp LS(RIGHT)		
 				&mFuncMarkLine
 
-				&none
-				&none
-				&none
-				&none
+				&kp LS(F16)
+				&to mCHAR
+				&kp LG(PG_DN)
+				&to mNRhard
 				&kp LCTL
 				&kp ENTER
 
@@ -674,7 +672,7 @@
 				&sl mFUNC
 				&none						// 
 				&trans						// 
-				&to mNRhard					//
+				&none
 
 				// ----------------------------------------
 			>;
@@ -887,18 +885,18 @@
 
 				&kp LG(P)	
 				&kp LS(LA(F11))	
-				&kp LG(B)
-				&kp LG(I)	
+				&kp LS(LA(F12))	
+				&kp LS(LA(F13))	
 				&kp LG(F)	
 				&kp LG(T)
 				
 				// ----------------------------------------
 
-				&none
+				&sl mALT
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
-				&mNavShift						//
+				&mNavShift					//
 				&none						//
 
 				// ----------------------------------------
@@ -967,7 +965,7 @@
 				
 				// ----------------------------------------
 
-				&none
+				&sl mCTL
 				&sl mSGUI					//
 				&trans						// 
 				&none
@@ -992,7 +990,7 @@
 
 				// ----------------------------------------
 				
-				&kp LCTRL
+				&kp ESC
 				&kp LS(LA(N7))			// backlslash
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
@@ -1008,7 +1006,7 @@
 
 				// ----------------------------------------
 
-				&mdReset				// 
+				&kp LGUI
 				&kp LA(L)				// @
 				&kp LA(N7)				// grader strich
 				&kp LS(N6)				// &
@@ -1064,7 +1062,7 @@
 
 				// ----------------------------------------
 
-				&trans
+				&kp ESC
 				&trans					//
 				&trans 					// 
 				&trans					//
@@ -1080,7 +1078,7 @@
 
 				// ----------------------------------------
 
-				&mdReset				// 
+				&kp LCTL
 				&trans					//
 				&kp LS(GRAVE)			// Grad
 				&trans					//
@@ -1096,7 +1094,7 @@
 
 				// ----------------------------------------
 
-				&kp LSHIFT
+				&kp LALT
 				&kp LS(LA(N7))			// 
 				&trans
 				&trans
@@ -1270,81 +1268,9 @@
 		};
 
 
-		// -----------------------------------------------------|
-		// Layer 14 - mAlter =	Alterantive						|
-		// -----------------------------------------------------|
-
-		mac_mAlter
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&none
-				&kp LG(N1)					// 11
-				&kp LG(N2)					// 12
-				&kp LG(N3)					// 13
-				&kp LG(N4)					// 14
-				&kp LG(N5)					// 15
-
-				&kp LG(N6)					// 16
-				&kp LG(N7)					// 17
-				&kp LG(N8)					// 18
-				&kp LG(N9)					// 19
-				&kp LG(N0)					// 20
-				&none
-
-				// ----------------------------------------
-		
-				&none
-				&kp F1
-				&kp F2
-				&kp F3
-				&kp F4
-				&kp F5
-
-				&kp F6
-				&kp F7
-				&kp F8
-				&kp F9
-				&kp F10
-				&none
-
-				// ----------------------------------------
-
-				&none
-				&kp F11
-				&kp F12
-				&kp F13
-				&kp F14
-				&kp F15
-
-				&kp F16
-				&kp F17
-				&kp F18
-				&kp F19
-				&kp F20
-				&none
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
-
 
 		// -----------------------------------------------------|
-		// Layer 15 - mCTL =	CTL								|
+		// Layer 14 - mCTL =	CTL								|
 		// -----------------------------------------------------|
 
 		mac_ctl
@@ -1416,8 +1342,158 @@
 
 
 
+
 		// -----------------------------------------------------|
-		// Layer 16 - mPNAV =	Programm NAV					|
+		// Layer 15 - mALT =	ALT								|
+		// -----------------------------------------------------|
+
+		mac_alt
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LA(ESC)					// 
+				&kp LA(J)					//
+				&kp LA(D)					//
+				&kp LA(U)					//
+				&kp LA(A)					//
+				&kp LA(X)					//
+
+				&kp LA(P)					//
+				&kp LA(H)					//
+				&kp LA(L) 					//
+				&kp LA(M)					//
+				&kp LA(W) 					//
+				&kp LA(BACKSPACE)			//
+
+				// ----------------------------------------
+		
+				&mdReset					//
+				&kp LA(C)					//
+				&kp LA(T)					//
+				&kp LA(I)					//
+				&kp LA(E)					//
+				&kp LA(O)					//
+
+				&kp LA(B)					//
+				&kp LA(N)					//
+				&kp LA(R)					//
+				&kp LA(S)					//
+				&kp LA(G)					//
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LA(F)					//
+				&kp LA(V)					//
+				&kp LA(MINUS)				//
+				&kp LA(Y)					//
+				&kp LA(Q)					//
+
+				&kp LA(Z)					//
+				&kp LA(SEMICOLON)			//
+				&kp LA(LEFT_BRACKET)		//
+				&kp LA(SINGLE_QUOTE)		//
+				&kp LA(K) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&mNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 16 - mAlter =	Alterantive						|
+		// -----------------------------------------------------|
+
+		mac_mAlter
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&none
+				&kp LG(N1)					// 11
+				&kp LG(N2)					// 12
+				&kp LG(N3)					// 13
+				&kp LG(N4)					// 14
+				&kp LG(N5)					// 15
+
+				&kp LG(N6)					// 16
+				&kp LG(N7)					// 17
+				&kp LG(N8)					// 18
+				&kp LG(N9)					// 19
+				&kp LG(N0)					// 20
+				&none
+
+				// ----------------------------------------
+		
+				&none
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
+				&none
+
+				// ----------------------------------------
+
+				&none
+				&kp F11
+				&kp F12
+				&kp F13
+				&kp F14
+				&kp F15
+
+				&kp F16
+				&kp F17
+				&kp F18
+				&kp F19
+				&kp F20
+				&none
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&mNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 17 - mPNAV =	Programm NAV					|
 		// -----------------------------------------------------|
 
 		mac_pnav
@@ -1428,7 +1504,7 @@
 
 				// ----------------------------------------
 
-				&none						//
+				&kp LG(LS(X))				//
 				&none						//
 				&none						//
 				&kp LG(LS(Q))				// 
@@ -1491,7 +1567,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 17 - SChar = 	  Buchstaben Shift				|
+		// Layer 18 - SChar = 	  Buchstaben Shift				|
 		// -----------------------------------------------------|
 
 		mac_schar
@@ -1566,7 +1642,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer 18 - mSideShift =	Side Shift					|
+		// Layer 19 - mSideShift =	Side Shift					|
 		// -----------------------------------------------------|
 
 		mac_mSShift
@@ -1628,79 +1704,6 @@
 				&none
 				&kp LG(SPACE)
 				&mAlterShift				// 
-				&mPNAVShift					//
-				&mNavShift					//
-				&mNrShift
-
-				// ----------------------------------------
-			>;
-		};
-
-
-
-		// -----------------------------------------------------|
-		// Layer 19 - mSideShiftDeep =	Side Shift	Deep		|
-		// -----------------------------------------------------|
-
-		mac_mSShiftDeep
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp ESC						// 
-				&kp LA(F1)					//
-				&kp LA(F2)					//
-				&kp LA(F3)					//
-				&kp LA(F4)					//
-				&kp LA(F5)					//
-
-				&kp LG(F1)					//
-				&kp LG(F2)					//
-				&kp LG(F3) 					//
-				&kp LG(F4)					//
-				&kp LG(F5) 					//
-				&kp DEL						//
-
-				// ----------------------------------------
-		
-				&trans
-				&kp LA(F6)					//
-				&kp LA(F7)					//
-				&kp LA(F8)					//
-				&kp LA(F9)					//
-				&kp LA(F10)					//
-
-				&kp LG(F6)					//
-				&kp LG(F7)					//
-				&kp LG(F8)					//
-				&kp LG(F9)					//
-				&kp LG(F10)					//
-				&kp LG(LA(ENTER))			// 
-
-				// ----------------------------------------
-
-				&trans
-				&kp LA(F11)					//
-				&kp LA(F12)					//
-				&kp LA(F13)					//
-				&kp LA(F14)					//
-				&kp LA(F15)					//xUq
-
-				&kp LG(F11)					//
-				&kp LG(F12)					//
-				&kp LG(F13)					//
-				&kp LG(F14)					//
-				&kp LG(F15)					//
-				&trans
-
-				// ----------------------------------------
-		
-				&none
-				&kp LG(LA(SPACE))			//
-				&mAlterShift
 				&mPNAVShift					//
 				&mNavShift					//
 				&mNrShift
