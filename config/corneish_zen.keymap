@@ -26,48 +26,40 @@
 #define mSSYM 11
 
 #define mGUI 12
-#define mSGUI 13
-#define mCTL 14
-#define mALT 15
 
-#define mAlter 16
-#define mPNAV 17	
+#define mAlter 13
+#define mPNAV 14
 
-#define mSCHAR 18
-#define mSShift 19
+#define mSShift 15
 
 
 // ------- WIN -------------------
 
 
-#define wCHAR 20
-#define wNR 21
+#define wCHAR 16
+#define wNR 17
 
-#define wLCHAR 22
-#define wNRhard 23
+#define wLCHAR 18
+#define wNRhard 19
 
-#define wNAV 24
-#define wNAV2 25
+#define wNAV 20
+#define wNAV2 21
 
-#define wPRG 26
-#define wSPRG 27
+#define wPRG 22
+#define wSPRG 23
 
-#define wFUNC 28
-#define wSFUNC 29
+#define wFUNC 24
+#define wSFUNC 25
 
-#define wSYM 30
-#define wSSYM 31
+#define wSYM 26
+#define wSSYM 27
 
-#define wGUI 32
-#define wSGUI 33
-#define wCTL 34
-#define wALT 35
+#define wGUI 28
 
-#define wAlter 36
-#define wPNAV 37	
+#define wAlter 29
+#define wPNAV 30
 
-#define wSCHAR 38
-#define wSShift 39
+#define wSShift 31
 
 
  
@@ -101,14 +93,14 @@
             label = "TAP_DANCE_mdLs";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl mSCHAR>, <&to mLCHAR>;
+            bindings = <&sl mLCHAR>, <&to mLCHAR>;
         };
 		mdRs: tap_dance_mdRs {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdRs";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl mSCHAR>, <&to mLCHAR>;
+            bindings = <&sl mLCHAR>, <&to mLCHAR>;
         };
 
 
@@ -128,14 +120,14 @@
             label = "TAP_DANCE_mdLsWin";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl wSCHAR>, <&to wLCHAR>;
+            bindings = <&sl wLCHAR>, <&to wLCHAR>;
         };
 		mdRsWin: tap_dance_mdRsWin {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_mdRsWin";
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
-            bindings = <&sl wSCHAR>, <&to wLCHAR>;
+            bindings = <&sl wLCHAR>, <&to wLCHAR>;
         };
 
     };
@@ -1083,7 +1075,7 @@
 				
 				// ----------------------------------------
 
-				&sl mALT
+				&sk LALT					//
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
@@ -1156,8 +1148,8 @@
 				
 				// ----------------------------------------
 
-				&sl mCTL
-				&sl mSGUI					//
+				&sk LCTL
+				&sk LS(LGUI)					//
 				&trans						// 
 				&none
 				&mNavShift						//
@@ -1387,224 +1379,6 @@
 		};
 
 
-		// -----------------------------------------------------|
-		// Layer 13 - mSGUI =	SGUI								|
-		// -----------------------------------------------------|
-
-		mac_sgui
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LG(LS(ESC))					// 
-				&kp LG(LS(J))					//
-				&kp LG(LS(D))					//
-				&kp LG(LS(U))					//
-				&kp LG(LS(A))					//
-				&kp LG(LS(X))					//
-
-				&kp LG(LS(P))					//
-				&kp LG(LS(H))					//
-				&kp LG(LS(L))					//
-				&kp LG(LS(M))					//
-				&kp LG(LS(W))					//
-				&kp LG(LS(BACKSPACE))			//
-
-				// ----------------------------------------
-		
-				&kp LG(LS(DEL))					// 
-				&kp LG(LS(C))					//
-				&kp LG(LS(T))					//
-				&kp LG(LS(I))					//
-				&kp LG(LS(E))					//
-				&kp LG(LS(O))					//
-
-				&kp LG(LS(B))					//
-				&kp LG(LS(N))					//
-				&kp LG(LS(R))					//
-				&kp LG(LS(S))					//
-				&kp LG(LS(G))					//
-				&kp LG(LS(ENTER))				// 
-
-				// ----------------------------------------
-
-				&kp LSHIFT
-				&kp LG(LS(F))					//
-				&kp LG(LS(V))					//
-				&kp LG(LS(MINUS))				//
-				&kp LG(LS(Y))					//
-				&kp LG(LS(Q))					//
-
-				&kp LG(LS(Z))					//
-				&kp LG(LS(SEMICOLON))			//
-				&kp LG(LS(LEFT_BRACKET))		//
-				&kp LG(LS(SINGLE_QUOTE))		//
-				&kp LG(LS(K)) 					//
-				&kp LSHIFT
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
-
-
-		// -----------------------------------------------------|
-		// Layer 14 - mCTL =	CTL								|
-		// -----------------------------------------------------|
-
-		mac_ctl
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LC(ESC)					// 
-				&kp LC(J)					//
-				&kp LC(D)					//
-				&kp LC(U)					//
-				&kp LC(A)					//
-				&kp LC(X)					//
-
-				&kp LC(P)					//
-				&kp LC(H)					//
-				&kp LC(L) 					//
-				&kp LC(M)					//
-				&kp LC(W) 					//
-				&kp LC(BACKSPACE)			//
-
-				// ----------------------------------------
-		
-				&kp LC(DEL)					//
-				&kp LC(C)					//
-				&kp LC(T)					//
-				&kp LC(I)					//
-				&kp LC(E)					//
-				&kp LC(O)					//
-
-				&kp LC(B)					//
-				&kp LC(N)					//
-				&kp LC(R)					//
-				&kp LC(S)					//
-				&kp LC(G)					//
-				&kp LC(ENTER)				// 
-
-				// ----------------------------------------
-
-				&kp LSHIFT
-				&kp LC(F)					//
-				&kp LC(V)					//
-				&kp LC(MINUS)				//
-				&kp LC(Y)					//
-				&kp LC(Q)					//
-
-				&kp LC(Z)					//
-				&kp LC(SEMICOLON)			//
-				&kp LC(LEFT_BRACKET)		//
-				&kp LC(SINGLE_QUOTE)		//
-				&kp LC(K) 					//
-				&kp LSHIFT
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
-
-
-
-		// -----------------------------------------------------|
-		// Layer 15 - mALT =	ALT								|
-		// -----------------------------------------------------|
-
-		mac_alt
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LA(ESC)					// 
-				&kp LA(J)					//
-				&kp LA(D)					//
-				&kp LA(U)					//
-				&kp LA(A)					//
-				&kp LA(X)					//
-
-				&kp LA(P)					//
-				&kp LA(H)					//
-				&kp LA(L) 					//
-				&kp LA(M)					//
-				&kp LA(W) 					//
-				&kp LA(BACKSPACE)			//
-
-				// ----------------------------------------
-		
-				&kp LA(DEL)					//
-				&kp LA(C)					//
-				&kp LA(T)					//
-				&kp LA(I)					//
-				&kp LA(E)					//
-				&kp LA(O)					//
-
-				&kp LA(B)					//
-				&kp LA(N)					//
-				&kp LA(R)					//
-				&kp LA(S)					//
-				&kp LA(G)					//
-				&kp LA(ENTER)				// 
-
-				// ----------------------------------------
-
-				&kp LSHIFT
-				&kp LA(F)					//
-				&kp LA(V)					//
-				&kp LA(MINUS)				//
-				&kp LA(Y)					//
-				&kp LA(Q)					//
-
-				&kp LA(Z)					//
-				&kp LA(SEMICOLON)			//
-				&kp LA(LEFT_BRACKET)		//
-				&kp LA(SINGLE_QUOTE)		//
-				&kp LA(K) 					//
-				&kp LSHIFT
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
 
 
 		// -----------------------------------------------------|
@@ -1754,80 +1528,6 @@
 			>;
 		};
 
-
-
-
-		// -----------------------------------------------------|
-		// Layer 18 - SChar = 	  Buchstaben Shift				|
-		// -----------------------------------------------------|
-
-		mac_schar
-		{
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LS(ESC)
-				&kp LS(J) 
-				&kp LS(D)	 
-				&kp LS(U)
-				&kp LS(A)
-				&kp LS(X)
-
-				&kp LS(P)
-				&kp LS(H)
-				&kp LS(L)
-				&kp LS(M)
-				&kp LS(W)
-				&kp LS(BSPC)
-	
-				// ----------------------------------------
-
-				&kp LS(DEL)
-				&kp LS(C)
-				&kp LS(T)
-				&kp LS(I)
-				&kp LS(E)
-				&kp LS(O)
-
-				&kp LS(B)
-				&kp LS(N)
-				&kp LS(R)
-				&kp LS(S)
-				&kp LS(G)
-				&kp LS(RET)
-	
-				// ----------------------------------------
-
-				&mdLs
-				&kp LS(F)
-				&kp LS(V)
-				&kp LS(MINUS)
-				&kp LS(Y)
-				&kp LS(Q)
-
-				&kp LS(Z)
-				&kp LS(SEMI)
-				&kp LS(LBKT)
-				&kp LS(SQT)
-				&kp LS(K)
-				&mdRs		
-
-				// ----------------------------------------		
-
-				&none						// 
-				&kp LS(SPACE)				//
-				&none						// 
-				&none						//
-				&mNavShift					// 
-				&none						//
-
-				// ----------------------------------------
-
-			>;		
-		};
 
 
 
@@ -2560,7 +2260,7 @@
 				
 				// ----------------------------------------
 
-				&sl wALT
+				&sk LALT
 				&sl wGUI					//
 				&sl wSFUNC					// deep
 				&none
@@ -2633,8 +2333,8 @@
 				
 				// ----------------------------------------
 
-				&sl wCTL
-				&sl wSGUI					//
+				&sk LGUI
+				&sk LS(LCTL)
 				&trans						// 
 				&none
 				&wNavShift						//
@@ -2858,6 +2558,229 @@
 				&none						//
 				&wNavShift						//
 				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 16 - mAlter =	Alterantive						|
+		// -----------------------------------------------------|
+
+		win_mAlter
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&none
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
+				&none
+
+				// ----------------------------------------
+		
+				&none
+				&kp LC(N1)					// 11
+				&kp LC(N2)					// 12
+				&kp LC(N3)					// 13
+				&kp LC(N4)					// 14
+				&kp LC(N5)					// 15
+
+				&kp LC(N6)					// 16
+				&kp LC(N7)					// 17
+				&kp LC(N8)					// 18
+				&kp LC(N9)					// 19
+				&kp LC(N0)					// 20
+				&none
+
+				// ----------------------------------------
+
+				&none
+				&kp F11
+				&kp F12
+				&kp F13
+				&kp F14
+				&kp F15
+
+				&kp LC(LS(N6))					// 16
+				&kp LC(LS(N7))					// 17
+				&kp LC(LS(N8))					// 18
+				&kp LC(LS(N9))					// 19
+				&kp LC(LS(N0))					// 20
+				&none
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&wNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 17 - mPNAV =	Programm NAV					|
+		// -----------------------------------------------------|
+
+		win_pnav
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(LS(X))				//
+				&none						//
+				&none						//
+				&kp LG(LS(Q))				// 
+				&kp LG(LS(W))				// 
+				&kp LG(LS(E))				// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none						//
+				&kp LG(LS(A))				// 
+				&kp LG(LS(S))				// 
+				&kp LG(LS(D))				// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+
+				&none						//
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none
+				&none						// 
+				&none						//
+				&wNavShift
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 19 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_mSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// 
+				&kp LA(F1)					//
+				&kp LA(F2)					//
+				&kp LA(F3)					//
+				&kp LA(F4)					//
+				&kp LA(F5)					//
+
+				&kp LG(F1)					//
+				&kp LG(F2)					//
+				&kp LG(F3) 					//
+				&kp LG(F4)					//
+				&kp LG(F5) 					//
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&trans
+				&kp LA(F6)					//
+				&kp LA(F7)					//
+				&kp LA(F8)					//
+				&to 0						//
+				&to 20
+
+				&kp LG(F6)					//
+				&kp LG(F7)					//
+				&kp LG(F8)					//
+				&kp LG(F9)					//
+				&kp LG(F10)					//
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&to wCHAR
+				&kp LA(F11)					//
+				&kp LA(F12)					//
+				&kp LA(F13)					//
+				&kp LA(F14)					//
+				&kp LA(F15)					//
+
+				&kp LG(F11)					//
+				&kp LG(F12)					//
+				&kp LG(F13)					//
+				&kp LG(F14)					//
+				&kp LG(F15)					//
+				&to wCHAR
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(S)
+				&wAlterShift				// 
+				&wPNAVShift					//
+				&wNavShift					//
+				&to wNRhard
 
 				// ----------------------------------------
 			>;
