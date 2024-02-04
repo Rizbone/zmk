@@ -1564,7 +1564,7 @@
 				&kp LA(F6)					//
 				&kp LA(F7)					//
 				&kp LA(F8)					//
-				&to mChar
+				&to mCHAR
 				&to wCHAR
 
 				&kp LG(F6)					//
@@ -2747,7 +2747,7 @@
 				&kp LA(F6)					//
 				&kp LA(F7)					//
 				&kp LA(F8)					//
-				&to mChar					//
+				&to mCHAR					//
 				&to wCHAR
 
 				&kp LG(F6)					//
