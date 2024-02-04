@@ -1941,9 +1941,9 @@
 				&wFuncMarkLine
 
 				&kp LS(F6)				 	// 
-				&kp LS(F7)				 	// 
+				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
-				&kp LS(F9)				 	// 
+				&kp LC(TAB)				 	// 
 				&kp LCTL
 				&kp ENTER					// -
 				
