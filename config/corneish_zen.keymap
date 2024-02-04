@@ -2646,6 +2646,150 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 10 - mSYM =	Symoble							|
+		// -----------------------------------------------------|
+
+		win_symbole
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+				
+				&kp ESC
+				&kp LS(LA(N7))			// backlslash
+				&kp NUBS				// Spitze
+				&kp LS(NUBS)			// Spitze
+				&kp GRAVE				// ^
+				&kp X
+				
+				&kp LS(NUHS)			// '
+				&kp LS(DOT)				// :
+				&kp LS(COMMA)			// ;
+				&kp M
+				&kp LS(SLASH)			// _
+				&kp BACKSPACE			// Backspace
+
+				// ----------------------------------------
+
+				&kp LCTL
+				&kp LA(L)				// @
+				&kp LA(N7)				// grader strich
+				&kp LS(N6)				// &
+				&kp NUHS				// #
+				&kp LS(N3)				// §
+
+				&kp LS(N2)				// "
+				&kp LS(N1)				// !
+				&kp LS(N8)				// Runde
+				&kp LS(N9)				// Runde
+				&kp LS(MINUS)			// ?
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LSHIFT				//
+				&kp LS(N7)				// /
+				&kp LS(RBKT)			// *				
+				&kp LS(N5)				// %
+				&kp LA(E)				// €
+				&kp GRAVE				// ^
+
+				&kp LS(N0)				// =
+				&kp DOT					// .
+				&kp COMMA				// ,
+				&kp RBKT  				// +
+				&kp SLASH 				// -
+				&kp LG(DOT)   			// @Sonderzeichen
+		
+				// ----------------------------------------
+
+				&sl wSSYM				// deep
+				&none
+				&none					// 
+				&none					//
+				&wNavShift					//
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 11 - mSSYM =	Special Symbole					|
+		// -----------------------------------------------------|
+
+		win_specialsonderzeichen
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC
+				&trans					//
+				&trans 					// 
+				&trans					//
+				&trans					//
+				&trans					//
+
+				&trans					//
+				&trans
+				&trans					//
+				&kp RA(M)				// 
+				&trans					//
+				&kp BACKSPACE			// 
+
+				// ----------------------------------------
+
+				&kp LGUI
+				&trans					//
+				&kp LS(GRAVE)			// Grad
+				&trans					//
+				&trans					//
+				&trans					//
+
+				&trans					//
+				&trans					//
+				&kp LA(N5)				// Eckige
+				&kp LA(N6)				// Eckige
+				&trans					//
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LALT
+				&kp LS(LA(N7))			// 
+				&trans
+				&trans
+				&kp LS(N4) 				// $
+				&trans					//
+
+				&kp LA(N)				// ~
+				&trans
+				&kp LA(N8)				// Geschweift
+				&kp LA(N9)				// Geschweift
+				&kp LS(SLASH)			// _
+				&kp LG(DOT)   			// @Sonderzeichen
+
+				// ----------------------------------------
+
+				&trans					//
+				&none
+				&none					// 
+				&none					//
+				&wNavShift				// 
+				&none					//
+
+				// ----------------------------------------
+			>;
+		};	
+
+
 
 
 		
