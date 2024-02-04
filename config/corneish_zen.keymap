@@ -370,7 +370,7 @@
 				&mFuncReset
 				&mPrgReset
 				&mNavReset
-				&to mCHAR
+				&none
 			>;		
 		};
 
@@ -585,9 +585,9 @@
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&none
+				&mo mCHAR
 				&sl mNAV2					// deep
-				&none
+				&to mCHAR
 
 				// ----------------------------------------							
 			>;
@@ -605,19 +605,19 @@
 
 				// ----------------------------------------
 
-				&kp ESC	
+				&kp LS(ESC)	
 				&kp LG(LS(UP))
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
 				&kp LG(A)
 
-				&none
-				&none
+				&kp LA(F1) 
+				&kp LA(F2) 
 				&kp LG(PG_UP)
-				&none
+				&kp LA(F4) 
 				&kp LGUI
-				&kp BACKSPACE
+				&kp DEL
 
 				// ----------------------------------------
 
@@ -628,10 +628,10 @@
 				&kp LS(RIGHT)		
 				&mFuncMarkLine
 
-				&kp LS(F16)
-				&to mCHAR
+				&kp LA(F6) 
+				&kp LA(F7) 
 				&kp LG(PG_DN)
-				&to mNRhard
+				&kp LA(F9) 
 				&kp LCTL
 				&kp ENTER
 
@@ -644,11 +644,11 @@
 				&kp LG(LS(RIGHT))			// @End  
 				&mFuncMarkWord
 
-				&none
-				&none
-				&none
-				&none
-				&none
+				&kp LA(F11) 
+				&kp LA(F12) 
+				&kp LA(F13) 
+				&kp LA(F14) 
+				&kp LA(F15) 
 				&mdRs
 
 				// ----------------------------------------
@@ -656,9 +656,9 @@
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&none						// 
+				&mo mCHAR					// 
 				&trans						// 
-				&none
+				&to mCHAR
 
 				// ----------------------------------------
 			>;
@@ -1651,7 +1651,7 @@
 				&kp LG(F3) 					//
 				&kp LG(F4)					//
 				&kp LG(F5) 					//
-				&kp DEL						//
+				&kp BACKSPACE				//
 
 				// ----------------------------------------
 		
@@ -1667,7 +1667,7 @@
 				&kp LG(F8)					//
 				&kp LG(F9)					//
 				&kp LG(F10)					//
-				&kp LG(ENTER)				// 
+				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
