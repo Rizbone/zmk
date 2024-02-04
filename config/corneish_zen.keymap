@@ -3309,6 +3309,76 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 19 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_mSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// 
+				&kp LA(F1)					//
+				&kp LA(F2)					//
+				&kp LA(F3)					//
+				&kp LA(F4)					//
+				&kp LA(F5)					//
+
+				&kp LG(F1)					//
+				&kp LG(F2)					//
+				&kp LG(F3) 					//
+				&kp LG(F4)					//
+				&kp LG(F5) 					//
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&trans
+				&kp LA(F6)					//
+				&kp LA(F7)					//
+				&kp LA(F8)					//
+				&to 0						//
+				&to 20
+
+				&kp LG(F6)					//
+				&kp LG(F7)					//
+				&kp LG(F8)					//
+				&kp LG(F9)					//
+				&kp LG(F10)					//
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&to wCHAR
+				&kp LA(F11)					//
+				&kp LA(F12)					//
+				&kp LA(F13)					//
+				&kp LA(F14)					//
+				&kp LA(F15)					//
+
+				&kp LG(F11)					//
+				&kp LG(F12)					//
+				&kp LG(F13)					//
+				&kp LG(F14)					//
+				&kp LG(F15)					//
+				&to wCHAR
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(S)
+				&wAlterShift				// 
+				&wPNAVShift					//
+				&wNavShift					//
+				&to wNRhard
+
+				// ----------------------------------------
+			>;
+		};
 
 
 
