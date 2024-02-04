@@ -1230,10 +1230,10 @@
 				// ----------------------------------------
 
 				&sl mSSYM				// deep
-				&kp LGUI 				//
+				&none		 			//
 				&none					// 
 				&none					//
-				&mNavShift					//
+				&mNavShift				//
 				&none					//
 
 				// ----------------------------------------
@@ -2597,7 +2597,7 @@
 				&kp LS(LA(LC(F3)))			// #OPEN
 				&kp LS(LA(LC(F4)))			// #OPEN
 				&kp LS(LA(LC(F5)))			// #OPEN
-				&kp LS(LG(W))
+				&kp LS(LC(W))
 				
 				// ----------------------------------------
 
@@ -2613,7 +2613,7 @@
 				&kp LS(LA(LC(F8)))			// #OPEN
 				&kp LS(LA(LC(F9)))			// #OPEN
 				&kp LS(LA(LC(F10)))			// @Craft Last Day
-				&kp LG(ENTER)	
+				&kp LC(ENTER)	
 
 				// ----------------------------------------
 
@@ -2627,17 +2627,17 @@
 				&kp LS(LA(LC(F11)))			// @Craft Einkauf
 				&kp LS(LA(LC(F12)))			// #OPEN
 				&kp LS(LA(LC(F13)))			// #OPEN
-				&kp LG(F18)					// #OPEN Different
-				&kp LG(F19)					// #OPEN Different
-				&kp LS(LG(T))
+				&kp LS(LA(LC(F14)))			// #OPEN
+				&kp LS(LA(LC(F15)))			// #OPEN
+				&kp LC(LS(T))
 				
 				// ----------------------------------------
 
-				&sl mCTL
-				&sl mSGUI					//
+				&sl wCTL
+				&sl wSGUI					//
 				&trans						// 
 				&none
-				&mNavShift						//
+				&wNavShift						//
 				&none						//
 
 				// ----------------------------------------       
@@ -2674,7 +2674,7 @@
 
 				// ----------------------------------------
 
-				&kp LGUI
+				&kp LCTL
 				&kp LA(L)				// @
 				&kp LA(N7)				// grader strich
 				&kp LS(N6)				// &
@@ -2702,15 +2702,15 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&kp LG(LC(SPACE))   	// @Sonderzeichen
+				&kp LG(DOT)   			// @Sonderzeichen
 		
 				// ----------------------------------------
 
-				&sl mSSYM				// deep
-				&kp LGUI 				//
+				&sl wSSYM				// deep
+				&none
 				&none					// 
 				&none					//
-				&mNavShift					//
+				&wNavShift					//
 				&none					//
 
 				// ----------------------------------------
@@ -2746,7 +2746,7 @@
 
 				// ----------------------------------------
 
-				&kp LCTL
+				&kp LGUI
 				&trans					//
 				&kp LS(GRAVE)			// Grad
 				&trans					//
@@ -2774,7 +2774,7 @@
 				&kp LA(N8)				// Geschweift
 				&kp LA(N9)				// Geschweift
 				&kp LS(SLASH)			// _
-				&kp LG(LC(SPACE))   	// @Sonderzeichen
+				&kp LG(DOT)   			// @Sonderzeichen
 
 				// ----------------------------------------
 
@@ -2782,7 +2782,7 @@
 				&none
 				&none					// 
 				&none					//
-				&mNavShift				// 
+				&wNavShift				// 
 				&none					//
 
 				// ----------------------------------------
@@ -2797,151 +2797,6 @@
 		// -----------------------------------------------------|
 
 		win_gui
-		{
-			label = "win";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LG(ESC)					// 
-				&kp LG(J)					//
-				&kp LG(D)					//
-				&kp LG(U)					//
-				&kp LG(A)					//
-				&kp LG(X)					//
-
-				&kp LG(P)					//
-				&kp LG(H)					//
-				&kp LG(L) 					//
-				&kp LG(M)					//
-				&kp LG(W) 					//
-				&kp LG(BACKSPACE)			//
-
-				// ----------------------------------------
-		
-				&kp LG(DEL)					//
-				&kp LG(C)					//
-				&kp LG(T)					//
-				&kp LG(I)					//
-				&kp LG(E)					//
-				&kp LG(O)					//
-
-				&kp LG(B)					//
-				&kp LG(N)					//
-				&kp LG(R)					//
-				&kp LG(S)					//
-				&kp LG(G)					//
-				&kp LG(ENTER)				// 
-
-				// ----------------------------------------
-
-				&kp LSHIFT
-				&kp LG(F)					//
-				&kp LG(V)					//
-				&kp LG(MINUS)				//
-				&kp LG(Y)					//
-				&kp LG(Q)					//
-
-				&kp LG(Z)					//
-				&kp LG(SEMICOLON)			//
-				&kp LG(LEFT_BRACKET)		//
-				&kp LG(SINGLE_QUOTE)		//
-				&kp LG(K) 					//
-				&kp LSHIFT
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
-
-		// -----------------------------------------------------|
-		// Layer 13 - mSGUI =	SGUI								|
-		// -----------------------------------------------------|
-
-		win_sgui
-		{
-			label = "win";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&kp LG(LS(ESC))					// 
-				&kp LG(LS(J))					//
-				&kp LG(LS(D))					//
-				&kp LG(LS(U))					//
-				&kp LG(LS(A))					//
-				&kp LG(LS(X))					//
-
-				&kp LG(LS(P))					//
-				&kp LG(LS(H))					//
-				&kp LG(LS(L))					//
-				&kp LG(LS(M))					//
-				&kp LG(LS(W))					//
-				&kp LG(LS(BACKSPACE))			//
-
-				// ----------------------------------------
-		
-				&kp LG(LS(DEL))					// 
-				&kp LG(LS(C))					//
-				&kp LG(LS(T))					//
-				&kp LG(LS(I))					//
-				&kp LG(LS(E))					//
-				&kp LG(LS(O))					//
-
-				&kp LG(LS(B))					//
-				&kp LG(LS(N))					//
-				&kp LG(LS(R))					//
-				&kp LG(LS(S))					//
-				&kp LG(LS(G))					//
-				&kp LG(LS(ENTER))				// 
-
-				// ----------------------------------------
-
-				&kp LSHIFT
-				&kp LG(LS(F))					//
-				&kp LG(LS(V))					//
-				&kp LG(LS(MINUS))				//
-				&kp LG(LS(Y))					//
-				&kp LG(LS(Q))					//
-
-				&kp LG(LS(Z))					//
-				&kp LG(LS(SEMICOLON))			//
-				&kp LG(LS(LEFT_BRACKET))		//
-				&kp LG(LS(SINGLE_QUOTE))		//
-				&kp LG(LS(K)) 					//
-				&kp LSHIFT
-
-				// ----------------------------------------
-		
-				&none						//
-				&trans
-				&none						// 
-				&none						//
-				&mNavShift						//
-				&none						// 
-
-				// ----------------------------------------
-			>;
-		};
-
-
-
-		// -----------------------------------------------------|
-		// Layer 14 - mCTL =	CTL								|
-		// -----------------------------------------------------|
-
-		win_ctl
 		{
 			label = "win";
 
@@ -3001,7 +2856,152 @@
 				&trans
 				&none						// 
 				&none						//
-				&mNavShift						//
+				&wNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 13 - mSGUI =	SGUI								|
+		// -----------------------------------------------------|
+
+		win_sgui
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LC(LS(ESC))					// 
+				&kp LC(LS(J))					//
+				&kp LC(LS(D))					//
+				&kp LC(LS(U))					//
+				&kp LC(LS(A))					//
+				&kp LC(LS(X))					//
+
+				&kp LC(LS(P))					//
+				&kp LC(LS(H))					//
+				&kp LC(LS(L))					//
+				&kp LC(LS(M))					//
+				&kp LC(LS(W))					//
+				&kp LC(LS(BACKSPACE))			//
+
+				// ----------------------------------------
+		
+				&kp LC(LS(DEL))					// 
+				&kp LC(LS(C))					//
+				&kp LC(LS(T))					//
+				&kp LC(LS(I))					//
+				&kp LC(LS(E))					//
+				&kp LC(LS(O))					//
+
+				&kp LC(LS(B))					//
+				&kp LC(LS(N))					//
+				&kp LC(LS(R))					//
+				&kp LC(LS(S))					//
+				&kp LC(LS(G))					//
+				&kp LC(LS(ENTER))				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LC(LS(F))					//
+				&kp LC(LS(V))					//
+				&kp LC(LS(MINUS))				//
+				&kp LC(LS(Y))					//
+				&kp LC(LS(Q))					//
+
+				&kp LC(LS(Z))					//
+				&kp LC(LS(SEMICOLON))			//
+				&kp LC(LS(LEFT_BRACKET))		//
+				&kp LC(LS(SINGLE_QUOTE))		//
+				&kp LC(LS(K)) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&wNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 14 - mCTL =	CTL								|
+		// -----------------------------------------------------|
+
+		win_ctl
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(ESC)					// 
+				&kp LG(J)					//
+				&kp LG(D)					//
+				&kp LG(U)					//
+				&kp LG(A)					//
+				&kp LG(X)					//
+
+				&kp LG(P)					//
+				&kp LG(H)					//
+				&kp LG(L) 					//
+				&kp LG(M)					//
+				&kp LG(W) 					//
+				&kp LG(BACKSPACE)			//
+
+				// ----------------------------------------
+		
+				&kp LG(DEL)					//
+				&kp LG(C)					//
+				&kp LG(T)					//
+				&kp LG(I)					//
+				&kp LG(E)					//
+				&kp LG(O)					//
+
+				&kp LG(B)					//
+				&kp LG(N)					//
+				&kp LG(R)					//
+				&kp LG(S)					//
+				&kp LG(G)					//
+				&kp LG(ENTER)				// 
+
+				// ----------------------------------------
+
+				&kp LSHIFT
+				&kp LG(F)					//
+				&kp LG(V)					//
+				&kp LG(MINUS)				//
+				&kp LG(Y)					//
+				&kp LG(Q)					//
+
+				&kp LG(Z)					//
+				&kp LG(SEMICOLON)			//
+				&kp LG(LEFT_BRACKET)		//
+				&kp LG(SINGLE_QUOTE)		//
+				&kp LG(K) 					//
+				&kp LSHIFT
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&wNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -3097,22 +3097,6 @@
 				// ----------------------------------------
 
 				&none
-				&kp LG(N1)					// 11
-				&kp LG(N2)					// 12
-				&kp LG(N3)					// 13
-				&kp LG(N4)					// 14
-				&kp LG(N5)					// 15
-
-				&kp LG(N6)					// 16
-				&kp LG(N7)					// 17
-				&kp LG(N8)					// 18
-				&kp LG(N9)					// 19
-				&kp LG(N0)					// 20
-				&none
-
-				// ----------------------------------------
-		
-				&none
 				&kp F1
 				&kp F2
 				&kp F3
@@ -3127,6 +3111,23 @@
 				&none
 
 				// ----------------------------------------
+		
+				&none
+				&kp LC(N1)					// 11
+				&kp LC(N2)					// 12
+				&kp LC(N3)					// 13
+				&kp LC(N4)					// 14
+				&kp LC(N5)					// 15
+
+				&kp LC(N6)					// 16
+				&kp LC(N7)					// 17
+				&kp LC(N8)					// 18
+				&kp LC(N9)					// 19
+				&kp LC(N0)					// 20
+
+				&none
+
+				// ----------------------------------------
 
 				&none
 				&kp F11
@@ -3135,11 +3136,11 @@
 				&kp F14
 				&kp F15
 
-				&kp F16
-				&kp F17
-				&kp F18
-				&kp F19
-				&kp F20
+				&kp LC(LS(N6))					// 16
+				&kp LC(LS(N7))					// 17
+				&kp LC(LS(N8))					// 18
+				&kp LC(LS(N9))					// 19
+				&kp LC(LS(N0))					// 20
 				&none
 
 				// ----------------------------------------
