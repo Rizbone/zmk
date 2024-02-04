@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// Mac
+// ------- MAC -------------------
 
 #define mCHAR 0
 #define mNR 1
@@ -36,6 +36,8 @@
 #define mSCHAR 18
 #define mSShift 19
 
+
+// ------- WIN -------------------
 
 
 #define wCHAR 20
@@ -82,7 +84,7 @@
 
     behaviors {
 
-		// MAC
+		// ------------------------- MAC ---------------------
 	
 
         mdNr: tap_dance_mdNr {
@@ -111,7 +113,7 @@
 
 
 
-		// WiN
+		// ------------------------- WiN ---------------------
 
 		mdNrWin: tap_dance_mdNrWin {
             compatible = "zmk,behavior-tap-dance";
@@ -141,7 +143,7 @@
 	
     macros {
 
-		// MAC
+		// ------------------------- MAC ---------------------
 
         mSpaceReset: mSpaceReset {
             label = "mSpaceReset";
@@ -281,7 +283,7 @@
 
 
 
-		// WIN
+		// ------------------------- WiN ---------------------
 
         wSpaceReset: wSpaceReset {
             label = "wSpaceReset";
@@ -1940,7 +1942,7 @@
 
 				// ----------------------------------------
 	
-				&sl mSShift
+				&sl wSShift
 				&kp C
 				&kp T
 				&kp I
@@ -1956,7 +1958,7 @@
 
 				// ----------------------------------------
 	
-				&mdLs
+				&mdLsWin
 				&kp F
 				&kp V
 				&kp MINUS
@@ -1968,16 +1970,16 @@
 				&kp LBKT
 				&kp SQT
 				&kp K
-				&mdRs
+				&mdRsWin
 
 				// ----------------------------------------
 
-				&sl mSYM
+				&sl wSYM
 				&kp SPACE
-				&sl mFUNC
-				&sl mPRG
-				&sl mNAV
-				&mdNr
+				&sl wFUNC
+				&sl wPRG
+				&sl wNAV
+				&mdNrWin
 
 				// ----------------------------------------
 			>;
@@ -2013,7 +2015,7 @@
 
 				// ----------------------------------------
 
-				&sl mSShift
+				&sl wSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -2025,11 +2027,11 @@
 				&kp N8			
 				&kp N9				
 				&kp N0				
-				&mEnterReset 
+				&wEnterReset 
 
 				// ----------------------------------------
 
-				&mdLs
+				&mdLsWin
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -2041,15 +2043,15 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRs
+				&mdRsWin
 
 				// ----------------------------------------
 		
-				&mSymReset
-				&mSpaceReset 
-				&mFuncReset
-				&mPrgReset
-				&mNavReset
+				&wSymReset
+				&wSpaceReset 
+				&wFuncReset
+				&wPrgReset
+				&wNavReset
 				&none
 			>;		
 		};
@@ -2084,7 +2086,7 @@
 
 				// ----------------------------------------
 	
-				&sl mSShift
+				&sl wSShift
 				&kp LS(C)
 				&kp LS(T)
 				&kp LS(I)
@@ -2096,11 +2098,11 @@
 				&kp LS(R)
 				&kp LS(S)
 				&kp LS(G)
-				&mEnterReset
+				&wEnterReset
 
 				// ----------------------------------------
 
-				&mdLs
+				&mdLsWin
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -2112,16 +2114,16 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdRs						
+				&mdRsWin						
 
 				// ----------------------------------------
 
 				&sl mSYM
-				&mSpaceReset 
-				&mFuncReset
-				&mPrgReset
-				&mNavReset
-				&mdNr
+				&wSpaceReset 
+				&wFuncReset
+				&wPrgReset
+				&wNavReset
+				&mdNrWin
 
 				// ----------------------------------------
 			>;
@@ -2157,7 +2159,7 @@
 
 				// ----------------------------------------
 
-				&sl mSShift
+				&sl wSShift
 				&kp N1				
 				&kp N2				
 				&kp N3				
@@ -2173,7 +2175,7 @@
 
 				// ----------------------------------------
 
-				&mdLs
+				&mdLsWin
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -2185,16 +2187,16 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRs
+				&mdRsWin
 
 				// ----------------------------------------
 		
-				&sl mSYM
+				&sl wSYM
 				&kp SPACE
-				&sl mFUNC
-				&sl mPRG
-				&sl mNAV
-				&to mCHAR
+				&sl wFUNC
+				&sl wPRG
+				&sl wNAV
+				&to wCHAR
 			>;		
 		};
 
@@ -2215,27 +2217,27 @@
 				// ----------------------------------------
 
 				&kp ESC						// -
-				&kp LG(UP)					// @Home Sprung
+				&kp LC(HOME)				// @Home Sprung
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LG(A)				 	// 
+				&kp LC(A)				 	// 
 
 				&kp LS(F1)				 	// 
 				&kp LS(F2)				 	// 
 				&kp PG_UP
 				&kp LS(F4)				 	// 
-				&kp LGUI
+				&kp LALT
 				&kp BSPC					// -
 
 				// ----------------------------------------
 
-				&sl mSShift					// -
-				&kp LG(DOWN)				// @End Sprung
+				&sl wSShift					// -
+				&kp LC(END)					// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&mFuncMarkLine
+				&wFuncMarkLine
 
 				&kp LS(F6)				 	// 
 				&kp LS(F7)				 	// 
@@ -2246,28 +2248,28 @@
 				
 				// ----------------------------------------
 
-				&mdLs
-				&kp LG(LEFT)				// @Home 
-				&kp LA(LEFT)				// @Wort Sprung
-				&kp LA(RIGHT)				// @Wort Sprung
-				&kp LG(RIGHT)				// @End  
-				&mFuncMarkWord
+				&mdLsWin
+				&kp HOME				// @Home 
+				&kp LC(LEFT)				// @Wort Sprung
+				&kp LC(RIGHT)				// @Wort Sprung
+				&kp END
+				&wFuncMarkWord
 
 				&kp LS(F11)				 	// 
 				&kp LS(F12)				 	// 
 				&kp LS(F13)				 	// 
 				&kp LS(F14)				 	// 
 				&kp LS(F15)				 	// 
-				&mdRs
+				&mdRsWin
 
 				// ----------------------------------------
 
-				&sl mSYM
+				&sl wSYM
 				&kp SPACE				
-				&sl mFUNC
-				&mo mCHAR
-				&sl mNAV2					// deep
-				&to mCHAR
+				&sl wFUNC
+				&mo wCHAR
+				&sl wNAV2					// deep
+				&to wCHAR
 
 				// ----------------------------------------							
 			>;
@@ -2286,59 +2288,59 @@
 				// ----------------------------------------
 
 				&kp LS(ESC)	
-				&kp LG(LS(UP))
+				&kp LS(LC(HOME))
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
-				&kp LG(A)
+				&kp LC(A)
 
 				&kp LA(F1) 
 				&kp LA(F2) 
-				&kp LG(PG_UP)
+				&kp LC(PG_UP)
 				&kp LA(F4) 
-				&kp LGUI
+				&kp LALT
 				&kp DEL
 
 				// ----------------------------------------
 
-				&sl mSShift					// -					
-				&kp LG(LS(DOWN))				
+				&sl wSShift					// -					
+				&kp LS(LC(END))				
 				&kp LS(LEFT)		
 				&kp LS(DOWN)		
 				&kp LS(RIGHT)		
-				&mFuncMarkLine
+				&wFuncMarkLine
 
 				&kp LA(F6) 
 				&kp LA(F7) 
-				&kp LG(PG_DN)
+				&kp LC(PG_DN)
 				&kp LA(F9) 
 				&kp LCTL
 				&kp ENTER
 
 				// ----------------------------------------
 	
-				&mdLs	
-				&kp LG(LS(LEFT))			// @Home 
-				&kp LA(LS(LEFT))			// @Wort Sprung
-				&kp LA(LS(RIGHT))			// @Wort Sprung
-				&kp LG(LS(RIGHT))			// @End  
-				&mFuncMarkWord
+				&mdLsWin
+				&kp LS(HOME)				// @Home 
+				&kp LC(LS(LEFT))			// @Wort Sprung
+				&kp LC(LS(RIGHT))			// @Wort Sprung
+				&kp LS(END)					// @End  
+				&wFuncMarkWord
 
 				&kp LA(F11) 
 				&kp LA(F12) 
 				&kp LA(F13) 
 				&kp LA(F14) 
 				&kp LA(F15) 
-				&mdRs
+				&mdRsWin
 
 				// ----------------------------------------
 
-				&sl mSYM
+				&sl wSYM
 				&kp SPACE				
-				&sl mFUNC
-				&mo mCHAR					// 
+				&sl wFUNC
+				&mo wCHAR					// 
 				&trans						// 
-				&to mCHAR
+				&to wCHAR
 
 				// ----------------------------------------
 			>;
