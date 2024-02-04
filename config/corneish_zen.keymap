@@ -3075,7 +3075,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&mNavShift						//
+				&wNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -3149,7 +3149,7 @@
 				&trans
 				&none						// 
 				&none						//
-				&mNavShift						//
+				&wNavShift						//
 				&none						// 
 
 				// ----------------------------------------
@@ -3225,7 +3225,7 @@
 				&none
 				&none						// 
 				&none						//
-				&mNavShift
+				&wNavShift
 				&none						// 
 
 				// ----------------------------------------
@@ -3299,7 +3299,7 @@
 				&kp LS(SPACE)				//
 				&none						// 
 				&none						//
-				&mNavShift					// 
+				&wNavShift					// 
 				&none						//
 
 				// ----------------------------------------
@@ -3354,7 +3354,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR
+				&to wCHAR
 				&kp LA(F11)					//
 				&kp LA(F12)					//
 				&kp LA(F13)					//
@@ -3366,16 +3366,16 @@
 				&kp LG(F13)					//
 				&kp LG(F14)					//
 				&kp LG(F15)					//
-				&to mCHAR
+				&to wCHAR
 
 				// ----------------------------------------
 		
 				&none
-				&kp LG(SPACE)
-				&mAlterShift				// 
-				&mPNAVShift					//
-				&mNavShift					//
-				&to mNRhard
+				&kp LG(S)
+				&wAlterShift				// 
+				&wPNAVShift					//
+				&wNavShift					//
+				&to wNRhard
 
 				// ----------------------------------------
 			>;
