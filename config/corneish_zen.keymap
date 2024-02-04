@@ -2089,7 +2089,7 @@
 				&kp LG(LA(LC(N7)))				// 7
 				&kp LG(LA(LC(N8)))				// 8
 				&kp LG(LA(LC(N9)))				// 9
-				&kp LG(LALC((N0)))				// 0
+				&kp LG(LA(LC(N0)))				// 0
 				&kp LG(TAB)
 
 				// ----------------------------------------
