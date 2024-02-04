@@ -2231,7 +2231,7 @@
 
 				&kp LG(LS(F14))		
 				&kp LC(A)
-				&kp LC(LA(F7))				
+				&kp LS(F18)
 				&kp LC(LA(F8))				
 				&kp LC(C)			
 				&kp LC(X)
@@ -2304,7 +2304,7 @@
 
 				&kp LG(LS(F17))		
 				&kp LG(LA(F6))				// @Craft Today
-				&kp LG(LA(F7))				// @Craft Tomorrow
+				&kp LS(F19)
 				&kp LG(LA(F8))				// #OPEN
 				&kp LG(LA(F9))				// #OPEN
 				&kp LG(LA(F10))				// @Craft Last Day
