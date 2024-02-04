@@ -812,7 +812,7 @@
 
 				&kp LA(F1) 
 				&kp LA(F2) 
-				&kp LG(PG_UP)
+				&kp LC(PG_UP)
 				&kp LA(F4) 
 				&kp LGUI
 				&kp DEL
@@ -828,7 +828,7 @@
 
 				&kp LA(F6) 
 				&kp LA(F7) 
-				&kp LG(PG_DN)
+				&kp LC(PG_DN)
 				&kp LA(F9) 
 				&kp LCTL
 				&kp ENTER
@@ -1395,22 +1395,6 @@
 				// ----------------------------------------
 
 				&none
-				&kp LG(N1)					// 11
-				&kp LG(N2)					// 12
-				&kp LG(N3)					// 13
-				&kp LG(N4)					// 14
-				&kp LG(N5)					// 15
-
-				&kp LG(N6)					// 16
-				&kp LG(N7)					// 17
-				&kp LG(N8)					// 18
-				&kp LG(N9)					// 19
-				&kp LG(N0)					// 20
-				&none
-
-				// ----------------------------------------
-		
-				&none
 				&kp F1
 				&kp F2
 				&kp F3
@@ -1422,6 +1406,22 @@
 				&kp F8
 				&kp F9
 				&kp F10
+				&none
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(N1)					// 11
+				&kp LG(N2)					// 12
+				&kp LG(N3)					// 13
+				&kp LG(N4)					// 14
+				&kp LG(N5)					// 15
+
+				&kp LG(N6)					// 16
+				&kp LG(N7)					// 17
+				&kp LG(N8)					// 18
+				&kp LG(N9)					// 19
+				&kp LG(N0)					// 20
 				&none
 
 				// ----------------------------------------
