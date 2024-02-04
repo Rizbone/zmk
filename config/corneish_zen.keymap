@@ -82,7 +82,7 @@
 
     behaviors {
 
-		// MA
+		// MAC
 	
 
         mdNr: tap_dance_mdNr {
@@ -107,6 +107,33 @@
             #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&sl mSCHAR>, <&to mLCHAR>;
+        };
+
+
+
+		// WiN
+
+		mdNrWin: tap_dance_mdNrWin {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdNrWin";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&to wNR>, <&sl wNR>;
+        };
+
+		mdLsWin: tap_dance_mdLsWin {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdLsWin";
+            #binding-cells = <0>;
+            tapping-term-ms = <1000>;
+            bindings = <&sl wSCHAR>, <&to wLCHAR>;
+        };
+		mdRsWin: tap_dance_mdRsWin {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_mdRsWin";
+            #binding-cells = <0>;
+            tapping-term-ms = <1000>;
+            bindings = <&sl wSCHAR>, <&to wLCHAR>;
         };
 
     };
