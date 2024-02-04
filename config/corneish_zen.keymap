@@ -1471,10 +1471,10 @@
 
 				&kp LG(LS(X))				//
 				&none						//
-				&none						//
 				&kp LG(LS(Q))				// 
 				&kp LG(LS(W))				// 
-				&kp LG(LS(E))				// 
+				&kp LG(LS(E))				//
+				&none						// 
 
 				&none						//
 				&none						// 
@@ -2655,10 +2655,10 @@
 
 				&kp LG(LS(X))				//
 				&none						//
-				&none						//
 				&kp LG(LS(Q))				// 
 				&kp LG(LS(W))				// 
-				&kp LG(LS(E))				// 
+				&kp LG(LS(E))				//
+				&none						// 
 
 				&none						//
 				&none						// 
