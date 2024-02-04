@@ -3084,6 +3084,303 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 16 - mAlter =	Alterantive						|
+		// -----------------------------------------------------|
+
+		win_mAlter
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&none
+				&kp F1
+				&kp F2
+				&kp F3
+				&kp F4
+				&kp F5
+
+				&kp F6
+				&kp F7
+				&kp F8
+				&kp F9
+				&kp F10
+				&none
+
+				// ----------------------------------------
+		
+				&none
+				&kp LC(N1)					// 11
+				&kp LC(N2)					// 12
+				&kp LC(N3)					// 13
+				&kp LC(N4)					// 14
+				&kp LC(N5)					// 15
+
+				&kp LC(N6)					// 16
+				&kp LC(N7)					// 17
+				&kp LC(N8)					// 18
+				&kp LC(N9)					// 19
+				&kp LC(N0)					// 20
+
+				&none
+
+				// ----------------------------------------
+
+				&none
+				&kp F11
+				&kp F12
+				&kp F13
+				&kp F14
+				&kp F15
+
+				&kp LC(LS(N6))					// 16
+				&kp LC(LS(N7))					// 17
+				&kp LC(LS(N8))					// 18
+				&kp LC(LS(N9))					// 19
+				&kp LC(LS(N0))					// 20
+				&none
+
+				// ----------------------------------------
+		
+				&none						//
+				&trans
+				&none						// 
+				&none						//
+				&wNavShift						//
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 17 - mPNAV =	Programm NAV					|
+		// -----------------------------------------------------|
+
+		win_pnav
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LG(LS(X))				//
+				&none						//
+				&none						//
+				&kp LG(LS(Q))				// 
+				&kp LG(LS(W))				// 
+				&kp LG(LS(E))				// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none						//
+				&kp LG(LS(A))				// 
+				&kp LG(LS(S))				// 
+				&kp LG(LS(D))				// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+
+				&none						//
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+
+				&none						//
+				&none						// 
+				&none						//
+				&none						// 
+				&none						// 
+				&none						//
+
+				// ----------------------------------------
+		
+				&none						//
+				&none
+				&none						// 
+				&none						//
+				&wNavShift
+				&none						// 
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+
+		// -----------------------------------------------------|
+		// Layer 18 - SChar = 	  Buchstaben Shift				|
+		// -----------------------------------------------------|
+
+		win_schar
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp LS(ESC)
+				&kp LS(J) 
+				&kp LS(D)	 
+				&kp LS(U)
+				&kp LS(A)
+				&kp LS(X)
+
+				&kp LS(P)
+				&kp LS(H)
+				&kp LS(L)
+				&kp LS(M)
+				&kp LS(W)
+				&kp LS(BSPC)
+	
+				// ----------------------------------------
+
+				&kp LS(DEL)
+				&kp LS(C)
+				&kp LS(T)
+				&kp LS(I)
+				&kp LS(E)
+				&kp LS(O)
+
+				&kp LS(B)
+				&kp LS(N)
+				&kp LS(R)
+				&kp LS(S)
+				&kp LS(G)
+				&kp LS(RET)
+	
+				// ----------------------------------------
+
+				&mdLsWin
+				&kp LS(F)
+				&kp LS(V)
+				&kp LS(MINUS)
+				&kp LS(Y)
+				&kp LS(Q)
+
+				&kp LS(Z)
+				&kp LS(SEMI)
+				&kp LS(LBKT)
+				&kp LS(SQT)
+				&kp LS(K)
+				&mdRsWin
+
+				// ----------------------------------------		
+
+				&none						// 
+				&kp LS(SPACE)				//
+				&none						// 
+				&none						//
+				&wNavShift					// 
+				&none						//
+
+				// ----------------------------------------
+
+			>;		
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 19 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_mSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// 
+				&kp LA(F1)					//
+				&kp LA(F2)					//
+				&kp LA(F3)					//
+				&kp LA(F4)					//
+				&kp LA(F5)					//
+
+				&kp LG(F1)					//
+				&kp LG(F2)					//
+				&kp LG(F3) 					//
+				&kp LG(F4)					//
+				&kp LG(F5) 					//
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&trans
+				&kp LA(F6)					//
+				&kp LA(F7)					//
+				&kp LA(F8)					//
+				&to 0						//
+				&to 20
+
+				&kp LG(F6)					//
+				&kp LG(F7)					//
+				&kp LG(F8)					//
+				&kp LG(F9)					//
+				&kp LG(F10)					//
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&to wCHAR
+				&kp LA(F11)					//
+				&kp LA(F12)					//
+				&kp LA(F13)					//
+				&kp LA(F14)					//
+				&kp LA(F15)					//
+
+				&kp LG(F11)					//
+				&kp LG(F12)					//
+				&kp LG(F13)					//
+				&kp LG(F14)					//
+				&kp LG(F15)					//
+				&to wCHAR
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(S)
+				&wAlterShift				// 
+				&wPNAVShift					//
+				&wNavShift					//
+				&to wNRhard
+
+				// ----------------------------------------
+			>;
+		};
+
+
 
 		
 	};
