@@ -2500,6 +2500,152 @@
 					
 
 
+		// -----------------------------------------------------|
+		// Layer 8 - mFUNC =	Funktionen						|
+		// -----------------------------------------------------|
+
+		win_function
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+	
+				&kp LG(LS(F13))				
+				&kp LC(LA(F1))	
+				&kp LC(LA(F2))	
+				&kp LC(LA(F3))	
+				&kp LC(LA(F4))	
+				&kp LC(LA(F5))	
+
+				&kp LS(LA(F1))	
+				&kp LS(LA(F2))					
+				&kp LS(LA(F3))		
+				&kp LS(LA(F4))	
+				&kp LS(LA(F5))	
+				&kp LC(W)				
+				
+				// ----------------------------------------
+
+				&kp LG(LS(F14))		
+				&kp LC(A)
+				&kp LC(LA(F7))				
+				&kp LC(LA(F8))				
+				&kp LC(C)			
+				&kp LC(X)
+
+				&kp LG(V)
+				&kp LC(V)
+				&kp LS(LA(F8))				
+				&kp LS(LA(F9))	
+				&kp LS(LA(F10))	
+				&kp ENTER
+
+				// ----------------------------------------
+
+				&kp LS(LG(F15))
+				&kp LC(S)
+				&kp LC(Z)
+				&kp LC(Y)
+				&kp LC(O)
+				&kp LC(LA(F15))
+
+				&kp LC(P)	
+				&kp LS(LA(F11))	
+				&kp LS(LA(F12))	
+				&kp LS(LA(F13))	
+				&kp LC(F)	
+				&kp LC(T)
+				
+				// ----------------------------------------
+
+				&sl wALT
+				&sl wGUI					//
+				&sl wSFUNC					// deep
+				&none
+				&wNavShift					//
+				&none						//
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
+		// -----------------------------------------------------|
+		// Layer 9 - mSFUNC =	Spezial Funktionen				|
+		// -----------------------------------------------------|
+
+		win_specialfunction
+		{
+			label = "win";
+
+			bindings = <
+
+			// ----------------------------------------
+	
+				&kp LG(LS(F16))			
+				&kp LG(LA(F1))				// #OPEN
+				&kp LG(LA(F2))				// #OPEN
+				&kp LG(LA(F3))				// #OPEN
+				&kp LG(LA(F4))				// #OPEN
+				&kp LG(LA(F5))				// #OPEN
+
+				&kp LS(LA(LC(F1)))			// #OPEN
+				&kp LS(LA(LC(F2)))			// #OPEN
+				&kp LS(LA(LC(F3)))			// #OPEN
+				&kp LS(LA(LC(F4)))			// #OPEN
+				&kp LS(LA(LC(F5)))			// #OPEN
+				&kp LS(LC(W))
+				
+				// ----------------------------------------
+
+				&kp LG(LS(F17))		
+				&kp LG(LA(F6))				// @Craft Today
+				&kp LG(LA(F7))				// @Craft Tomorrow
+				&kp LG(LA(F8))				// #OPEN
+				&kp LG(LA(F9))				// #OPEN
+				&kp LG(LA(F10))				// @Craft Last Day
+
+				&kp LS(LA(LC(F6)))			// @Craft Today
+				&kp LS(LA(LC(F7)))			// @Craft Tomorrow
+				&kp LS(LA(LC(F8)))			// #OPEN
+				&kp LS(LA(LC(F9)))			// #OPEN
+				&kp LS(LA(LC(F10)))			// @Craft Last Day
+				&kp LC(ENTER)	
+
+				// ----------------------------------------
+
+				&kp LG(LS(F18))		
+				&kp LG(LA(F11))				// @Craft Einkauf
+				&kp LG(LA(F12))				// #OPEN
+				&kp LG(LA(F13))				// #OPEN
+				&kp LG(LA(F14))				// #OPEN
+				&kp LG(LA(F15))				// #OPEN
+
+				&kp LS(LA(LC(F11)))			// @Craft Einkauf
+				&kp LS(LA(LC(F12)))			// #OPEN
+				&kp LS(LA(LC(F13)))			// #OPEN
+				&kp LS(LA(LC(F14)))			// #OPEN
+				&kp LS(LA(LC(F15)))			// #OPEN
+				&kp LC(LS(T))
+				
+				// ----------------------------------------
+
+				&sl wCTL
+				&sl wSGUI					//
+				&trans						// 
+				&none
+				&wNavShift						//
+				&none						//
+
+				// ----------------------------------------       
+			>;
+		};
+
+
+
 
 
 		
