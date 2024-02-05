@@ -1546,49 +1546,49 @@
 				// ----------------------------------------
 
 				&kp ESC						// 
-				&kp LA(F1)					//
-				&kp LA(F2)					//
-				&kp LA(F3)					//
-				&kp LA(F4)					//
-				&kp LA(F5)					//
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LG(F1)					//
-				&kp LG(F2)					//
-				&kp LG(F3) 					//
-				&kp LG(F4)					//
-				&kp LG(F5) 					//
+				&kp LC(LA(LG(P))) 					
+				&kp LC(LA(LG(H)))					
+				&kp LC(LA(LG(L)))			
+				&kp LC(LA(LG(M)))		
+				&kp LC(LA(LG(W)))	
 				&kp BACKSPACE				//
 
 				// ----------------------------------------
 		
 				&trans
-				&kp LA(F6)					//
-				&kp LA(F7)					//
-				&kp LA(F8)					//
-				&to mCHAR
+				&none	
+				&none
+				&none
+				&to mCHAR					//
 				&to wCHAR
 
-				&kp LG(F6)					//
-				&kp LG(F7)					//
-				&kp LG(F8)					//
-				&kp LG(F9)					//
-				&kp LG(F10)					//
+				&kp LC(LA(LG(B))) 					
+				&kp LC(LA(LG(N)))					
+				&kp LC(LA(LG(R)))			
+				&kp LC(LA(LG(S)))		
+				&kp LC(LA(LG(G)))	
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
 				&to mCHAR
-				&kp LA(F11)					//
-				&kp LA(F12)					//
-				&kp LA(F13)					//
-				&kp LA(F14)					//
-				&kp LA(F15)					//
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LG(F11)					//
-				&kp LG(F12)					//
-				&kp LG(F13)					//
-				&kp LG(F14)					//
-				&kp LG(F15)					//
+				&kp LC(LA(LG(Z)))					//
+				&kp LC(LA(LG(SEMICOLON)))			//
+				&kp LC(LA(LG(LEFT_BRACKET)))		//
+				&kp LC(LA(LG(SINGLE_QUOTE)))		//
+				&kp LC(LA(LG(K))) 					//
 				&to mCHAR
 
 				// ----------------------------------------
@@ -2729,49 +2729,49 @@
 				// ----------------------------------------
 
 				&kp ESC						// 
-				&kp LA(F1)					//
-				&kp LA(F2)					//
-				&kp LA(F3)					//
-				&kp LA(F4)					//
-				&kp LA(F5)					//
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LG(F1)					//
-				&kp LG(F2)					//
-				&kp LG(F3) 					//
-				&kp LG(F4)					//
-				&kp LG(F5) 					//
+				&kp LC(LA(LG(P))) 					
+				&kp LC(LA(LG(H)))					
+				&kp LC(LA(LG(L)))			
+				&kp LC(LA(LG(M)))		
+				&kp LC(LA(LG(W)))	
 				&kp BACKSPACE				//
 
 				// ----------------------------------------
 		
 				&trans
-				&kp LA(F6)					//
-				&kp LA(F7)					//
-				&kp LA(F8)					//
+				&none
+				&none
+				&none
 				&to mCHAR					//
 				&to wCHAR
 
-				&kp LG(F6)					//
-				&kp LG(F7)					//
-				&kp LG(F8)					//
-				&kp LG(F9)					//
-				&kp LG(F10)					//
+				&kp LC(LA(LG(B))) 					
+				&kp LC(LA(LG(N)))					
+				&kp LC(LA(LG(R)))			
+				&kp LC(LA(LG(S)))		
+				&kp LC(LA(LG(G)))	
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
 				&to wCHAR
-				&kp LA(F11)					//
-				&kp LA(F12)					//
-				&kp LA(F13)					//
-				&kp LA(F14)					//
-				&kp LA(F15)					//
+				&none
+				&none
+				&none
+				&none
+				&none
 
-				&kp LG(F11)					//
-				&kp LG(F12)					//
-				&kp LG(F13)					//
-				&kp LG(F14)					//
-				&kp LG(F15)					//
+				&kp LC(LA(LG(Z)))					//
+				&kp LC(LA(LG(SEMICOLON)))			//
+				&kp LC(LA(LG(LEFT_BRACKET)))		//
+				&kp LC(LA(LG(SINGLE_QUOTE)))		//
+				&kp LC(LA(LG(K))) 					//
 				&to wCHAR
 
 				// ----------------------------------------
