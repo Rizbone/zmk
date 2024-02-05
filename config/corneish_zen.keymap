@@ -2231,7 +2231,7 @@
 
 				&kp LG(LS(F14))		
 				&kp LC(A)
-				&kp LC(LA(T))	
+				&kp LC(DEL)
 				&kp LC(LA(I))	
 				&kp LC(C)			
 				&kp LC(X)
