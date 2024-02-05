@@ -2306,11 +2306,11 @@
 				&kp LS(LA(LC(C)))			// #OPEN
 				&kp LS(LA(LC(T)))			// #OPEN
 				&kp LS(LA(LC(I)))			// #OPEN
-				&kp LS(LC(C))				// #OPEN
+				&kp LS(LA(LC(E)))			// #OPEN
 				&kp LS(LA(LC(O)))			// #OPEN
 
 				&kp LS(LA(LC(B)))			// #OPEN
-				&kp LS(LC(V))				// #OPEN
+				&kp LS(LA(LC(N)))			// #OPEN
 				&kp LS(LA(LC(R)))			// #OPEN
 				&kp LS(LA(LC(S)))			// #OPEN
 				&kp LS(LA(LC(G)))			// #OPEN
@@ -2319,10 +2319,10 @@
 				// ----------------------------------------
 
 				&kp LG(LS(F18))		
-				&kp LS(LC(S))				// #OPEN
+				&kp LS(LA(LC(F)))			// #OPEN
 				&kp LS(LA(LC(V)))			// #OPEN
 				&kp LS(LA(LC(MINUS)))		// #OPEN
-				&kp LS(LC(O))				// #OPEN
+				&kp LS(LA(LC(Z)))			// #OPEN
 				&kp LS(LA(LC(Q)))			// #OPEN
 
 				&kp LS(LA(LC(Z)))			// #OPEN
