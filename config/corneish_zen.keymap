@@ -201,6 +201,18 @@
                 ;
     	};
 
+		mShiftReset: mShiftReset {
+            label = "mShiftReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&macro_press &sl mCHAR>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl mCHAR>
+                ;
+    	};
+
 
 
 
@@ -338,6 +350,18 @@
                 , <&macro_press &mo wSYM>
     			, <&macro_pause_for_release>
 				, <&macro_release &mo wSYM>
+                ;
+    	};
+
+		wShiftReset: wShiftReset {
+            label = "wShiftReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&macro_press &sl wCHAR>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl wCHAR>
                 ;
     	};
 
@@ -547,7 +571,7 @@
 
 				// ----------------------------------------
 
-				&mdLs
+				&mShiftReset
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -559,7 +583,7 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRs
+				&mShiftReset
 
 				// ----------------------------------------
 		
@@ -618,7 +642,7 @@
 
 				// ----------------------------------------
 
-				&mdLs
+				&mShiftReset
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -630,7 +654,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdRs						
+				&mShiftReset						
 
 				// ----------------------------------------
 
@@ -691,7 +715,7 @@
 
 				// ----------------------------------------
 
-				&mdLs
+				&mShiftReset
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -703,7 +727,7 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRs
+				&mShiftReset
 
 				// ----------------------------------------
 		
@@ -1732,7 +1756,7 @@
 
 				// ----------------------------------------
 
-				&mdLsWin
+				&wShiftReset
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -1744,7 +1768,7 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRsWin
+				&wShiftReset
 
 				// ----------------------------------------
 		
@@ -1803,7 +1827,7 @@
 
 				// ----------------------------------------
 
-				&mdLsWin
+				&wShiftReset
 				&kp LS(F)
 				&kp LS(V)
 				&kp LS(MINUS)
@@ -1815,7 +1839,7 @@
 				&kp LS(LBKT)
 				&kp LS(SQT)
 				&kp LS(K)
-				&mdRsWin						
+				&wShiftReset						
 
 				// ----------------------------------------
 
@@ -1876,7 +1900,7 @@
 
 				// ----------------------------------------
 
-				&mdLsWin
+				&wShiftReset
 				&kp LS(N7)				// /
 				&kp LS(RBKT)			// *				
 				&kp LS(N5)				// %
@@ -1888,7 +1912,7 @@
 				&kp COMMA				// ,
 				&kp RBKT  				// +
 				&kp SLASH 				// -
-				&mdRsWin
+				&wShiftReset
 
 				// ----------------------------------------
 		
