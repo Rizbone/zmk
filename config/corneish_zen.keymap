@@ -1177,7 +1177,7 @@
 				
 				// ----------------------------------------
 
-				&sk mModAltReset			//
+				&mModAltReset				//
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
