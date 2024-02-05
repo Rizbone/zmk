@@ -145,7 +145,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LC(LG(LA(N1)))>
+                = <&kp LS(LC(LG(LA(N1))))>
 				, <&to mCHAR>
                 ;
     	};
@@ -155,7 +155,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LC(LG(LA(LEFT)))>
+                = <&kp LS(LC(LG(LA(LEFT))))>
                 , <&to wCHAR>
                 ;
     	};
