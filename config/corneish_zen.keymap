@@ -77,6 +77,8 @@
 
     behaviors {
 
+	
+
 		// ------------------------- MAC ---------------------
 	
 
@@ -134,8 +136,33 @@
     };
 
 	
-    macros {
+	 macros {
 
+		// OS Switch
+
+		turnOnMac: turnOnMac {
+            label = "turnOnMac";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&kp LC(LG(LA(N1)))>
+                ;
+    	};
+
+		turnOnWin: turnOnWin {
+            label = "turnOnWin";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&kp LC(LG(LA(Left)))>
+                ;
+    	};
+
+
+
+		
 		// ------------------------- MAC ---------------------
 
         mSpaceReset: mSpaceReset {
@@ -1665,9 +1692,9 @@
 				&trans
 				&none	
 				&none
+				&turnOnMac
+				&turnOnWin					
 				&none
-				&to mCHAR					//
-				&to wCHAR
 
 				&kp LC(LA(LG(B))) 					
 				&kp LC(LA(LG(N)))					
@@ -2848,9 +2875,9 @@
 				&trans
 				&none
 				&none
+				&turnOnMac
+				&turnOnWin					//
 				&none
-				&to mCHAR					//
-				&to wCHAR
 
 				&kp LC(LA(LG(B))) 					
 				&kp LC(LA(LG(N)))					
