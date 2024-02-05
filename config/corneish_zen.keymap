@@ -209,7 +209,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sl mLCHAR>
     			, <&macro_pause_for_release>
-				, <&macro_release &sl mLCHAR>
+				, <&macro_releasemacro_releasemacro_release &sl mLCHAR>
                 ;
     	};
 
@@ -222,7 +222,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sk LS(LGUI)>
     			, <&macro_pause_for_release>
-				, <&macro_press &sk LS(LGUI)>
+				, <&macro_releasemacro_releasemacro_release &sk LS(LGUI)>
                 ;
     	};
 
@@ -235,7 +235,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sk LALT>
     			, <&macro_pause_for_release>
-				, <&macro_press &sk LALT>
+				, <&macro_releasemacro_release &sk LALT>
                 ;
     	};
 
@@ -414,7 +414,7 @@
                 = <&to wCHAR>
                 , <&macro_press &sk LS(LCTL)>
     			, <&macro_pause_for_release>
-				, <&macro_press &sk LS(LCTL)>
+				, <&macro_release &sk LS(LCTL)>
                 ;
     	};
 
