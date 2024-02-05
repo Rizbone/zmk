@@ -2767,11 +2767,11 @@
 				&none
 				&none
 
-				&kp LC(LA(LG(Z)))					//
-				&kp LC(LA(LG(SEMICOLON)))			//
-				&kp LC(LA(LG(LEFT_BRACKET)))		//
-				&kp LC(LA(LG(SINGLE_QUOTE)))		//
-				&kp LC(LA(LG(K))) 					//
+				&kp LC(LA(LG(F1)))					//
+				&kp LC(LA(LG(F2)))			//
+				&kp LC(LA(LG(F3)))		//
+				&kp LC(LA(LG(F4)))		//
+				&kp LC(LA(LG(F5))) 					//
 				&to wCHAR
 
 				// ----------------------------------------
