@@ -2375,8 +2375,8 @@
 
 				&kp LS(LG(F15))
 				&kp LC(S)
-				&kp LC(Z)
 				&kp LC(Y)
+				&kp LC(Z)
 				&kp LC(O)
 				&kp LC(LA(Q))	
 
