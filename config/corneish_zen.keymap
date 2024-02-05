@@ -2488,7 +2488,7 @@
 				// ----------------------------------------
 				
 				&kp ESC
-				&kp LS(LA(N7))			// backlslash
+				&kp RA(N7)				// backlslash
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
 				&kp RA(N2)				// hoch 2
