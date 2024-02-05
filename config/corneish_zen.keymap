@@ -1029,33 +1029,33 @@
 				// ----------------------------------------
 	
 				&kp LG(LS(F13))				
-				&kp LC(LA(F1))	
-				&kp LC(LA(F2))	
-				&kp LC(LA(F3))	
-				&kp LC(LA(F4))	
-				&kp LC(LA(F5))	
+				&kp LG(LA(J))	
+				&kp LG(LA(D))	
+				&kp LG(LA(U))	
+				&kp LG(LA(A))	
+				&kp LG(LA(X))	
 
-				&kp LS(LA(F1))	
-				&kp LS(LA(F2))					
-				&kp LS(LA(F3))		
-				&kp LS(LA(F4))	
-				&kp LS(LA(F5))	
+				&kp LG(LA(P))	
+				&kp LG(LA(H))	
+				&kp LG(LA(L))	
+				&kp LG(LA(M))	
+				&kp LG(LA(W))	
 				&kp LG(W)				
 				
 				// ----------------------------------------
 
 				&kp LG(LS(F14))		
 				&kp LG(A)
-				&kp LC(LA(F7))				
-				&kp LC(LA(F8))				
+				&kp LG(LA(T))	
+				&kp LG(LA(I))	
 				&kp LG(C)			
 				&kp LG(X)
 
 				&kp LG(LA(V))
 				&kp LG(V)
-				&kp LS(LA(F8))				
-				&kp LS(LA(F9))	
-				&kp LS(LA(F10))	
+				&kp LG(LA(R))	
+				&kp LG(LA(S))	
+				&kp LG(LA(G))	
 				&kp ENTER
 
 				// ----------------------------------------
@@ -1065,12 +1065,12 @@
 				&kp LG(Y)
 				&kp LG(LS(Y))
 				&kp LG(O)
-				&kp LC(LA(F15))
+				&kp LG(LA(Q))	
 
 				&kp LG(P)	
-				&kp LS(LA(F11))	
-				&kp LS(LA(F12))	
-				&kp LS(LA(F13))	
+				&kp LG(LA(SEMI))	
+				&kp LG(LA(LBKT))	
+				&kp LG(LA(SQT))	
 				&kp LG(F)	
 				&kp LG(T)
 				
@@ -1102,49 +1102,49 @@
 			// ----------------------------------------
 	
 				&kp LG(LS(F16))			
-				&kp LG(LA(F1))				// #OPEN
-				&kp LG(LA(F2))				// #OPEN
-				&kp LG(LA(F3))				// #OPEN
-				&kp LG(LA(F4))				// #OPEN
-				&kp LG(LA(F5))				// #OPEN
+				&kp LS(LA(LC(J)))			// #OPEN
+				&kp LS(LA(LC(D)))			// #OPEN
+				&kp LS(LA(LC(U)))			// #OPEN
+				&kp LS(LA(LC(A)))			// #OPEN
+				&kp LS(LA(LC(X)))			// #OPEN
 
-				&kp LS(LA(LC(F1)))			// #OPEN
-				&kp LS(LA(LC(F2)))			// #OPEN
-				&kp LS(LA(LC(F3)))			// #OPEN
-				&kp LS(LA(LC(F4)))			// #OPEN
-				&kp LS(LA(LC(F5)))			// #OPEN
+				&kp LS(LA(LC(P)))			// #OPEN
+				&kp LS(LA(LC(H)))			// #OPEN
+				&kp LS(LA(LC(L)))			// #OPEN
+				&kp LS(LA(LC(M)))			// #OPEN
+				&kp LS(LA(LC(W)))			// #OPEN
 				&kp LS(LG(W))
 				
 				// ----------------------------------------
 
 				&kp LG(LS(F17))		
-				&kp LG(LA(F6))				// @Craft Today
-				&kp LG(LA(F7))				// @Craft Tomorrow
-				&kp LG(LA(F8))				// #OPEN
-				&kp LG(LA(F9))				// #OPEN
-				&kp LG(LA(F10))				// @Craft Last Day
+				&kp LS(LA(LC(C)))			// #OPEN
+				&kp LS(LA(LC(T)))			// #OPEN
+				&kp LS(LA(LC(I)))			// #OPEN
+				&kp LS(LA(LC(E)))			// #OPEN
+				&kp LS(LA(LC(O)))			// #OPEN
 
-				&kp LS(LA(LC(F6)))			// @Craft Today
-				&kp LS(LA(LC(F7)))			// @Craft Tomorrow
-				&kp LS(LA(LC(F8)))			// #OPEN
-				&kp LS(LA(LC(F9)))			// #OPEN
-				&kp LS(LA(LC(F10)))			// @Craft Last Day
+				&kp LS(LA(LC(B)))			// #OPEN
+				&kp LS(LA(LC(N)))			// #OPEN
+				&kp LS(LA(LC(R)))			// #OPEN
+				&kp LS(LA(LC(S)))			// #OPEN
+				&kp LS(LA(LC(G)))			// #OPEN
 				&kp LG(ENTER)	
 
 				// ----------------------------------------
 
 				&kp LG(LS(F18))		
-				&kp LG(LA(F11))				// @Craft Einkauf
-				&kp LG(LA(F12))				// #OPEN
-				&kp LG(LA(F13))				// #OPEN
-				&kp LG(LA(F14))				// #OPEN
-				&kp LG(LA(F15))				// #OPEN
+				&kp LS(LA(LC(F)))			// #OPEN
+				&kp LS(LA(LC(V)))			// #OPEN
+				&kp LS(LA(LC(MINUS)))		// #OPEN
+				&kp LS(LA(LC(Y)))			// #OPEN
+				&kp LS(LA(LC(Q)))			// #OPEN
 
-				&kp LS(LA(LC(F11)))			// @Craft Einkauf
-				&kp LS(LA(LC(F12)))			// #OPEN
-				&kp LS(LA(LC(F13)))			// #OPEN
-				&kp LG(F18)					// #OPEN Different
-				&kp LG(F19)					// #OPEN Different
+				&kp LS(LA(LC(Z)))			// #OPEN
+				&kp LS(LA(LC(SEMI)))		// #OPEN
+				&kp LS(LA(LC(LBKT)))		// #OPEN
+				&kp LS(LA(LC(SQT)))			// #OPEN
+				&kp LS(LA(LC(K)))			// #OPEN
 				&kp LS(LG(T))
 				
 				// ----------------------------------------
@@ -1470,11 +1470,11 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(X))				//
+				&kp LG(LA(F10))				// 
 				&none						//
-				&kp LG(LS(Q))				// 
-				&kp LG(LS(W))				// 
-				&kp LG(LS(E))				//
+				&kp LG(LA(F1))				// 
+				&kp LG(LA(F2))				// 
+				&kp LG(LA(F3))				//
 				&none						// 
 
 				&none						//
@@ -1488,9 +1488,9 @@
 		
 				&none						//
 				&none						//
-				&kp LG(LS(A))				// 
-				&kp LG(LS(S))				// 
-				&kp LG(LS(D))				// 
+				&kp LG(LA(F5))				// 
+				&kp LG(LA(F6))				// 
+				&kp LG(LA(F7))				// 
 				&none						// 
 
 				&none						//
@@ -2654,11 +2654,11 @@
 
 				// ----------------------------------------
 
-				&kp LG(LS(X))				//
+				&kp LC(LA(F10))				//
 				&none						//
-				&kp LG(LS(Q))				// 
-				&kp LG(LS(W))				// 
-				&kp LG(LS(E))				//
+				&kp LC(LA(F1))				// 
+				&kp LC(LA(F2))				// 
+				&kp LC(LA(F3))				//
 				&none						// 
 
 				&none						//
@@ -2672,9 +2672,9 @@
 		
 				&none						//
 				&none						//
-				&kp LG(LS(A))				// 
-				&kp LG(LS(S))				// 
-				&kp LG(LS(D))				// 
+				&kp LC(LA(F4))				// 
+				&kp LC(LA(F5))				// 
+				&kp LC(LA(F6))				// 
 				&none						// 
 
 				&none						//
