@@ -386,7 +386,7 @@
                 = <&to wCHAR>
                 , <&macro_press &sl wPNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wPNAV>
+				, <&macro_release &sl wPNAV>
                 ;
     	};
 
@@ -1473,7 +1473,7 @@
 				&kp LG(LA(F10))				// 
 				&none						//
 				&kp LG(LA(F1))				// 
-				&kp LG(LA(F2))				// 
+				&kp LG(LA(UP))				// 
 				&kp LG(LA(F3))				//
 				&none						// 
 
@@ -1488,9 +1488,9 @@
 		
 				&none						//
 				&none						//
-				&kp LG(LA(F4))				// 
-				&kp LG(LA(F5))				// 
-				&kp LG(LA(F6))				// 
+				&kp LG(LA(LEFT))			// 
+				&kp LG(LA(DOWN))			// 
+				&kp LG(LA(RIGHT))			// 
 				&none						// 
 
 				&none						//
@@ -2657,7 +2657,7 @@
 				&kp LC(LA(F10))				//
 				&none						//
 				&kp LC(LA(F1))				// 
-				&kp LC(LA(F2))				// 
+				&kp LC(LA(UP))				// 
 				&kp LC(LA(F3))				//
 				&none						// 
 
@@ -2672,9 +2672,9 @@
 		
 				&none						//
 				&none						//
-				&kp LC(LA(F4))				// 
-				&kp LC(LA(F5))				// 
-				&kp LC(LA(F6))				// 
+				&kp LC(LA(LEFT))			// 
+				&kp LC(LA(DOWN))			// 
+				&kp LC(LA(RIGHT))			// 
 				&none						// 
 
 				&none						//
