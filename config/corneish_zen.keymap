@@ -162,9 +162,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mNAV>
+                , <&macro_press &sl mNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mNAV>
+				, <&macro_release &sl mNAV>
                 ;
     	};
 		mPrgReset: mPrgReset {
@@ -173,9 +173,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mPRG>
+                , <&macro_press &sl mPRG>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mPRG>
+				, <&macro_release &sl mPRG>
                 ;
     	};
 		mFuncReset: mFuncReset {
@@ -184,9 +184,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mFUNC>
+                , <&macro_press &sl mFUNC>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mFUNC>
+				, <&macro_release &sl mFUNC>
                 ;
     	};
 		mSymReset: mSymReset {
@@ -195,9 +195,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mSYM>
+                , <&macro_press &sl mSYM>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mSYM>
+				, <&macro_release &sl mSYM>
                 ;
     	};
 
@@ -209,7 +209,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sl mLCHAR>
     			, <&macro_pause_for_release>
-				, <&macro_releasemacro_releasemacro_release &sl mLCHAR>
+				, <&macro_release &sl mLCHAR>
                 ;
     	};
 
@@ -222,7 +222,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sk LS(LGUI)>
     			, <&macro_pause_for_release>
-				, <&macro_releasemacro_releasemacro_release &sk LS(LGUI)>
+				, <&macro_release &sk LS(LGUI)>
                 ;
     	};
 
@@ -235,7 +235,7 @@
                 = <&to mCHAR>
                 , <&macro_press &sk LALT>
     			, <&macro_pause_for_release>
-				, <&macro_releasemacro_release &sk LALT>
+				, <&macro_release &sk LALT>
                 ;
     	};
 
@@ -245,9 +245,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &sl LCTL>
+                , <&macro_press &sk LCTL>
     			, <&macro_pause_for_release>
-				, <&macro_release &sl LCTL>
+				, <&macro_release &sk LCTL>
                 ;
     	};
 
@@ -283,9 +283,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mAlter>
+                , <&macro_press &sl mAlter>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mAlter>
+				, <&macro_release &sl mAlter>
                 ;
     	};
 
@@ -295,9 +295,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mPNAV>
+                , <&macro_press &sl mPNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mPNAV>
+				, <&macro_release &sl mPNAV>
                 ;
     	};
 
@@ -307,9 +307,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to mCHAR>
-                , <&macro_press &mo mNAV>
+                , <&macro_press &sl mNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo mNAV>
+				, <&macro_release &sl mNAV>
 				;
     	};
 
@@ -353,9 +353,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wNAV>
+                , <&macro_press &sl wNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wNAV>
+				, <&macro_release &sl wNAV>
                 ;
     	};
 		wPrgReset: wPrgReset {
@@ -364,9 +364,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wPRG>
+                , <&macro_press &sl wPRG>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wPRG>
+				, <&macro_release &sl wPRG>
                 ;
     	};
 		wFuncReset: wFuncReset {
@@ -375,9 +375,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wFUNC>
+                , <&macro_press &sl wFUNC>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wFUNC>
+				, <&macro_release &sl wFUNC>
                 ;
     	};
 		wSymReset: wSymReset {
@@ -386,9 +386,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wSYM>
+                , <&macro_press &sl wSYM>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wSYM>
+				, <&macro_release &sl wSYM>
                 ;
     	};
 
@@ -427,7 +427,7 @@
                 = <&to wCHAR>
                 , <&macro_press &sk LALT>
     			, <&macro_pause_for_release>
-				, <&macro_press &sk LALT>
+				, <&macro_release &sk LALT>
                 ;
     	};
 
@@ -437,9 +437,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &sl LGUI>
+                , <&macro_press &sk LGUI>
     			, <&macro_pause_for_release>
-				, <&macro_release &sl LGUI>
+				, <&macro_release &sk LGUI>
                 ;
     	};
 
