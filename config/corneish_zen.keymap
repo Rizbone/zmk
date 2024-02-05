@@ -145,8 +145,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&to mCHAR>
-                , <&kp LC(LG(LA(N1)))>
+                = <&kp LC(LG(LA(N1)))>
+				, <&to mCHAR>
                 ;
     	};
 
@@ -155,8 +155,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&to wCHAR>
-                , <&kp LC(LG(LA(LEFT)))>
+                = <&kp LC(LG(LA(LEFT)))>
+                , <&to wCHAR>
                 ;
     	};
 
@@ -2488,7 +2488,7 @@
 				// ----------------------------------------
 				
 				&kp ESC
-				&kp RA(N7)				// backlslash
+				&kp RA(MINUS)			// backlslash
 				&kp NUBS				// Spitze
 				&kp LS(NUBS)			// Spitze
 				&kp RA(N2)				// hoch 2
