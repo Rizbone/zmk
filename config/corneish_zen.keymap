@@ -372,9 +372,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wAlter>
+                , <&macro_press &sl wAlter>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wAlter>
+				, <&macro_release &sl wAlter>
                 ;
     	};
 
@@ -396,9 +396,9 @@
             #binding-cells = <0>;
             bindings
                 = <&to wCHAR>
-                , <&macro_press &mo wNAV>
+                , <&macro_press &sl wNAV>
     			, <&macro_pause_for_release>
-				, <&macro_release &mo wNAV>
+				, <&macro_release &sl wNAV>
 				;
     	};
 
