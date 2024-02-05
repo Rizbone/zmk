@@ -1177,7 +1177,7 @@
 				
 				// ----------------------------------------
 
-				&sk LALT					//
+				&sk mModAltReset			//
 				&sl mGUI					//
 				&sl mSFUNC					// deep
 				&none
@@ -1250,8 +1250,8 @@
 				
 				// ----------------------------------------
 
-				&sk LCTL
-				&sk LS(LGUI)					//
+				&mModCtlReset
+				&mModSGuiReset
 				&trans						// 
 				&none
 				&mNavShift						//
@@ -2362,7 +2362,7 @@
 				
 				// ----------------------------------------
 
-				&sk LALT
+				&wModAltReset
 				&sl wGUI					//
 				&sl wSFUNC					// deep
 				&none
@@ -2435,8 +2435,8 @@
 				
 				// ----------------------------------------
 
-				&sk LGUI
-				&sk LS(LCTL)
+				&wModGuiReset
+				&wModSCtlReset
 				&trans						// 
 				&none
 				&wNavShift						//
