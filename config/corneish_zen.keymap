@@ -2149,7 +2149,7 @@
 				&kp LS(RIGHT)		
 				&wFuncMarkLine
 
-				&kp LC(LS(NUBS))
+				&wAltShot 
 				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
 				&kp LC(TAB)
@@ -2180,6 +2180,7 @@
 				&to wCHAR
 				&wNavShift						// 
 				&mdNrWin
+
 
 				// ----------------------------------------
 			>;
