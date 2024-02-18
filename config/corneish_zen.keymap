@@ -2025,7 +2025,7 @@
 				&sl wFUNC
 				&sl wPRG
 				&sl wNAV
-				&to wCHAR
+				&none
 			>;		
 		};
 
@@ -2034,7 +2034,7 @@
 
 
 		// -----------------------------------------------------|
-		// Layer = 4 - mNAV - Navigation						|
+		// Layer = 4 - wNAV - Navigation						|
 		// -----------------------------------------------------|
 
 		win_navigation
@@ -2052,10 +2052,10 @@
 				&kp TAB
 				&kp LC(A)				 	// 
 
-				&kp LG(F1)				 	// 
-				&kp LC(KP_PLUS)				 	// 
+				&kp LG(F13)				 	// 
+				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
-				&kp LC(KP_MINUS)				 	// 
+				&kp LC(KP_MINUS)		 	// 
 				&kp LALT
 				&kp BSPC					// -
 
@@ -2068,7 +2068,7 @@
 				&kp RIGHT 					// @Right
 				&wFuncMarkLine
 
-				&kp LG(F4)				 	// 
+				&kp LG(F14)				 	// 
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -2084,11 +2084,11 @@
 				&kp END
 				&wFuncMarkWord
 
-				&kp LG(F7)				 	// 
-				&kp LG(F8)				 	// 
-				&kp LG(F9)				 	// 
-				&kp LG(F10)				 	// 
-				&kp LG(F11)				 	// 
+				&kp LG(F15)				 	// 
+				&kp LG(F21)				 	// 
+				&kp LG(F22)				 	// 
+				&kp LG(F23)				 	// 
+				&kp LG(F24)				 	// 
 				&mdRsWin
 
 				// ----------------------------------------
@@ -2096,9 +2096,9 @@
 				&sl wSYM
 				&kp SPACE				
 				&sl wFUNC
-				&mo wCHAR
-				&sl wNAV2					// deep
 				&to wCHAR
+				&sl wNAV2					// deep
+				&mdNrWin
 
 				// ----------------------------------------							
 			>;
@@ -2123,10 +2123,10 @@
 				&kp TAB
 				&kp LC(A)
 
-				&kp LC(F1) 
-				&kp LC(F2) 
+				&kp LG(LS(F13)) 
+				&kp LC(LS(KP_PLUS)) 
 				&kp LC(PG_UP)
-				&kp LC(F3) 
+				&kp LC(LS(KP_MINUS)) 
 				&kp LALT
 				&kp DEL
 
@@ -2139,10 +2139,10 @@
 				&kp LS(RIGHT)		
 				&wFuncMarkLine
 
-				&kp LC(F4) 
-				&kp LC(F5) 
+				&kp LG(LS(F14)) 
+				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
-				&kp LC(F6) 
+				&kp LC(TAB)
 				&kp LCTL
 				&kp ENTER
 
@@ -2155,11 +2155,11 @@
 				&kp LS(END)					// @End  
 				&wFuncMarkWord
 
-				&kp LC(F7) 
-				&kp LC(F8) 
-				&kp LC(F9) 
-				&kp LC(F10) 
-				&kp LC(F11) 
+				&kp LG(LS(F15)) 
+				&kp LG(LS(F21)) 
+				&kp LG(LS(F22)) 
+				&kp LG(LS(F23)) 
+				&kp LG(LS(F24)) 
 				&mdRsWin
 
 				// ----------------------------------------
@@ -2167,9 +2167,9 @@
 				&sl wSYM
 				&kp SPACE				
 				&sl wFUNC
-				&mo wCHAR					// 
-				&wNavShift						// 
 				&to wCHAR
+				&wNavShift						// 
+				&mdNrWin
 
 				// ----------------------------------------
 			>;
