@@ -540,6 +540,15 @@
                 ;
     	};
 
+		wAltShot: wAltShot {
+            label = "wAltShot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LALT>
+				, <&macro_release  &kp LALT>
+                ;
+    	};
 
 
 	};
@@ -2069,7 +2078,7 @@
 				&kp RIGHT 					// @Right
 				&wFuncMarkLine
 
-				&kp LG(A)
+				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -2085,7 +2094,7 @@
 				&kp END
 				&wFuncMarkWord
 
-				&kp LC(BSLH)				// Seitenleiste
+				&kp LC(NUHS)				// Seitenleiste
 				&kp LC(DOT)				 	// 
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
@@ -2124,7 +2133,7 @@
 				&kp TAB
 				&kp LC(A)
 
-				&kp LC(LS(NUHS))
+				&kp LC(F1)
 				&kp LC(LS(KP_PLUS)) 
 				&kp LC(PG_UP)
 				&kp LC(LS(KP_MINUS)) 
@@ -2156,7 +2165,7 @@
 				&kp LS(END)					// @End  
 				&wFuncMarkWord
 
-				&kp LG(LS(BSLH)) 
+				&kp LG(LS(NUHS)) 
 				&kp LC(LS(DOT))				 	// 
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
