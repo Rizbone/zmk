@@ -1060,7 +1060,7 @@
 				&none
 				&sl mSPRG					// deep						
 				&mNavShift
-				&none
+				&mCalc
 
 				// ----------------------------------------
 
@@ -2245,7 +2245,7 @@
 				&none
 				&sl wSPRG					// deep						
 				&wNavShift
-				&none
+				&wCalc
 
 				// ----------------------------------------
 
