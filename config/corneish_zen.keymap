@@ -2443,7 +2443,7 @@
 				&kp LC(LS(LA(I)))	
 				&kp LC(LS(LA(U)))	
 				&kp LC(LS(LA(G)))
-				&kp LC(ENTER)	
+				&kp LA(ENTER)	
 
 				// ----------------------------------------
 
@@ -2885,7 +2885,7 @@
 				&kp LA(LG(F15)) 					
 				&kp LA(LG(F16)) 					
 				&kp LA(LG(F17)) 					
-				&kp LA(ENTER)				// 
+				&kp LC(ENTER)				// 
 
 				// ----------------------------------------
 
