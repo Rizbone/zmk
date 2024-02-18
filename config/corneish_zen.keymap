@@ -145,7 +145,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LS(LC(LG(LA(N1))))>
+                = <&kp LC(LG(LA(F12)))>
 				, <&to mCHAR>
                 ;
     	};
@@ -155,7 +155,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LS(LC(LG(LA(RIGHT))))>
+                = <&kp LC(LG(LA(RIGHT)))>
                 , <&to wCHAR>
                 ;
     	};
@@ -2756,11 +2756,11 @@
 				&kp F14
 				&kp F15
 
-				&kp LC(LS(D))
-				&kp LC(LS(F))
-				&kp LC(LS(U))
-				&kp LC(LS(H))
-				&kp LC(LS(K))
+				&kp LC(LS(F1))
+				&kp LC(LS(F2))
+				&kp LC(LS(F3))
+				&kp LC(LS(F4))
+				&kp LC(LS(F5))
 				&none
 
 				// ----------------------------------------
