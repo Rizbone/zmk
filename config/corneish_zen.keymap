@@ -2053,7 +2053,7 @@
 				&kp TAB
 				&kp LC(A)				 	// 
 
-				&kp LG(F13)				 	// 
+				&kp LG(A)
 				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
 				&kp LC(KP_MINUS)		 	// 
@@ -2069,7 +2069,7 @@
 				&kp RIGHT 					// @Right
 				&wFuncMarkLine
 
-				&kp LG(F14)				 	// 
+				&kp LG(A)
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -2079,17 +2079,17 @@
 				// ----------------------------------------
 
 				&mdLsWin
-				&kp HOME				// @Home 
+				&kp HOME					// @Home 
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
 				&wFuncMarkWord
 
-				&kp LG(F15)				 	// 
-				&kp LG(F21)				 	// 
-				&kp LG(F22)				 	// 
-				&kp LG(F23)				 	// 
-				&kp LG(F24)				 	// 
+				&kp LC(BSLH)				// Seitenleiste
+				&kp LC(DOT)				 	// 
+				&kp LC(GRAVE)			 	// 
+				&kp LC(EQUAL)			 	// 
+				&kp LC(COMMA)			 	// 
 				&mdRsWin
 
 				// ----------------------------------------
@@ -2124,7 +2124,7 @@
 				&kp TAB
 				&kp LC(A)
 
-				&kp LG(LS(F13)) 
+				&kp LC(LS(NUHS))
 				&kp LC(LS(KP_PLUS)) 
 				&kp LC(PG_UP)
 				&kp LC(LS(KP_MINUS)) 
@@ -2140,7 +2140,7 @@
 				&kp LS(RIGHT)		
 				&wFuncMarkLine
 
-				&kp LG(LS(F14)) 
+				&kp LC(LS(NUBS))
 				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
 				&kp LC(TAB)
@@ -2156,11 +2156,11 @@
 				&kp LS(END)					// @End  
 				&wFuncMarkWord
 
-				&kp LG(LS(F15)) 
-				&kp LG(LS(F21)) 
-				&kp LG(LS(F22)) 
-				&kp LG(LS(F23)) 
-				&kp LG(LS(F24)) 
+				&kp LG(LS(BSLH)) 
+				&kp LC(LS(DOT))				 	// 
+				&kp LC(LS(GRAVE))			 	// 
+				&kp LC(LS(EQUAL))			 	// 
+				&kp LC(LS(COMMA))			 	// 
 				&mdRsWin
 
 				// ----------------------------------------
