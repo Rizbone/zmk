@@ -1706,7 +1706,7 @@
 
 				// ----------------------------------------
 
-				&to mCHAR
+				&turnOnMac
 				&none
 				&none
 				&none
@@ -1718,7 +1718,7 @@
 				&kp LC(LA(LG(LEFT_BRACKET)))		//
 				&kp LC(LA(LG(SINGLE_QUOTE)))		//
 				&kp LC(LA(LG(K))) 					//
-				&to mCHAR
+				&turnOnWin
 
 				// ----------------------------------------
 		
@@ -2452,7 +2452,7 @@
 				&kp LC(LS(Y))
 				&kp LC(LS(Z))
 				&kp LC(LS(O))
-				&kp LC(LS(R))	
+				&kp LC(LS(R))	 
 
 				&kp LC(LS(P))
 				&kp LC(LS(LA(F)))	
@@ -2707,7 +2707,7 @@
 
 				// ----------------------------------------
 
-				&none
+				&kp F11
 				&kp F1
 				&kp F2
 				&kp F3
@@ -2719,11 +2719,11 @@
 				&kp F8
 				&kp F9
 				&kp F10
-				&none
+				&kp F12
 
 				// ----------------------------------------
 		
-				&none
+				&kp LC(DOT)
 				&kp LC(N1)					// 11
 				&kp LC(N2)					// 12
 				&kp LC(N3)					// 13
@@ -2735,22 +2735,22 @@
 				&kp LC(N8)					// 18
 				&kp LC(N9)					// 19
 				&kp LC(N0)					// 20
-				&none
+				&kp LC(COMMA)
 
 				// ----------------------------------------
 
 				&none
-				&kp F11
-				&kp F12
-				&kp F13
-				&kp F14
-				&kp F15
+				&kp LS(F13)
+				&kp LS(F14)
+				&kp LS(F15)
+				&kp LS(F16)
+				&kp LS(F17)
 
-				&kp LC(LS(N6))					// 16
-				&kp LC(LS(N7))					// 17
-				&kp LC(LS(N8))					// 18
-				&kp LC(LS(N9))					// 19
-				&kp LC(LS(N0))					// 20
+				&kp LS(F18)
+				&kp LS(F19)
+				&kp LS(F20)
+				&kp LS(F21)
+				&kp LS(F22)
 				&none
 
 				// ----------------------------------------
@@ -2783,11 +2783,11 @@
 
 				// ----------------------------------------
 
-				&kp LC(LA(F10))				//
+				&kp LC(LA(F1))				//
 				&none						//
-				&kp LC(LA(F1))				// 
+				&kp LC(LA(LS(LEFT)))		// 
 				&kp LC(LA(UP))				// 
-				&kp LC(LA(F3))				//
+				&kp LC(LA(LS(RIGHT)))		// 
 				&none						// 
 
 				&none						//
@@ -2864,11 +2864,11 @@
 				&none
 				&none
 
-				&kp LC(LA(LG(P))) 					
-				&kp LC(LA(LG(H)))					
-				&kp LC(LA(LG(L)))			
-				&kp LC(LA(LG(M)))		
-				&kp LC(LA(LG(W)))	
+				&kp LC(LA(F13)) 					
+				&kp LC(LA(F14)) 					
+				&kp LC(LA(F15)) 					
+				&kp LC(LA(F16)) 					
+				&kp LC(LA(F17)) 					
 				&kp BACKSPACE				//
 
 				// ----------------------------------------
@@ -2880,28 +2880,28 @@
 				&turnOnWin					//
 				&none
 
-				&kp LC(LA(LG(B))) 					
-				&kp LC(LA(LG(N)))					
-				&kp LC(LA(LG(R)))			
-				&kp LC(LA(LG(S)))		
-				&kp LC(LA(LG(G)))	
+				&kp LA(LG(F13)) 					
+				&kp LA(LG(F14)) 					
+				&kp LA(LG(F15)) 					
+				&kp LA(LG(F16)) 					
+				&kp LA(LG(F17)) 					
 				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
-				&to wCHAR
+				&turnOnMac
 				&none
 				&none
 				&none
 				&none
 				&none
 
-				&kp LC(LA(LG(F1)))					//
-				&kp LC(LA(LG(F2)))			//
-				&kp LC(LA(LG(F3)))		//
-				&kp LC(LA(LG(F4)))		//
-				&kp LC(LA(LG(F5))) 					//
-				&to wCHAR
+				&kp LA(LG(F18)) 					
+				&kp LA(LG(F19)) 					
+				&kp LA(LG(F20)) 					
+				&kp LA(LG(F21)) 					
+				&kp LA(LG(F22)) 					
+				&turnOnWin
 
 				// ----------------------------------------
 		
