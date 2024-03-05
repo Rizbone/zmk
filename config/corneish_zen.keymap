@@ -551,6 +551,44 @@
     	};
 
 
+		// Reset
+
+		wReset: wReset {
+            label = "wReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+				= <&macro_release &kp LALT>
+				, <&macro_release &kp RALT>
+				, <&macro_release &kp LCTL>
+				, <&macro_release &kp RCTL>
+				, <&macro_release &kp LSFT>
+				, <&macro_release &kp RSFT>
+				, <&macro_release &kp LGUI>
+				, <&macro_release &kp RGUI>
+				, <&to wCHAR>
+                ; 
+    	};
+
+		mReset: mReset {
+            label = "mReset";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+				= <&macro_release &kp LALT>
+				, <&macro_release &kp RALT>
+				, <&macro_release &kp LCTL>
+				, <&macro_release &kp RCTL>
+				, <&macro_release &kp LSFT>
+				, <&macro_release &kp RSFT>
+				, <&macro_release &kp LGUI>
+				, <&macro_release &kp RGUI>
+				, <&to mCHAR>
+                ; 
+    	};
+
+
+
 	};
 
 
@@ -878,9 +916,9 @@
 				&kp LG(A)				 	// 
 
 				&kp LS(F1)				 	// 
-				&kp LS(F2)				 	// 
+				&kp LG(KP_PLUS)			
 				&kp PG_UP
-				&kp LS(F3)				 	// 
+				&kp LG(KP_MINUS)		 
 				&kp LGUI
 				&kp BSPC					// -
 
@@ -941,7 +979,7 @@
 
 				// ----------------------------------------
 
-				&kp LS(ESC)	
+				&mReset
 				&kp LG(LS(UP))
 				&kp LS(TAB)
 				&kp LS(UP)					
@@ -1872,9 +1910,9 @@
 
 				&wShiftReset
 				&kp LS(N7)				// /
-				&kp LS(LA(N7))			// backlslash
+				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
-				&kp LA(E)				// €
+				&kp LA(LC(E))			// €
 				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
@@ -2016,9 +2054,9 @@
 
 				&wShiftReset
 				&kp LS(N7)				// /
-				&kp LS(LA(N7))			// backlslash
+				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
-				&kp LA(E)				// €
+				&kp LA(LC(E))			// €
 				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
@@ -2126,7 +2164,7 @@
 
 				// ----------------------------------------
 
-				&kp LS(ESC)	
+				&wReset
 				&kp LS(LC(HOME))
 				&kp LS(TAB)
 				&kp LS(UP)					
@@ -2516,7 +2554,7 @@
 
 				&kp LCTL
 				&kp RA(Q)				// @
-				&kp LA(N7)				// grader strich
+				&kp LC(LA(NUBS))		// grader strich
 				&kp LS(N6)				// &
 				&kp NUHS				// #
 				&kp LS(N3)				// §
@@ -2532,9 +2570,9 @@
 
 				&kp LSHIFT				//
 				&kp LS(N7)				// /
-				&kp LS(LA(N7))			// backlslash
+				&kp LC(LA(MINUS))		// backlslash
 				&kp LS(N5)				// %
-				&kp LA(E)				// €
+				&kp LA(LC(E))			// €
 				&kp GRAVE				// ^
 
 				&kp LS(N0)				// =
