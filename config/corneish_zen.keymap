@@ -2101,7 +2101,7 @@
 				&kp TAB
 				&wAltShot
 
-				&kp LG(LG(F1))
+				&kp LG(LA(F1))
 				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
 				&kp LC(KP_MINUS)		 	// 
@@ -2170,9 +2170,9 @@
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
-				&kp LC(A)
+				&kp LG(LA(F8))
 
-				&kp LC(F1)
+				&kp LG(LA(F5))
 				&kp LC(LS(KP_PLUS)) 
 				&kp LC(PG_UP)
 				&kp LC(LS(KP_MINUS)) 
@@ -2188,7 +2188,7 @@
 				&kp LS(RIGHT)		
 				&wFuncMarkLine
 
-				&wAltShot 
+				&kp LG(LA(F6))
 				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
 				&kp LC(TAB)
@@ -2204,7 +2204,7 @@
 				&kp LS(END)					// @End  
 				&wFuncMarkWord
 
-				&kp LC(LS(NUHS)) 
+				&kp LG(LA(F7))
 				&kp LC(LS(DOT))				 	// 
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
