@@ -588,6 +588,19 @@
     	};
 
 
+		// WIN
+
+		wAltShot: wAltShot {
+            label = "wAltShot";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+				= <&macro_press &kp LALT>
+				, <&macro_release &kp LALT>
+                ; 
+    	};
+
+
 
 	};
 
@@ -2098,7 +2111,7 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LC(A)				 	// 
+				&wAltShot
 
 				&kp LG(A)
 				&kp LC(KP_PLUS)				// 
