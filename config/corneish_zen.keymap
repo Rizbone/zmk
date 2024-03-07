@@ -588,18 +588,6 @@
     	};
 
 
-		// WIN
-
-		wAltShot: wAltShot {
-            label = "wAltShot";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-				= <&macro_press &kp LALT>
-				, <&macro_release &kp LALT>
-                ; 
-    	};
-
 
 
 	};
@@ -2113,7 +2101,7 @@
 				&kp TAB
 				&wAltShot
 
-				&kp LG(A)
+				&kp LG(LG(F1))
 				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
 				&kp LC(KP_MINUS)		 	// 
@@ -2145,7 +2133,7 @@
 				&kp END
 				&wFuncMarkWord
 
-				&kp LC(NUHS)				// Seitenleiste
+				&kp LG(LG(F3))
 				&kp LC(DOT)				 	// 
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
