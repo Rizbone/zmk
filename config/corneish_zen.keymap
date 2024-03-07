@@ -949,10 +949,10 @@
 				&mFuncMarkWord
 
 				&kp LG(LA(F3))				 // 
-				&kp LS(F8)				 	// 
-				&kp LS(F9)				 	// 
-				&kp LS(F10)				 	// 
-				&kp LS(F11)				 	// 
+				&kp LC(DOT)				 	// 
+				&kp LC(GRAVE)			 	// 
+				&kp LC(EQUAL)			 	// 
+				&kp LC(COMMA)			 	// 
 				&mdRs
 
 				// ----------------------------------------
@@ -1020,10 +1020,10 @@
 				&mFuncMarkWord
 
 				&kp LG(LA(F7))				 
-				&kp LA(F12) 
-				&kp LA(F13) 
-				&kp LA(F14) 
-				&kp LA(F15) 
+				&kp LC(LS(DOT))				 	// 
+				&kp LC(LS(GRAVE))			 	// 
+				&kp LC(LS(EQUAL))			 	// 
+				&kp LC(LS(COMMA))			 	// 
 				&mdRs
 
 				// ----------------------------------------
