@@ -145,7 +145,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp LC(LG(LA(F12)))>
+                = <&kp LC(LG(LA(ESC)))>
 				, <&to mCHAR>
                 ;
     	};
