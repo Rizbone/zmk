@@ -1723,11 +1723,11 @@
 				// ----------------------------------------
 
 				&kp ESC						// 
-				&none
-				&none
-				&none
-				&none
-				&none
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_SEL 4
+				&bt BT_CLR
 
 				&kp LC(LA(LG(F11))) 					
 				&kp LC(LA(LG(F12))) 
@@ -2907,11 +2907,11 @@
 				// ----------------------------------------
 
 				&kp ESC						// 
-				&none
-				&none
-				&none
-				&none
-				&none
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_SEL 4
+				&bt BT_CLR
 
 				&kp LA(LG(LC(F11))) 					
 				&kp LA(LG(LC(F12))) 					
