@@ -87,7 +87,7 @@
             label = "TAP_DANCE_mdNr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to mNR>, <&sl mNR>;
+            bindings = <&to mNR>, <&to mNRhard>;
         };
 
 
@@ -115,7 +115,7 @@
             label = "TAP_DANCE_mdNrWin";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&to wNR>, <&sl wNR>;
+            bindings = <&to wNR>, <&to wNRhard>;
         };
 
 		mdLsWin: tap_dance_mdLsWin {
@@ -340,6 +340,30 @@
 				;
     	};
 
+		mNrShift: mNrShift {
+            label = "mNrShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&macro_press &sl mNR>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl mNR>
+				;
+    	};
+
+		mDeepShift: mDeepShift {
+            label = "mDeepShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to mCHAR>
+                , <&macro_press &sl mPNAV>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl mPNAV>
+				;
+    	};
+
 		mCalc: mCalc {
             label = "mCalc";
             compatible = "zmk,behavior-macro";
@@ -527,6 +551,31 @@
                 , <&macro_press &sl wNAV>
     			, <&macro_pause_for_release>
 				, <&macro_release &sl wNAV>
+				;
+    	};
+
+
+		wNrShift: wNrShift {
+            label = "wNrShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&macro_press &sl wNR>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl wNR>
+				;
+    	};
+
+		wDeepShift: wDeepShift {
+            label = "wDeepShift";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&to wCHAR>
+                , <&macro_press &sl wPNAV>
+    			, <&macro_pause_for_release>
+				, <&macro_release &sl wPNAV>
 				;
     	};
 
@@ -1740,7 +1789,7 @@
 
 				// ----------------------------------------
 		
-				&trans
+				&mDeepShift
 				&none	
 				&none
 				&none
@@ -1774,10 +1823,10 @@
 		
 				&none
 				&kp LG(SPACE)
-				&mAlterShift				// 
-				&mPNAVShift					//
-				&mNavShift					//
-				&to mNRhard
+				&mAlterShift				
+				&mPNAVShift					
+				&mNavShift					
+				&mNrShift
 
 				// ----------------------------------------
 			>;
@@ -2924,7 +2973,7 @@
 
 				// ----------------------------------------
 		
-				&trans
+				&wDeepShift
 				&none
 				&none
 				&none
@@ -2961,7 +3010,7 @@
 				&wAlterShift				// 
 				&wPNAVShift					//
 				&wNavShift					//
-				&to wNRhard
+				&wNrShift
 
 				// ----------------------------------------
 			>;
