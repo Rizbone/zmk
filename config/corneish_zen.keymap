@@ -607,7 +607,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-				= <&kp LC(LG(LA(NUBS)))>
+				= <&to wCHAR>
+				, <&kp LC(LG(LA(NUBS)))>
 				, <&macro_release &kp LALT>
 				, <&macro_release &kp RALT>
 				, <&macro_release &kp LCTL>
@@ -616,7 +617,7 @@
 				, <&macro_release &kp RSFT>
 				, <&macro_release &kp LGUI>
 				, <&macro_release &kp RGUI>
-				, <&to wCHAR>
+
                 ; 
     	};
 
@@ -625,7 +626,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-				= <&kp LC(LG(LA(NUBS)))>
+				= <&to mCHAR>
+				, <&kp LC(LG(LA(NUBS)))>
 				, <&macro_release &kp LALT>
 				, <&macro_release &kp RALT>
 				, <&macro_release &kp LCTL>
@@ -634,7 +636,6 @@
 				, <&macro_release &kp RSFT>
 				, <&macro_release &kp LGUI>
 				, <&macro_release &kp RGUI>
-				, <&to mCHAR>
                 ; 
     	};
 
