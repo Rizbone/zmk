@@ -558,7 +558,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-				= <&macro_release &kp LALT>
+				= <&kp LC(LG(LA(NUBS)))>
+				, <&macro_release &kp LALT>
 				, <&macro_release &kp RALT>
 				, <&macro_release &kp LCTL>
 				, <&macro_release &kp RCTL>
@@ -575,7 +576,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-				= <&macro_release &kp LALT>
+				= <&kp LC(LG(LA(NUBS)))>
+				, <&macro_release &kp LALT>
 				, <&macro_release &kp RALT>
 				, <&macro_release &kp LCTL>
 				, <&macro_release &kp RCTL>
@@ -889,7 +891,7 @@
 				&sl mFUNC
 				&sl mPRG
 				&sl mNAV
-				&to mCHAR
+				&mdNr
 			>;		
 		};
 
@@ -941,7 +943,7 @@
 				
 				// ----------------------------------------
 
-				&mdLs
+				&kp LSHFT
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
@@ -953,16 +955,16 @@
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
 				&kp LC(COMMA)			 	// 
-				&mdRs
+				&kp LSHFT
 
 				// ----------------------------------------
 
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&mo mCHAR
 				&sl mNAV2					// deep
-				&to mCHAR
+				&mReset
+				&mdNr
 
 				// ----------------------------------------							
 			>;
@@ -1012,7 +1014,7 @@
 
 				// ----------------------------------------
 	
-				&mdLs	
+				&kp LSHFT	
 				&kp LG(LS(LEFT))			// @Home 
 				&kp LA(LS(LEFT))			// @Wort Sprung
 				&kp LA(LS(RIGHT))			// @Wort Sprung
@@ -1024,15 +1026,15 @@
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
 				&kp LC(LS(COMMA))			 	// 
-				&mdRs
+				&kp LSHFT
 
 				// ----------------------------------------
 
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&mo mCHAR					// 
-				&mNavShift						// 
+				&mNavShift
+				&mReset
 				&to mCHAR
 
 				// ----------------------------------------
@@ -2126,7 +2128,7 @@
 				
 				// ----------------------------------------
 
-				&mdLsWin
+				&kp LSHFT
 				&kp HOME					// @Home 
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
@@ -2138,15 +2140,15 @@
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
 				&kp LC(COMMA)			 	// 
-				&mdRsWin
+				&kp LSHFT
 
 				// ----------------------------------------
 
 				&sl wSYM
 				&kp SPACE				
 				&sl wFUNC
-				&to wCHAR
 				&sl wNAV2					// deep
+				&wReset
 				&mdNrWin
 
 				// ----------------------------------------							
@@ -2197,7 +2199,7 @@
 
 				// ----------------------------------------
 	
-				&mdLsWin
+				&kp LSHFT
 				&kp LS(HOME)				// @Home 
 				&kp LC(LS(LEFT))			// @Wort Sprung
 				&kp LC(LS(RIGHT))			// @Wort Sprung
@@ -2209,15 +2211,15 @@
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
 				&kp LC(LS(COMMA))			 	// 
-				&mdRsWin
+				&kp LSHFT
 
 				// ----------------------------------------
 
 				&sl wSYM
 				&kp SPACE				
 				&sl wFUNC
-				&to wCHAR
-				&wNavShift						// 
+				&wNavShift
+				&wReset
 				&mdNrWin
 
 
