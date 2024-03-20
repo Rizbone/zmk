@@ -916,9 +916,9 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp LG(LA(F4))				 // 
-
-				&kp LG(LA(F1))				 // 
+				&kp DEL
+				
+				&kp LG(LA(F16))				 // altshot
 				&kp LG(KP_PLUS)			
 				&kp PG_UP
 				&kp LG(KP_MINUS)		 
@@ -934,7 +934,7 @@
 				&kp RIGHT 					// @Right
 				&mFuncMarkLine
 
-				&kp LG(LA(F2))				 // 
+				&kp LG(LA(F17))				 // 
 				&kp LS(LC(TAB))				 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
@@ -950,7 +950,7 @@
 				&kp LG(RIGHT)				// @End  
 				&mFuncMarkWord
 
-				&kp LG(LA(F3))				 // 
+				&kp LG(BSLH)				 // 
 				&kp LC(DOT)				 	// 
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
@@ -987,14 +987,14 @@
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
-				&kp LG(LA(F8))				 
+				&kp DEL	
 
-				&kp LG(LA(F5))				 
+				&kp LG(LA(F18))				 		 
 				&kp LG(LS(KP_PLUS))			
 				&kp LC(PG_UP)
 				&kp LG(LS(KP_MINUS))			
 				&kp LGUI
-				&kp DEL
+				&kp BACKSPACE
 
 				// ----------------------------------------
 
@@ -1005,7 +1005,7 @@
 				&kp LS(RIGHT)		
 				&mFuncMarkLine
 
-				&kp LG(LA(F6))				 
+				&kp LG(LA(F19))				 
 				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
 				&kp LC(TAB)
@@ -1021,7 +1021,7 @@
 				&kp LG(LS(RIGHT))			// @End  
 				&mFuncMarkWord
 
-				&kp LG(LA(F7))				 
+				&kp LG(LS(BSLH))				 
 				&kp LC(LS(DOT))				 	// 
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
@@ -2101,9 +2101,9 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&wAltShot
+				&kp DEL
 
-				&kp LG(LA(F1))
+				&wAltShot
 				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
 				&kp LC(KP_MINUS)		 	// 
@@ -2135,7 +2135,7 @@
 				&kp END
 				&wFuncMarkWord
 
-				&kp LG(LA(F3))
+				&kp LC(BSLH)
 				&kp LC(DOT)				 	// 
 				&kp LC(GRAVE)			 	// 
 				&kp LC(EQUAL)			 	// 
@@ -2172,14 +2172,14 @@
 				&kp LS(TAB)
 				&kp LS(UP)					
 				&kp TAB
-				&kp LG(LA(F8))
+				&kp DEL 
 
-				&kp LG(LA(F5))
+				&wAltShot 
 				&kp LC(LS(KP_PLUS)) 
 				&kp LC(PG_UP)
 				&kp LC(LS(KP_MINUS)) 
 				&kp LALT
-				&kp DEL
+				&kp BACKSPACE
 
 				// ----------------------------------------
 
@@ -2190,7 +2190,7 @@
 				&kp LS(RIGHT)		
 				&wFuncMarkLine
 
-				&kp LG(LA(F6))
+				&kp LC(LS(F11))
 				&kp LC(LS(TAB)) 
 				&kp LC(PG_DN)
 				&kp LC(TAB)
@@ -2206,7 +2206,7 @@
 				&kp LS(END)					// @End  
 				&wFuncMarkWord
 
-				&kp LG(LA(F7))
+				&kp LC(LS(BSLH))
 				&kp LC(LS(DOT))				 	// 
 				&kp LC(LS(GRAVE))			 	// 
 				&kp LC(LS(EQUAL))			 	// 
