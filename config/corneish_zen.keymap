@@ -966,45 +966,45 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp DEL
-				
-				&kp LG(LA(F16))				 // altshot
-				&kp LG(KP_PLUS)			
+				&kp LG(LA(F16))	
+		
+				&kp LG(LA(F17))				 
+				&kp LC(GRAVE)			
 				&kp PG_UP
-				&kp LG(KP_MINUS)		 
-				&kp LGUI
-				&kp BSPC					// -
+				&kp LC(EQUAL)
+				&kp LG(LS(UP))			
+				&kp DEL					// -
 
 				// ----------------------------------------
 
-				&sl mSShift					// -
+				&kp LC(COMMA)				 	// 
 				&kp LG(DOWN)				// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&mFuncMarkLine
+				&kp LC(COMMA)			 	// 
 
-				&kp LG(LA(F17))				 // 
-				&kp LS(LC(TAB))				 	// 
+				&kp LC(LS(F10))		
+				&kp LS(LC(TAB))				 
 				&kp PG_DN
-				&kp LC(TAB)				 	// 
-				&kp LCTL
-				&kp ENTER					// -
+				&kp LC(TAB)				 	
+				&kp LG(LS(DOWN))	
+				&kp ENTER					
 				
 				// ----------------------------------------
 
-				&kp LSHFT
+				&kp LCTRL
 				&kp LG(LEFT)				// @Home 
 				&kp LA(LEFT)				// @Wort Sprung
 				&kp LA(RIGHT)				// @Wort Sprung
 				&kp LG(RIGHT)				// @End  
-				&mFuncMarkWord
+				&kp LG(LA(F18))	
 
-				&kp LG(BSLH)				 // 
-				&kp LC(DOT)				 	// 
-				&kp LC(GRAVE)			 	// 
-				&kp LC(EQUAL)			 	// 
-				&kp LC(COMMA)			 	// 
+				&kp LG(LA(F19))	 	
+				&kp LG(LS(LEFT))				// @Home 
+				&kp LA(LS(LEFT))				// @Wort Sprung
+				&kp LA(LS(RIGHT))				// @Wort Sprung
+				&kp LG(LS(RIGHT))				// @End  
 				&kp LSHFT
 
 				// ----------------------------------------
@@ -1012,7 +1012,7 @@
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&sl mNAV2					// deep
+				&none
 				&mReset
 				&mdNr
 
