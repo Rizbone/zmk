@@ -2155,42 +2155,42 @@
 				&kp LG(LA(F16))
 
 				&kp LG(LA(F17))
-				&kp LC(KP_PLUS)				// 
+				&kp LC(GRAVE)				
 				&kp PG_UP
-				&kp LC(KP_MINUS)		 	// 
-				&kp LALT
-				&kp BSPC					// -
+				&kp LC(EQUAL)		 	 
+				&kp LC(LS(HOME))
+				&kp BSPC					
 
 				// ----------------------------------------
 
-				&sl wSShift					// -
+				&kp LC(COMMA)			 	// 
 				&kp LC(END)					// @End Sprung
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&wFuncMarkLine
+				&kp LC(DOT)				 	// 
 
 				&kp LC(LS(F10))
 				&kp LS(LC(TAB))			 	// 
 				&kp PG_DN
 				&kp LC(TAB)				 	// 
-				&kp LCTL
+				&kp LC(LS(END))
 				&kp ENTER					// -
 				
 				// ----------------------------------------
 
-				&kp LSHFT
+				&kp LCTRL
 				&kp HOME					// @Home 
 				&kp LC(LEFT)				// @Wort Sprung
 				&kp LC(RIGHT)				// @Wort Sprung
 				&kp END
-				&wFuncMarkWord
+				&kp LG(LA(F18))
 
-				&kp LC(BSLH)
-				&kp LC(DOT)				 	// 
-				&kp LC(GRAVE)			 	// 
-				&kp LC(EQUAL)			 	// 
-				&kp LC(COMMA)			 	// 
+				&kp LG(LA(F19))
+				&kp LS(HOME)					// @Home 
+				&kp LS(LC(LEFT))				// @Wort Sprung
+				&kp LS(LC(RIGHT))				// @Wort Sprung
+				&kp LS(END)
 				&kp LSHFT
 
 				// ----------------------------------------
