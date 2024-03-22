@@ -9,28 +9,27 @@
 
 #define mCHAR 0
 #define mNR 1
-
 #define mLCHAR 2
 #define mNRhard 3
 
 #define mNAV 4
-#define mNAV2 5
 
-#define mPRG 6
-#define mSPRG 7
+#define mPRG 5
+#define mSPRG 6
 
-#define mFUNC 8
-#define mSFUNC 9
+#define mFUNC 7
+#define mSFUNC 8
 
-#define mSYM 10
-#define mSSYM 11
+#define mSYM 9
+#define mSSYM 10
 
-#define mGUI 12
+#define mGUI 11
 
-#define mAlter 13
-#define mPNAV 14
+#define mAlter 12
+#define mPNAV 13
 
-#define mSShift 15
+#define mSShift 14
+#define mSSShift 15
 
 
 // ------- WIN -------------------
@@ -38,27 +37,26 @@
 
 #define wCHAR 16
 #define wNR 17
-
 #define wLCHAR 18
 #define wNRhard 19
 
 #define wNAV 20
-#define wNAV2 21
 
-#define wPRG 22
-#define wSPRG 23
+#define wPRG 21
+#define wSPRG 22
 
-#define wFUNC 24
-#define wSFUNC 25
+#define wFUNC 23
+#define wSFUNC 24
 
-#define wSYM 26
-#define wSSYM 27
+#define wSYM 25
+#define wSSYM 26
 
-#define wGUI 28
+#define wGUI 27
 
-#define wAlter 29
-#define wPNAV 30
+#define wAlter 28
+#define wPNAV 29
 
+#define wSShift 30
 #define wSShift 31
 
 
@@ -1012,7 +1010,7 @@
 				&sl mSYM
 				&kp SPACE				
 				&sl mFUNC
-				&none
+				&sl mPRG
 				&mReset
 				&mdNr
 
@@ -1020,76 +1018,6 @@
 			>;
 		};
 
-		// ---------------------------------------------------------|
-		// Layer = 5 - mNAV2 - Navigation deep						|
-		// ---------------------------------------------------------|		
-
-		mac_navigation2
-		{		
-			label = "MAC";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&mReset
-				&kp LG(LS(UP))
-				&kp LS(TAB)
-				&kp LS(UP)					
-				&kp TAB
-				&kp DEL	
-
-				&kp LG(LA(F18))				 		 
-				&kp LG(LS(KP_PLUS))			
-				&kp LC(PG_UP)
-				&kp LG(LS(KP_MINUS))			
-				&kp LGUI
-				&kp BACKSPACE
-
-				// ----------------------------------------
-
-				&sl mSShift					// -					
-				&kp LG(LS(DOWN))				
-				&kp LS(LEFT)		
-				&kp LS(DOWN)		
-				&kp LS(RIGHT)		
-				&mFuncMarkLine
-
-				&kp LG(LA(F19))				 
-				&kp LC(LS(TAB)) 
-				&kp LC(PG_DN)
-				&kp LC(TAB)
-				&kp LCTL
-				&kp ENTER
-
-				// ----------------------------------------
-	
-				&kp LSHFT	
-				&kp LG(LS(LEFT))			// @Home 
-				&kp LA(LS(LEFT))			// @Wort Sprung
-				&kp LA(LS(RIGHT))			// @Wort Sprung
-				&kp LG(LS(RIGHT))			// @End  
-				&mFuncMarkWord
-
-				&kp LG(LS(BSLH))				 
-				&kp LC(LS(DOT))				 	// 
-				&kp LC(LS(GRAVE))			 	// 
-				&kp LC(LS(EQUAL))			 	// 
-				&kp LC(LS(COMMA))			 	// 
-				&kp LSHFT
-
-				// ----------------------------------------
-
-				&sl mSYM
-				&kp SPACE				
-				&sl mFUNC
-				&mNavShift
-				&mReset
-				&to mCHAR
-
-				// ----------------------------------------
-			>;
-		};
 
 
 
@@ -1835,6 +1763,79 @@
 
 
 
+		// -----------------------------------------------------|
+		// Layer 19 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		mac_mSSShift
+		{
+			label = "MAC";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// 
+				&bt BT_SEL 0
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_CLR
+
+				&kp LC(LA(LG(F11))) 					
+				&kp LC(LA(LG(F12))) 
+				&kp LC(LA(LG(F13))) 
+				&kp LC(LA(LG(F14))) 
+				&kp LC(LA(LG(F15))) 
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&mDeepShift
+				&none	
+				&none
+				&none
+				&none				
+				&none
+
+				&kp LC(LA(LG(F1))) 					
+				&kp LC(LA(LG(F2))) 
+				&kp LC(LA(LG(F3))) 
+				&kp LC(LA(LG(F4))) 
+				&kp LC(LA(LG(F5))) 
+				&kp LA(ENTER)				// 
+
+				// ----------------------------------------
+
+				&turnOnMac
+				&none
+				&none
+				&none
+				&none
+				&none
+
+				&kp LC(LA(LG(F6))) 					
+				&kp LC(LA(LG(F7))) 
+				&kp LC(LA(LG(F8))) 
+				&kp LC(LA(LG(F9))) 
+				&kp LC(LA(LG(F10))) 
+				&turnOnWin
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(SPACE)
+				&mAlterShift				
+				&mPNAVShift					
+				&mNavShift					
+				&mNrShift
+
+				// ----------------------------------------
+			>;
+		};
+
+
+
 
 
 
@@ -2151,9 +2152,9 @@
 				&kp LS(TAB)
 				&kp UP						// @Up
 				&kp TAB
-				&kp DEL
+				&kp LG(LA(F16))
 
-				&wAltShot
+				&kp LG(LA(F17))
 				&kp LC(KP_PLUS)				// 
 				&kp PG_UP
 				&kp LC(KP_MINUS)		 	// 
@@ -2197,83 +2198,11 @@
 				&sl wSYM
 				&kp SPACE				
 				&sl wFUNC
-				&sl wNAV2					// deep
+				&sl wPRG
 				&wReset
 				&mdNrWin
 
 				// ----------------------------------------							
-			>;
-		};
-
-		// ---------------------------------------------------------|
-		// Layer = 5 - mNAV2 - Navigation deep						|
-		// ---------------------------------------------------------|		
-
-		win_navigation2
-		{		
-			label = "win";
-
-			bindings = <
-
-				// ----------------------------------------
-
-				&wReset
-				&kp LS(LC(HOME))
-				&kp LS(TAB)
-				&kp LS(UP)					
-				&kp TAB
-				&kp DEL 
-
-				&wAltShot 
-				&kp LC(LS(KP_PLUS)) 
-				&kp LC(PG_UP)
-				&kp LC(LS(KP_MINUS)) 
-				&kp LALT
-				&kp BACKSPACE
-
-				// ----------------------------------------
-
-				&sl wSShift					// -					
-				&kp LS(LC(END))				
-				&kp LS(LEFT)		
-				&kp LS(DOWN)		
-				&kp LS(RIGHT)		
-				&wFuncMarkLine
-
-				&kp LC(LS(F11))
-				&kp LC(LS(TAB)) 
-				&kp LC(PG_DN)
-				&kp LC(TAB)
-				&kp LCTL
-				&kp ENTER
-
-				// ----------------------------------------
-	
-				&kp LSHFT
-				&kp LS(HOME)				// @Home 
-				&kp LC(LS(LEFT))			// @Wort Sprung
-				&kp LC(LS(RIGHT))			// @Wort Sprung
-				&kp LS(END)					// @End  
-				&wFuncMarkWord
-
-				&kp LC(LS(BSLH))
-				&kp LC(LS(DOT))				 	// 
-				&kp LC(LS(GRAVE))			 	// 
-				&kp LC(LS(EQUAL))			 	// 
-				&kp LC(LS(COMMA))			 	// 
-				&kp LSHFT
-
-				// ----------------------------------------
-
-				&sl wSYM
-				&kp SPACE				
-				&sl wFUNC
-				&wNavShift
-				&wReset
-				&mdNrWin
-
-
-				// ----------------------------------------
 			>;
 		};
 
@@ -2978,7 +2907,79 @@
 				&none
 				&none
 				&none
+				&wAltShot
 				&none
+
+				&kp LA(LG(LC(F1))) 					
+				&kp LA(LG(LC(F2))) 					
+				&kp LA(LG(LC(F3))) 					
+				&kp LA(LG(LC(F4))) 					
+				&kp LA(LG(LC(F5))) 					
+				&kp LC(ENTER)				// 
+
+				// ----------------------------------------
+
+				&turnOnMac
+				&none
+				&none
+				&none
+				&none
+				&none
+
+				&kp LA(LG(LC(F6))) 					
+				&kp LA(LG(LC(F7))) 					
+				&kp LA(LG(LC(F8))) 					
+				&kp LA(LG(LC(F9))) 					
+				&kp LA(LG(LC(F10))) 					 					
+				&turnOnWin
+
+				// ----------------------------------------
+		
+				&none
+				&kp LG(S)
+				&wAlterShift				// 
+				&wPNAVShift					//
+				&wNavShift					//
+				&wNrShift
+
+				// ----------------------------------------
+			>;
+		};
+
+
+		// -----------------------------------------------------|
+		// Layer 19 - mSideShift =	Side Shift					|
+		// -----------------------------------------------------|
+
+		win_mSSShift
+		{
+			label = "win";
+
+			bindings = <
+
+				// ----------------------------------------
+
+				&kp ESC						// 
+				&bt BT_SEL 0
+				&bt BT_SEL 1
+				&bt BT_SEL 2
+				&bt BT_SEL 3
+				&bt BT_CLR
+
+				&kp LA(LG(LC(F11))) 					
+				&kp LA(LG(LC(F12))) 					
+				&kp LA(LG(LC(F13))) 					
+				&kp LA(LG(LC(F14))) 					
+				&kp LA(LG(LC(F15)))  					
+				&kp BACKSPACE				//
+
+				// ----------------------------------------
+		
+				&wDeepShift
+				&none
+				&none
+				&none
+				&wAltShot
 				&none
 
 				&kp LA(LG(LC(F1))) 					
