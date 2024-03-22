@@ -1730,7 +1730,7 @@
 				&kp LC(LA(LG(F3))) 
 				&kp LC(LA(LG(F4))) 
 				&kp LC(LA(LG(F5))) 
-				&kp LA(ENTER)				// 
+				&kp LC(ENTER)				// 
 
 				// ----------------------------------------
 
@@ -2987,7 +2987,7 @@
 				&kp LA(LG(F3))					
 				&kp LA(LG(F4)) 					
 				&kp LA(LG(F5)) 					
-				&kp LC(ENTER)				// 
+				&kp LA(ENTER)				// 
 
 				// ----------------------------------------
 
