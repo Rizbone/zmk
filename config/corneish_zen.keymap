@@ -980,7 +980,7 @@
 				&kp LEFT 					// @Left
 				&kp DOWN					// @Down
 				&kp RIGHT 					// @Right
-				&kp LC(COMMA)			 	// 
+				&kp LC(DOT)			 	// 
 
 				&kp LC(LS(F10))		
 				&kp LS(LC(TAB))				 
