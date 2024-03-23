@@ -57,7 +57,7 @@
 #define wPNAV 29
 
 #define wSShift 30
-#define wSShift 31
+#define wSSShift 31
 
 
 
